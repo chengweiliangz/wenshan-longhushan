@@ -6,7 +6,8 @@ export type NativeMetadata={schema:string;dataFile:string;dataSha256:string;data
 export type SamplingState={mode:'native-loaded'|'legacy';nativeSamples:number;legacySamples:number;sourceOutsideSamples:number;halfCellEdgeClamps:number;receivedBinarySHA256:string|null;receivedMetadataSHA256:string|null};
 export type Terrain=LegacyTerrain&{samplingState?:SamplingState;renderGrid?:{cols:number;rows:number};nativeGrid?:{metadata:NativeMetadata;values:Float32Array}};
 export const AF_BINARY_SHA256='03dec8e6faf7884f80629e8a059e2627308de8d5206c5ef0ca772b7ddd5b02ff';
-export const AF_METADATA_SHA256='5495beb4f5219efdc817888eb508a8574e4b3aaf6e322564383974bc96c0bf43';
+// Pin the published, privacy-cleaned LF metadata; keep binary integrity checks unchanged.
+export const AF_METADATA_SHA256='c68ec9c18577cd863008821a69792a4bf0b8d830a43a52f0e38cfccbd21f3f58';
 const state=(mode:'native-loaded'|'legacy'):SamplingState=>({mode,nativeSamples:0,legacySamples:0,sourceOutsideSamples:0,halfCellEdgeClamps:0,receivedBinarySHA256:null,receivedMetadataSHA256:null});
 const clamp=(v:number,a:number,b:number)=>Math.max(a,Math.min(b,v));
 const lerp=(a:number,b:number,t:number)=>(1-t)*a+t*b;

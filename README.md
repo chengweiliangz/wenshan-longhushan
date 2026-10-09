@@ -22,6 +22,15 @@
 
 需要 Node.js **22.12 或更高**及 npm，推荐 Node 24 LTS。首次安装需要联网。
 
+Windows 如需将所有安装缓存留在 E 盘，在项目终端先设置：
+
+```powershell
+New-Item -ItemType Directory -Force E:\Wenshan-cache\npm,E:\Wenshan-cache\tmp
+$env:TEMP='E:\Wenshan-cache\tmp'
+$env:TMP=$env:TEMP
+$env:npm_config_cache='E:\Wenshan-cache\npm'
+```
+
 ```bash
 git clone https://github.com/chengweiliangz/wenshan-longhushan.git
 cd wenshan-longhushan
@@ -38,14 +47,12 @@ npm start
 
 生产默认 <http://127.0.0.1:4173>。`npm run check` 运行测试、TypeScript 检查并生成 `dist/`。生成文件不提交到源码仓库。
 
-Windows 如需将所有安装缓存留在 E 盘，在项目终端先设置：
+Windows 在 PowerShell 中可以将上面的 `npm` 写为 `npm.cmd`，避免机器的脚本策略拦截 `npm.ps1`。安装完成后，每次启动只需进入同一项目目录运行 `npm.cmd start`；保持终端开启，按 `Ctrl+C` 停止。修改源码后重新运行 `npm.cmd run check` 再启动生产版本。不要直接双击 `index.html`。
 
-```powershell
-New-Item -ItemType Directory -Force E:\Wenshan-cache\npm,E:\Wenshan-cache\tmp
-$env:TEMP='E:\Wenshan-cache\tmp'
-$env:TMP=$env:TEMP
-$env:npm_config_cache='E:\Wenshan-cache\npm'
-```
+若提示 `EADDRINUSE`，说明端口已被占用；不要结束不明进程，可在当前终端设置 `$env:PORT='4175'` 后启动，再打开 <http://127.0.0.1:4175>。如果 `git clone` 在安装前就报 `Connection was reset`，先检查本机 Git 的代理与实际网络是否一致；这与网站代码无关，不需要关闭 HTTPS 证书校验。
+
+2026-10-09 Windows 全新克隆复现补丁：公开版地形元数据清理开发机路径、统一 LF 换行后，同步其固定 SHA-256，避免三维场景因校验失败降级成照片。地形二进制和校验要求未改；回归测试使用仓库里的真实文件，并检查篡改拒绝。间接开发依赖 `source-map-js` 同步安全补丁。
+
 
 ## 配置 AI
 
@@ -85,7 +92,7 @@ AI_API_KEY=
 
 CE 版本通过 234 项测试、类型检查和生产构建。桌面与 Chrome 手机尺寸模拟已完成真实 DeepSeek 攻略、照片共创、收藏、下载、视频播放、取消与更换照片检查；手机模拟不等于实体手机实测。短片录制目标 24fps，实际帧率取决于设备和同时运行的三维场景。
 
-当前公开副本另做依赖安装、测试和构建；没有把本地接口验证当成云端上线。旧开发机路径已从公开来源元数据中省略，外部来源链接保留。
+2026-10-09 Windows 全新 GitHub 克隆在中文路径下完成依赖安装、238 项测试、类型检查、生产构建和实际浏览器检查（三维到站、大地图探索及返回）。依赖补丁后 npm 审计为 0 项。没有把本地接口验证当成云端上线。旧开发机路径已从公开来源元数据中省略，外部来源链接保留。
 
 ## 目录
 

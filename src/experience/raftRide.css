@@ -1,0 +1,28 @@
+.raft-controls{position:fixed;z-index:13;left:20px;bottom:84px;width:310px;max-width:calc(100vw - 40px);padding:10px;background:#f6f2e7ed;border:1px solid #b8c5b3;border-radius:12px;color:#294333;font-size:12px;box-shadow:0 8px 24px #10271c25}
+.raft-controls button,.raft-controls select{min-height:44px;border:1px solid #afc0aa;border-radius:7px;padding:8px 11px;background:#faf7ef;color:#294333}
+.raft-controls button:disabled{cursor:default}
+.raft-controls__primary{display:flex;gap:6px;align-items:stretch}
+.raft-controls__primary button{flex:1;white-space:nowrap;padding:8px;font-size:12px}
+.raft-controls__primary button[aria-pressed=true]{background:#315340;color:#fff}
+.raft-controls__status{font-size:10px;line-height:1.5;margin:7px 2px 0}
+.raft-controls__more{margin-top:6px;border-top:1px solid #c8d0bf;max-height:48dvh;overflow:auto;overscroll-behavior:contain}
+.raft-controls__more summary{min-height:44px;padding:10px 2px;cursor:pointer}
+.raft-controls__look{display:flex;gap:8px}
+.raft-controls__look button{flex:1}
+.raft-look-pad{margin:8px 0;display:grid;place-items:center;min-height:48px;touch-action:pan-y;user-select:none;cursor:grab;border:1px dashed #819c78;border-radius:7px;background:#e2e9da;font-size:11px}
+.raft-look-pad:active{cursor:grabbing}
+.raft-palace-label{display:flex;align-items:center;gap:8px;font-size:11px}
+.raft-palace-label select{flex:1;min-width:0}
+.raft-palace-enter{width:100%;margin-top:8px}
+.raft-controls__more p{font-size:10px;line-height:1.65;margin:8px 1px 1px}
+.raft-controls.is-exploring{top:16px;bottom:auto}
+[data-scene-explore] .stage-gl{touch-action:pan-y;cursor:grab}
+[data-scene-explore] .stage-gl:active{cursor:grabbing}
+@media(max-width:600px){
+  .raft-controls{left:10px;bottom:calc(78px + env(safe-area-inset-bottom,0px));width:280px;max-width:calc(100vw - 20px);padding:8px}
+  .raft-controls.is-exploring{top:10px;bottom:auto;width:280px}
+  .raft-controls__primary button{font-size:11px;padding:8px 6px}
+  .water-controls{top:calc(var(--header-h,76px) + 8px);bottom:auto!important;right:10px;width:156px}
+  .water-controls[open]{max-height:48dvh;overflow:auto}
+  [data-scene-explore] .water-controls{top:auto;bottom:calc(78px + env(safe-area-inset-bottom,0px))!important}
+}

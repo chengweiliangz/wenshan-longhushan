@@ -1,0 +1,156 @@
+{
+  "id": "zhengyi-court-route",
+  "scope": "转入圆门北侧院内，沿现有院地观察至主殿石阶前；可原路返回或返回外部视角。不穿越未核实门槛，不登主殿石阶、不进入殿内。",
+  "model": {
+    "reuseExistingPublishedModel": true,
+    "path": "[开发环境路径已省略]/zhengyi-forecourt-ground-v2.glb",
+    "sha256": "3c8351beee191ec848d97d278adfc47acad7ed9e091dffeee9af197a81835a5b",
+    "newGeometry": false,
+    "editableSource": "[开发环境路径已省略]/zhengyi-forecourt-ground-v2.blend"
+  },
+  "alignment": {
+    "path": "[开发环境路径已省略]/alignment.json",
+    "sha256": "65af40bf8eeef6430b8c78f3dea4706dcca512337aba31c9e222968c4e5ca826",
+    "originCoordinates": [
+      116.97973966598511,
+      28.06715692784834
+    ],
+    "bearing": 42.94329157184878,
+    "siteLocalOrigin": [
+      0,
+      0,
+      0
+    ],
+    "surveyed": false,
+    "accuracyFieldMeters": 5,
+    "axisMeaning": "Local -Z follows the inferred gate-to-main-hall axis, bearing 42.94329157184878 degrees east of true north; SVG up is local -Z, not true north."
+  },
+  "photos": [
+    {
+      "file": "[开发环境路径已省略]/1-02.jpg",
+      "sha256": "675975f281d6378af549f372bfa454c45433b47fd17f1b90f6376b48d2d908c1",
+      "role": "Outer round gate; confirms form, not a calibrated crossing.",
+      "author": "阿尧 / 中关村在线摄影论坛",
+      "captureDate": "2024-10-30 per source post EXIF, not independently verified",
+      "rights": "Photographer retains copyright; existing local research evidence only. No new photograph copy or texture use."
+    },
+    {
+      "file": "[开发环境路径已省略]/3-01.jpg",
+      "sha256": "8dc7de30d161e3f41fb733a724392e0fd68d93abf13ce7d60498c85d6dc649ec",
+      "role": "Forward main-court photograph: open paving and main stair relationship.",
+      "author": "阿尧 / 中关村在线摄影论坛",
+      "captureDate": "2024-10-30 per source post EXIF, not independently verified",
+      "rights": "Photographer retains copyright; existing local research evidence only. No new photograph copy or texture use."
+    },
+    {
+      "file": "[开发环境路径已省略]/3-05.jpg",
+      "sha256": "d48fbe8f97c0c920ddd0e8df06d5030d2bcb7f560f22edf16a36b7c16eeca74f",
+      "role": "Reverse photograph towards round gate, supports the same courtyard relationship.",
+      "author": "阿尧 / 中关村在线摄影论坛",
+      "captureDate": "2024-10-30 per source post EXIF, not independently verified",
+      "rights": "Photographer retains copyright; existing local research evidence only. No new photograph copy or texture use."
+    },
+    {
+      "file": "[开发环境路径已省略]/3-11.jpg",
+      "sha256": "ceb498b8babf24edde27f294e1041ce338276e14d0cf9323bb19fccaa625b656",
+      "role": "Main-hall exterior and eaves; no interior reconstruction.",
+      "author": "阿尧 / 中关村在线摄影论坛",
+      "captureDate": "2024-10-30 per source post EXIF, not independently verified",
+      "rights": "Photographer retains copyright; existing local research evidence only. No new photograph copy or texture use."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "inside-round-gate",
+      "label": "圆门北侧院内",
+      "pathIndex": 0,
+      "target": [
+        0,
+        4.2,
+        12
+      ],
+      "photoId": "zhengyi-main-court",
+      "evidencePhoto": "3-01.jpg",
+      "basis": "向主殿的开敞院落；入口位置仅为模型内安全观察起点。",
+      "position": [
+        0,
+        1.25,
+        68
+      ]
+    },
+    {
+      "id": "court-middle",
+      "label": "院落中段",
+      "pathIndex": 1,
+      "target": [
+        0,
+        4.2,
+        12
+      ],
+      "photoId": "zhengyi-main-court",
+      "evidencePhoto": "3-01.jpg",
+      "basis": "正向主殿与反向圆门照片共同确认院落关系；并非原摄影点。",
+      "position": [
+        0,
+        1.25,
+        55
+      ]
+    },
+    {
+      "id": "court-hall-view",
+      "label": "院落望向主殿",
+      "pathIndex": 3,
+      "target": [
+        0,
+        5.5,
+        0
+      ],
+      "photoId": "zhengyi-main-court",
+      "evidencePhoto": "3-01.jpg",
+      "basis": "在模型院地稍偏离中轴观察；偏移数值是展示估计，不声称实测行走线。",
+      "position": [
+        4.5,
+        1.25,
+        39
+      ]
+    },
+    {
+      "id": "before-main-stair",
+      "label": "主殿石阶前",
+      "pathIndex": 4,
+      "target": [
+        0,
+        6,
+        0
+      ],
+      "photoId": "zhengyi-main-eaves",
+      "evidencePhoto": "3-11.jpg",
+      "basis": "主殿外观和阶前关系由3-01与3-11支持；停在已有模型最低石阶之外。",
+      "position": [
+        4.5,
+        1.25,
+        26
+      ]
+    }
+  ],
+  "estimates": {
+    "floorHeightSiteMeters": -0.4000000059604645,
+    "eyeHeightMeters": 1.65,
+    "localUnits": "metres, glTF Y up",
+    "notSurveyed": true,
+    "modelBearingDegrees": 42.94329157184878,
+    "axisMeaning": "Local -Z follows the inferred gate-to-main-hall axis, bearing 42.94329157184878 degrees east of true north; SVG up is local -Z, not true north.",
+    "modelHeightStatus": "Existing flat courtyard top inherited from the exterior model. Observed real-world minor terrace steps are not measured or reconstructed.",
+    "pathStatus": "Bounded display route, not camera calibration or surveyed visitor access."
+  },
+  "retainedLimitations": [
+    "Independent transition to inside courtyard; no asserted outdoor-to-indoor threshold connection.",
+    "No ascent to the main hall, no access through closed doors or behind buildings.",
+    "No duplicated model, new halls, furnishings, garden elements or inferred connections.",
+    "Existing model omits real courtyard objects and small steps; collision clearance is for this GLB only.",
+    "Current source accuracy field 5m is imagery metadata, not surveyed route accuracy."
+  ],
+  "sourceModelTriangleHash": "3c8351beee191ec848d97d278adfc47acad7ed9e091dffeee9af197a81835a5b",
+  "noExternalDownloads": true,
+  "notice": "这是转入圆门内侧的局部院落观察，不表示已核实从门外连续穿门。复用正一观现有独立外观模型；正反向普通照片支持圆门、开敞院落与主殿石阶的关系。照片可见的院中低台阶尚未建模；这只是既有模型内的估计观察线，不能被当作真实无台阶通路。路线约43米，位置、偏移、1.65米视点及模型平整院地高度均为展示估计；真实台阶、高差、陈设位置未测量，不能用于现场导航。终点止于石阶前，殿内陈设、院中香炉和细部没有据此补建。"
+}

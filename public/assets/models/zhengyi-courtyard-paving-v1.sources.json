@@ -1,0 +1,100 @@
+{
+  "id": "zhengyi-courtyard-paving-v1",
+  "scope": "Material and top-face UV only on the existing flat main courtyard. No new geometry, steps, furnishings, height or route change.",
+  "baselineModel": {
+    "path": "[开发环境路径已省略]/zhengyi-forecourt-ground-v2.glb",
+    "sha256": "3c8351beee191ec848d97d278adfc47acad7ed9e091dffeee9af197a81835a5b",
+    "sources": "[开发环境路径已省略]/zhengyi-forecourt-ground-v2.sources.json"
+  },
+  "retainedGeography": {
+    "coordinates": [
+      116.97973966598511,
+      28.06715692784834
+    ],
+    "bearing": 42.94329157184878,
+    "localOrigin": [
+      0,
+      0,
+      0
+    ],
+    "units": "metres, glTF Y up",
+    "surveyed": false
+  },
+  "photos": [
+    {
+      "path": "[开发环境路径已省略]/3-01.jpg",
+      "sha256": "8dc7de30d161e3f41fb733a724392e0fd68d93abf13ce7d60498c85d6dc649ec",
+      "bytes": 273398
+    },
+    {
+      "path": "[开发环境路径已省略]/3-05.jpg",
+      "sha256": "d48fbe8f97c0c920ddd0e8df06d5030d2bcb7f560f22edf16a36b7c16eeca74f",
+      "bytes": 283925
+    }
+  ],
+  "photoUsage": "Category and approximate visual character only. No source photograph pixels embedded in new textures. Photographer retains copyright.",
+  "material": {
+    "id": "zhengyi-court-stone-v1",
+    "sourceCategory": "Rectangular pale grey stone slabs visible in local photographs 3-01 and 3-05; no photograph pixels copied.",
+    "originalProcedural": true,
+    "seed": 20261003,
+    "repeatMeters": [
+      4.8,
+      4.8
+    ],
+    "resolution": [
+      1024,
+      1024
+    ],
+    "representativeSlabMeters": [
+      0.6,
+      0.39999999999999997
+    ],
+    "jointWidthMetersEstimate": 0.006,
+    "normalReliefMetersEstimate": 0.0007,
+    "geometryDisplacement": 0,
+    "uvRule": "u = Blender-local x / 4.8; v = Blender-local y / 4.8, top courtyard faces only. Equivalent glTF horizontal scale is 4.8m per tile; orientation of stone courses is representative.",
+    "roughnessRange": [
+      0.7866532080029599,
+      0.9525637763343533
+    ],
+    "sRGBMean": [
+      174.31683747997437,
+      173.3246463449956,
+      166.2332766162775
+    ],
+    "additionalTextureBaseGpuBytesConservative": 12582912,
+    "additionalTextureWithMipsGpuBytesConservative": 16777216,
+    "files": [
+      {
+        "path": "textures\\zhengyi-court-stone-v1-basecolor.png",
+        "sha256": "8a80b9dc3ff3dd7d84da1efcce30fd9ba1fecfed7444e166b19d5593464e3bc2",
+        "bytes": 708292
+      },
+      {
+        "path": "textures\\zhengyi-court-stone-v1-normal.png",
+        "sha256": "d26919115212ec66e456e71a828a7796ecc7b3ef06a2ebc81752d7ae75452977",
+        "bytes": 244821
+      },
+      {
+        "path": "textures\\zhengyi-court-stone-v1-roughness.png",
+        "sha256": "e2b92053313c449efda49e10163e6d19fd0abce0a1ed7202198efeadc53e4bda",
+        "bytes": 418084
+      }
+    ],
+    "limits": [
+      "Stone dimensions, courses, stains, joint width and surface relief are representative estimates, not field measurements.",
+      "No new steps, height differences, incense burners, terrain or site elements.",
+      "The photographed low courtyard steps remain unmodeled.",
+      "Visual improvement not verified until fixed camera and unchanged lighting comparison."
+    ]
+  },
+  "knownGap": "Photos visibly contain low courtyard steps. They remain unmodeled; this texture does not establish a real step-free path.",
+  "candidate": {
+    "glbSHA256": "0d4b8889cc20eb35ffd776057c88acfe17449e702aec61318d49e1052718b545",
+    "glbBytes": 12626928,
+    "blendSHA256": "a745ac2b6ab6a676202b825cdd563f7ab091776f1386f3d0ea77b6aa4c353013"
+  },
+  "cpuVerification": "CPU_EXPORT_PASS_GPU_PENDING",
+  "gpuVisualAcceptance": "pending root/F fixed node0 and node3 comparison"
+}

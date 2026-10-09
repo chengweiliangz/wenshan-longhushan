@@ -1,0 +1,143 @@
+{
+  "id": "shangqing-entry-route",
+  "label": "南侧入口至东路展廊 · 连续通道资料模型",
+  "source": "https://www.thad.com.cn/front/page/news_info?id=400",
+  "sourcePlan": "20231220102735_21829.jpeg",
+  "planSHA256": "2a23eb2246e38cd765700361252f090205adbb279ff64deb9e971d0bbbcde050",
+  "photoReferences": [
+    {
+      "file": "20231220101649_42837.jpeg",
+      "sha256": "59f49a8c905b01dd76877122a3f1418b998f79004c125234b461f5017daf976d"
+    },
+    {
+      "file": "20231220101717_84499.jpeg",
+      "sha256": "ed465263493242ac79af500803fdaa250823662e3bb42e6fbf502750d9d0adf4"
+    },
+    {
+      "file": "20231220101729_73493.jpeg",
+      "sha256": "99a5210c933f2b07cb5b08daa10d2ad3fdef0b1bf4527fd428ed8fdbdd0f5c95"
+    },
+    {
+      "file": "20231220102339_63506.jpeg",
+      "sha256": "124644ed66d930669f6cf7a9f3f3742c61eb96693068e7fa9a88c0ed35385e6e"
+    },
+    {
+      "file": "20231220102410_53913.jpeg",
+      "sha256": "3d6831089ecf5f85309f81032862757dce794081cc6ae32b924ee0341bff77f8"
+    },
+    {
+      "file": "20231220102435_51927.jpeg",
+      "sha256": "63f073f3fc59e92dc7c4d17aad96c595cb2671cfc8aed80a45f3a10b3cc13db0"
+    }
+  ],
+  "authoringFile": "models/shangqing-entry-route.blend",
+  "controlFile": "references/georeference/shangqing-entry-route/route-controls.json",
+  "geometry": "Continuous modern circulation from inside the southern Longhu gate via the east gallery to Tianhuang pavilion. Floor and path traced from THAD 1F plan; source-based context from the existing exterior model. No reconstructed relics.",
+  "siteLocalOrigin": [
+    31.539622641509435,
+    0.5,
+    -2.4752475247524752
+  ],
+  "siteTransform": "Add siteLocalOrigin to interior point, then shared/geography.mjs modelLocalToWorld with the same shangqing geo. Viewer uses local metres and plan north. Floor datum 0.5 m matches existing exterior study, not surveyed elevation.",
+  "navigationValidation": {
+    "pathOnFloor": true,
+    "planAreaPixelsSquared": 35402.0,
+    "triangulatedAreaPixelsSquared": 35402.0,
+    "pathPixelLength": 601.3582073931522,
+    "minimumBoundaryClearancePixels": 2.5,
+    "pathLengthMeters": 97.60026885448455
+  },
+  "accuracy": [
+    "Starts inside Longhu gate. Outside stairs are not part of the continuous route.",
+    "Published plan uses the prior approximate plan-to-imagery scale and alignment; metre values are estimates, not field navigation.",
+    "Eave/column/railing dimensions, floor height, roof section and material tones are photo-guided estimates, not measured elevations or scanned materials.",
+    "Archaeological excavation is represented only by footprint and an approximate recess. Masonry, artefacts and unmodelled rooms remain incomplete.",
+    "87 preserved background meshes match the original exterior coordinates after rebasing to within 0.000001 m; this validates model consistency only."
+  ],
+  "context": {
+    "sourceBlend": "models/shangqing-study.blend",
+    "sourceBlendSHA256": "f82c1deb93a157e6b45baca869f7ae64a6aa03b58903621bcdf1f4b3ed44eb29",
+    "sourceGLB": "exports/shangqing-study.glb",
+    "sourceGLBSHA256": "14890d87b4715601e88aae8978d9026cc8326987f41b2179b2af844332a5ca4d",
+    "notes": "90 context mesh objects reused; overlapping east/south galleries and platforms removed from the copied context. Three roof groups trimmed. Original source file not modified."
+  },
+  "materials": "Six embedded original procedural stone/tile study textures. Stone joints estimated at 0.6 m; not photographed/scanned PBR. Steel, aluminium, painted timber tones approximate.",
+  "rights": "Architectural drawings THAD, photos THAD / Wu Ji Photography retain original copyright. Local research study; public redistribution permission for source photographs not obtained. Model and procedural textures authored for this task.",
+  "build": {
+    "meshObjects": 130,
+    "contextMeshObjects": 90,
+    "routeMeshObjects": 40,
+    "polygons": 20994,
+    "routePolygons": 5399,
+    "glbBytes": 6837752,
+    "sha256": "f5c60e72a9b5cffa7d3e16a000482a3dffb28adcaf2fc08b03b0843e3c80a805",
+    "scope": "Connected circulation from inside the southern entrance through the east gallery to Tianhuang pavilion. Source-plan architectural study; archaeology details unmodelled.",
+    "routeVertices": 7403,
+    "totalVertices": 26185
+  },
+  "reproduce": [
+    "Set TEMP and TMP to [开发环境路径已省略]/tmp; set Blender config, scripts and datafiles under the same project cache directory.",
+    "python scripts/prepare_shangqing_entry_route.py",
+    "Existing texture inputs: scripts/make_shangqing_route_stone.py and original shangqing source model with packed tile textures.",
+    "blender --background --python scripts/build_shangqing_entry_route.py",
+    "blender --background --python scripts/check_shangqing_entry_route_blend.py",
+    "Copy exports/shangqing-entry-route.glb and sources companion to the website public/assets/models; retain original exterior and 29 m excerpt assets.",
+    "npm run check; node .tools/verify-entry-route-geometry.mjs; node .tools/verify-entry-context.mjs; node .tools/verify-shangqing-entry-route.mjs; node .tools/verify-entry-route-sustained.mjs"
+  ],
+  "checked": "2026-10-03T11:04:07.992291+08:00",
+  "editableSourceVerification": {
+    "meshObjects": 130,
+    "totalPolygons": 20994,
+    "packedImages": [
+      {
+        "name": "grey-tile-basecolor",
+        "size": [
+          512,
+          512
+        ],
+        "packed": true
+      },
+      {
+        "name": "grey-tile-normal",
+        "size": [
+          512,
+          512
+        ],
+        "packed": true
+      },
+      {
+        "name": "grey-tile-roughness",
+        "size": [
+          512,
+          512
+        ],
+        "packed": true
+      },
+      {
+        "name": "stone-basecolor.png",
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true
+      },
+      {
+        "name": "stone-normal.png",
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true
+      },
+      {
+        "name": "stone-roughness.png",
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true
+      }
+    ],
+    "report": "logs/shangqing-entry-route-blender-verification.json"
+  }
+}

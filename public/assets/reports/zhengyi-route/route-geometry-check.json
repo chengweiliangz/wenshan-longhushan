@@ -1,0 +1,123 @@
+{
+  "status": "CPU_GEOMETRY_PASS_GPU_PENDING",
+  "checks": [
+    {
+      "name": "Published GLB exact hash",
+      "passed": true
+    },
+    {
+      "name": "All actual triangle coordinates finite",
+      "passed": true
+    },
+    {
+      "name": "All body footprint samples supported by upward real floor triangles",
+      "passed": true
+    },
+    {
+      "name": "Eye follows actual model floor plus estimated 1.65m",
+      "passed": true
+    },
+    {
+      "name": "Continuous swept 0.4m body radius and 2.1m vertical clearance",
+      "passed": true
+    },
+    {
+      "name": "Route does not cross circular gate or step onto main stair",
+      "passed": true
+    },
+    {
+      "name": "Every observation node exactly on path index",
+      "passed": true
+    }
+  ],
+  "glbSHA256": "3c8351beee191ec848d97d278adfc47acad7ed9e091dffeee9af197a81835a5b",
+  "glbBytes": 10897896,
+  "meshNodes": 215,
+  "instancedTriangles": 211971,
+  "pathLengthMeters": 43.32165848854662,
+  "sampleSpacingMaximumMeters": 0.025,
+  "centreSamples": 1734,
+  "footprintSamples": 29478,
+  "footprintRadiusMeters": 0.4,
+  "floorYRange": [
+    -0.4000000059604645,
+    -0.4000000059604645
+  ],
+  "floorTopTriangles": 2,
+  "clearanceHeightMeters": 2.1,
+  "floorContactToleranceMeters": 0.03,
+  "trianglesClippedToBodyHeight": 3576,
+  "continuousSweptVolume": true,
+  "collisionTriangles": [],
+  "nearestObstacles": [
+    {
+      "mesh": "main hall access stair",
+      "centerlineDistanceMeters": 2.6650009155273438,
+      "clearanceBeyondBodyMeters": 2.265000915527344
+    },
+    {
+      "mesh": "red circular-entry wall",
+      "centerlineDistanceMeters": 4.475187080058338,
+      "clearanceBeyondBodyMeters": 4.075187080058337
+    },
+    {
+      "mesh": "southeast-tower-roof base",
+      "centerlineDistanceMeters": 4.475273132324219,
+      "clearanceBeyondBodyMeters": 4.075273132324218
+    },
+    {
+      "mesh": "southeast-tower-roof lower room",
+      "centerlineDistanceMeters": 5.275273323059082,
+      "clearanceBeyondBodyMeters": 4.875273323059082
+    },
+    {
+      "mesh": "round gate cream frame",
+      "centerlineDistanceMeters": 6.636653924291217,
+      "clearanceBeyondBodyMeters": 6.2366539242912165
+    },
+    {
+      "mesh": "round gate taiji white",
+      "centerlineDistanceMeters": 6.740864799368879,
+      "clearanceBeyondBodyMeters": 6.3408647993688785
+    },
+    {
+      "mesh": "round gate taiji half",
+      "centerlineDistanceMeters": 6.748558349227003,
+      "clearanceBeyondBodyMeters": 6.348558349227003
+    },
+    {
+      "mesh": "taiji lobe dark",
+      "centerlineDistanceMeters": 6.981400208732273,
+      "clearanceBeyondBodyMeters": 6.581400208732273
+    },
+    {
+      "mesh": "taiji lobe light",
+      "centerlineDistanceMeters": 7.003218991958284,
+      "clearanceBeyondBodyMeters": 6.6032189919582835
+    },
+    {
+      "mesh": "taiji lower dot",
+      "centerlineDistanceMeters": 7.161223540681098,
+      "clearanceBeyondBodyMeters": 6.761223540681097
+    },
+    {
+      "mesh": "southeast-tower-roof front door",
+      "centerlineDistanceMeters": 7.725273132324219,
+      "clearanceBeyondBodyMeters": 7.325273132324218
+    },
+    {
+      "mesh": "front red boundary wall",
+      "centerlineDistanceMeters": 8.722325567359153,
+      "clearanceBeyondBodyMeters": 8.322325567359153
+    }
+  ],
+  "gateBodySetbackMeters": 3.8829666137695313,
+  "stairBodySetbackMeters": 2.265000915527344,
+  "notVerified": [
+    "GPU rendering, UX and real-device performance",
+    "Real-world access, exact grades, doors or unmodeled courtyard objects"
+  ],
+  "productionWrites": 0,
+  "newMeshes": 0,
+  "gpuUsed": false
+}

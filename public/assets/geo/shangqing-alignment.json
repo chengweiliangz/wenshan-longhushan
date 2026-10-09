@@ -1,0 +1,147 @@
+{
+  "id": "shangqing",
+  "created": "2026-10-03T00:15:11.392466+08:00",
+  "crs": "EPSG:4326",
+  "method": "Manual identification of four protected-facility roof-envelope corners in georeferenced imagery, checked against THAD published site plan. Least-squares similarity fit of the 84 x 100 m study footprint.",
+  "sourceImage": "shangqing-level18.jpg",
+  "sourceImageSha256": "0e62b7ba07315562faa8196d4fb1d7c1306c274fab1258cf3927a522a3e7ace6",
+  "imageMetadata": {
+    "captureDate": "2023-10-30",
+    "source": "Vantor Vivid / WV02, via Esri World Imagery",
+    "sourceResolutionMeters": 0.5,
+    "sampleResolutionMeters": 0.6,
+    "sourceAccuracyFieldMeters": 5,
+    "metadataSource": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/10"
+  },
+  "controlPoints": [
+    {
+      "corner": "NW",
+      "imagePixel": [
+        338,
+        394
+      ],
+      "planLocalMeters": [
+        -42,
+        50
+      ],
+      "coordinates": [
+        117.04465985298158,
+        28.047089558069768
+      ],
+      "fitResidualMeters": 0.4330288516173149
+    },
+    {
+      "corner": "NE",
+      "imagePixel": [
+        494,
+        357
+      ],
+      "planLocalMeters": [
+        42,
+        50
+      ],
+      "coordinates": [
+        117.04549670219421,
+        28.04726473178386
+      ],
+      "fitResidualMeters": 0.28735520931099756
+    },
+    {
+      "corner": "SE",
+      "imagePixel": [
+        537,
+        544
+      ],
+      "planLocalMeters": [
+        42,
+        -50
+      ],
+      "coordinates": [
+        117.0457273721695,
+        28.046379391440883
+      ],
+      "fitResidualMeters": 0.4422840848540109
+    },
+    {
+      "corner": "SW",
+      "imagePixel": [
+        381,
+        582
+      ],
+      "planLocalMeters": [
+        -42,
+        -50
+      ],
+      "coordinates": [
+        117.04489052295686,
+        28.04619948181711
+      ],
+      "fitResidualMeters": 0.5482300445339576
+    }
+  ],
+  "coordinates": [
+    117.04519361257553,
+    28.046733290777905
+  ],
+  "outline": [
+    [
+      117.04465985298158,
+      28.047089558069768
+    ],
+    [
+      117.04549670219421,
+      28.04726473178386
+    ],
+    [
+      117.0457273721695,
+      28.046379391440883
+    ],
+    [
+      117.04489052295686,
+      28.04619948181711
+    ],
+    [
+      117.04465985298158,
+      28.047089558069768
+    ]
+  ],
+  "bearing": 346.83675557780407,
+  "modelScale": 1.0107690446935078,
+  "fitRMSEMeters": 0.43768093289976456,
+  "elevation": {
+    "meters": 94.7189484492944,
+    "source": "Mapzen/Tilezen DEM bilinear estimate",
+    "surveyed": false
+  },
+  "entrance": {
+    "coordinates": [
+      117.04531431198122,
+      28.0462657643451
+    ],
+    "role": "现代保护设施南侧中轴台阶/门廊，非整个景区售票入口",
+    "imagePixel": [
+      460,
+      568
+    ],
+    "basis": "THAD总平面中南侧中轴入口与实拍石阶；匹配影像中的南侧门廊",
+    "surveyed": false
+  },
+  "approach": {
+    "coordinates": [
+      117.04533040523529,
+      28.04617107500688
+    ],
+    "role": "南侧前院接近点，示意观察位置"
+  },
+  "sources": [
+    "https://www.thad.com.cn/front/page/news_info?id=400",
+    "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/10"
+  ],
+  "limitations": [
+    "角点由人工判读，屋顶有投影位移；残差只说明相对拟合，不是绝对定位误差。",
+    "影像服务SRC_ACC=5m；实地误差未测量，不能用于现场导航或工程施工。",
+    "入口为现代保护设施的南侧中轴门廊，访客当前实际通行规则未核验。",
+    "地面高程来自粗分辨率DEM，非实测地坪。"
+  ]
+}

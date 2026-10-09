@@ -1,0 +1,189 @@
+{
+  "id": "zhengyi-forecourt",
+  "sourceLabel": "正一观2023影像与阿尧2024现场照片",
+  "created": "2026-10-03",
+  "siteLocalOrigin": [
+    0,
+    0,
+    0
+  ],
+  "coordinates": [
+    116.97973966598511,
+    28.06715692784834
+  ],
+  "bearing": 42.94329157184878,
+  "surveyed": false,
+  "imagery": {
+    "source": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "requests": [
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/109763/216253",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/109763/216254",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/109763/216255",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/109764/216253",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/109764/216254",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/109764/216255",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/109765/216253",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/109765/216254",
+      "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/109765/216255"
+    ],
+    "extent": {
+      "xmin": 13021965.012719195,
+      "xmax": 13022423.63488891,
+      "ymax": 3257593.2714576423,
+      "ymin": 3257134.6492879316
+    },
+    "width": 768,
+    "height": 768,
+    "crs": "EPSG:3857",
+    "purpose": "Small site reference only; not rehosted as site imagery",
+    "credit": "Esri, Vantor, Earthstar Geographics and GIS User Community",
+    "captureDate": "2023-10-30",
+    "accuracyMeters": 5,
+    "sha256": "83a5585e4fbe4d9bef8dafe7c770decf337eee5c36c1d037f69b8a45c8c2d860",
+    "rights": "Esri/Vantor and contributors; local study evidence, not embedded in exported model"
+  },
+  "photos": [
+    {
+      "file": "1-01.jpg",
+      "url": "https://newbbs-fd.zol-img.com.cn/t_s1000x1000/g7/M00/08/05/ChMkK2gkP9WIIuJqAAT7PE8yOeQAAsWCAFMTX0ABPtU104.jpg",
+      "sha256": "5c170347bde98230116d80acd9ee1a9737fc48efbce71c56fb5603a4a52e0b8f",
+      "author": "阿尧 / 中关村在线摄影论坛",
+      "captureDate": "2024-10-30 (source post EXIF, not independently verified)",
+      "post": "https://m.zol.com.cn/dcbbs/d33991_42960.html",
+      "rights": "Photographer retains copyright; reference only, photographs not included in model textures"
+    },
+    {
+      "file": "1-02.jpg",
+      "url": "https://newbbs-fd.zol-img.com.cn/t_s1000x1000/g7/M00/08/05/ChMkK2gkP9WID2xPAAUofadqVxcAAsWCAFWTwUABSiV206.jpg",
+      "sha256": "675975f281d6378af549f372bfa454c45433b47fd17f1b90f6376b48d2d908c1",
+      "author": "阿尧 / 中关村在线摄影论坛",
+      "captureDate": "2024-10-30 (source post EXIF, not independently verified)",
+      "post": "https://m.zol.com.cn/dcbbs/d33991_42960.html",
+      "rights": "Photographer retains copyright; reference only, photographs not included in model textures"
+    },
+    {
+      "file": "3-02.jpg",
+      "url": "https://newbbs-fd.zol-img.com.cn/t_s1000x1000/g7/M00/09/07/ChMkK2gmnV6IZSp3AAUZb0bAfjAAAsaowGBY8wABRmH911.jpg",
+      "sha256": "8bac462c9fe7a8746e2a0a3a13deb14b76d9684c8e8a8e8f8e1c48df81ff4c3d",
+      "author": "阿尧 / 中关村在线摄影论坛",
+      "captureDate": "2024-10-30 (source post EXIF, not independently verified)",
+      "post": "https://m.zol.com.cn/dcbbs/d33991_42986.html",
+      "rights": "Photographer retains copyright; reference only, photographs not included in model textures"
+    },
+    {
+      "file": "3-05.jpg",
+      "url": "https://newbbs-fd.zol-img.com.cn/t_s1000x1000/g7/M00/09/07/ChMkK2gmnWKIXJ22AAT5D3ZjZPEAAsaowG7xg0ABPkn363.jpg",
+      "sha256": "d48fbe8f97c0c920ddd0e8df06d5030d2bcb7f560f22edf16a36b7c16eeca74f",
+      "author": "阿尧 / 中关村在线摄影论坛",
+      "captureDate": "2024-10-30 (source post EXIF, not independently verified)",
+      "post": "https://m.zol.com.cn/dcbbs/d33991_42986.html",
+      "rights": "Photographer retains copyright; reference only, photographs not included in model textures"
+    }
+  ],
+  "evidence": {
+    "pavingAndHedges": [
+      "1-01",
+      "3-02"
+    ],
+    "gateSteps": [
+      "1-02"
+    ],
+    "trees": [
+      "Zhengyi reference.jpg",
+      "1-01",
+      "1-02",
+      "3-02",
+      "3-05"
+    ]
+  },
+  "materials": "Original code-generated stone joints, dense irregular fine pebble basecolor/normal/roughness, soil and hedge leaves. Pebble surface supersedes initial oversized stone geometry. Photo-supported category and relative scale, not a scan.",
+  "treeLibrary": {
+    "path": "../../../exports/representative-broadleaf-library.glb",
+    "sha256": "0e5a594a0647b96eb518cf046fbc4b492254b6e05e03dee5b14261204cb541c7",
+    "reused": "Only original generic geometry/materials. No other site coordinates or geometry copied."
+  },
+  "estimates": [
+    "tree species unknown; representative broadleaf library, no field identification",
+    "height, crown radius, stem points, hedge dimensions, soil and paving pattern estimated",
+    "flat forecourt datum follows existing approach paving top -1.65m; not measured elevation",
+    "roof width, building high levels and existing stair rises remain the original model estimates",
+    "62x34m flat planting-support plane is a presentation envelope, not a verified continuous planted surface or grading survey."
+  ],
+  "gaps": [
+    "No measured entrance threshold/stair grading",
+    "No reliable contiguous interior plan or geolocated camera route",
+    "No surveyed individual trees or ground classification beyond conservative visible canopy",
+    "Paifang reliefs, lettering, gate painting, stone lions and monumental inscriptions not reconstructed"
+  ],
+  "reproduce": [
+    "python scripts/prepare_forecourt.py",
+    "python scripts/make_hedge_surface.py",
+    "python scripts/make_fine_pebbles.py",
+    "blender --background --threads 4 --python scripts/build_forecourt.py -- --render",
+    "python scripts/verify_forecourt.py",
+    "blender --background --threads 4 --python scripts/check_blend.py",
+    "python scripts/finalize_handoff.py"
+  ],
+  "scope": "Only the entry forecourt outside the round gate; original building study retained. No interior route.",
+  "treeCount": 17,
+  "hedgeEnclosures": 4,
+  "groundDisplayBoundsXZ": [
+    -31,
+    82,
+    31,
+    116
+  ],
+  "groundDisplayBoundsStatus": "Estimated local presentation support envelope, not mapped soil/grass classification; must not be used to flatten regional terrain.",
+  "glTFYUp": true,
+  "modelScale": 1,
+  "modelBytes": 10300756,
+  "sha256": "f72e52bc45498c45b87136864ea1f435dfa6d6e65381cadf3360fee785b2f743",
+  "geometry": {
+    "meshNodes": 213,
+    "uniqueMeshes": 187,
+    "materials": 18,
+    "embeddedImages": 12,
+    "instancesTriangles": 191210
+  },
+  "vegetationNote": "17 representative canopy samples, four estimated clipped hedge enclosures and representative short grass in their beds. Exact species and horticultural arrangement are not surveyed.",
+  "publicIntegration": "See patches/integration-proposal.json; this asset embeds its trees, vegetationSrc remains null.",
+  "textureFiles": [
+    {
+      "file": "forecourt-paving-basecolor.png",
+      "sha256": "a383388b0a053f8bd1ce350f6217d622050bb18bbeaa8a8711281a8c4b93d01a"
+    },
+    {
+      "file": "forecourt-paving-normal.png",
+      "sha256": "c0347471ac71ead1e6a031c000c8d6ee9a4ed464ab1d8ec217cf4a19784055dd"
+    },
+    {
+      "file": "forecourt-paving-roughness.png",
+      "sha256": "8e380316291bcaa7de44835e2a4fa0175264f36bf50dec4197bdfb6335ff927b"
+    },
+    {
+      "file": "forecourt-soil.png",
+      "sha256": "bdd61ad1518c039b6b659ea6df8f821868b7fc57b447c5286d1360c3621f2d5b"
+    },
+    {
+      "file": "hedge-leaf-basecolor.png",
+      "sha256": "53179b1c80dd3d664c69c185fa82d03fa38e6b45644ebe1873962d5d9fa83a62"
+    },
+    {
+      "file": "hedge-leaf-normal.png",
+      "sha256": "ae63bf5ab0b32a43ff7538cd9e36b4da0d4279ef59858ca5005db2d912ed7ac1"
+    },
+    {
+      "file": "pebble-fine-basecolor.png",
+      "sha256": "6bcdce96ddade63cb0b4b308589c86e1627471a44b5de7ad675f5497158783d6"
+    },
+    {
+      "file": "pebble-fine-normal.png",
+      "sha256": "48beda54f5a4670e7d775bbe8807f65cc2078eb167bcc18bf42ea13797356335"
+    },
+    {
+      "file": "pebble-fine-roughness.png",
+      "sha256": "d40d12deccca89a0e297dc467b6904acd06e1315623f46329818607da9164870"
+    }
+  ],
+  "pebbleCorrection": "Dense irregular warm-grey/brown fine pebbles via original PBR at representative 0.9m repeat / 35 grains; exact physical size is estimated. Supersedes oversized regular six-sided stone geometry."
+}

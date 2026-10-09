@@ -1,0 +1,8 @@
+{
+  "input": "[开发环境路径已省略]/route-walk.raw.webm",
+  "output": "[开发环境路径已省略]/route-walk-15s.webm",
+  "durationSeconds": 14.96147265625,
+  "entireFileBytesUnchanged": true,
+  "status": "Chrome finalized this no-timeslice recording with a finite indexed Segment and existing Duration. No metadata patch or transcoding required. The conservative old patcher rejected it without writing.",
+  "fileSHA256": "35537a6a5d8d4cf6490a77171a9a3fa2dbf1bce27bbffe649c58de8ad38baa08"
+}

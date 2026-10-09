@@ -1,0 +1,49 @@
+{
+  "id": "shangqing-east-route",
+  "label": "东路天皇殿展廊 · 局部通道重建",
+  "source": "https://www.thad.com.cn/front/page/news_info?id=400",
+  "sourcePlan": "20231220102735_21829.jpeg",
+  "planSHA256": "2a23eb2246e38cd765700361252f090205adbb279ff64deb9e971d0bbbcde050",
+  "photoReferences": [
+    "20231220102339_63506.jpeg",
+    "20231220102410_53913.jpeg",
+    "20231220102435_51927.jpeg"
+  ],
+  "geometry": "Partial Tianhuang pavilion and adjoining circulation traced from THAD 1F plan; roof, steel frame, guardrail interpreted from photos. No reconstructed relics.",
+  "accuracy": [
+    "Circulation boundary comes from the published floor plan; positional and dimensional approximation, not on-site navigation.",
+    "Floor level is the local walkway datum; column/eave heights and rail section sizes estimated from photos.",
+    "Exposed archaeology is represented only by its footprint and recess. Individual relics and masonry details are not reconstructed.",
+    "This partial model is not a 360 photograph and does not establish a completed interior for all three palaces."
+  ],
+  "siteLocalOrigin": [
+    31.539622641509435,
+    0,
+    -2.4752475247524752
+  ],
+  "siteTransform": "Add siteLocalOrigin to interior point then use shared/geography.mjs modelLocalToWorld with shangqing geo. Route-only viewer keeps local metres and plan north.",
+  "navigationValidation": {
+    "pathOnFloor": true,
+    "planAreaPixelsSquared": 5758.0,
+    "triangulatedAreaPixelsSquared": 5758.0,
+    "pathPixelLength": 179.5498756211209,
+    "minimumBoundaryClearancePixels": 2.5,
+    "pathLengthMeters": 29.278918154466215
+  },
+  "materials": "Original procedural stone approximation, 0.6m joints estimated; not photographed/scanned PBR. Steel and aluminium use photo-guided color estimates. Three 1024 PNGs embedded.",
+  "rights": "THAD architectural drawings and Wu Ji Photography reference photographs retain their original copyright. Local research study; permission not obtained for public redistribution of those originals. Model and procedural textures authored in this task; do not call this a scan or complete restoration.",
+  "build": {
+    "meshObjects": 20,
+    "vertices": 4044,
+    "polygons": 2943,
+    "glbBytes": 3983300,
+    "sha256": "01c8360aaea310dc054bec30fc42a115abdb85767761ddadeae6de7e03779979",
+    "scope": "Plan-traced circulation around east Tianhuang display pavilion, partial source-based interior. Not a scan or complete archaeology reconstruction."
+  },
+  "reproduce": [
+    "python scripts/prepare_shangqing_route.py",
+    "python scripts/make_shangqing_route_stone.py",
+    "blender --background --python scripts/build_shangqing_route.py"
+  ],
+  "checked": "2026-10-03T08:59:07.857403+08:00"
+}

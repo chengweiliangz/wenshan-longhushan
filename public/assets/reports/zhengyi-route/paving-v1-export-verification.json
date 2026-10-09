@@ -1,0 +1,128 @@
+{
+  "status": "CPU_EXPORT_PASS_GPU_PENDING",
+  "checks": [
+    {
+      "name": "Same 215 mesh node names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All actual world-space triangles unchanged within 1 micrometre",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Only courtyard top node changes material/UV",
+      "passed": true,
+      "detail": [
+        "main courtyard paving"
+      ]
+    },
+    {
+      "name": "All old materials retain semantic parameters and texture pixels",
+      "passed": true,
+      "detail": {
+        "oldMaterials": 20,
+        "newMaterials": 21
+      }
+    },
+    {
+      "name": "Every original embedded image payload retained",
+      "passed": true,
+      "detail": {
+        "oldImages": 12,
+        "newImages": 15
+      }
+    },
+    {
+      "name": "Only two upward original floor triangles get new material",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Actual exported UV has a 4.8m physical repeat",
+      "passed": true,
+      "detail": {
+        "maxError": 9.5367431640625e-07
+      }
+    },
+    {
+      "name": "Basecolor, normal and roughness maps exported",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No model buffers or images require external URI",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Original model, source, route, evidence and viewer untouched",
+      "passed": true,
+      "detail": [
+        {
+          "path": "[开发环境路径已省略]/zhengyi-forecourt-ground-v2.glb",
+          "unchanged": true
+        },
+        {
+          "path": "[开发环境路径已省略]/zhengyi-forecourt-ground-v2.glb",
+          "unchanged": true
+        },
+        {
+          "path": "[开发环境路径已省略]/zhengyi-forecourt-ground-v2.blend",
+          "unchanged": true
+        },
+        {
+          "path": "[开发环境路径已省略]/alignment.json",
+          "unchanged": true
+        },
+        {
+          "path": "[开发环境路径已省略]/zhengyi-court-route.json",
+          "unchanged": true
+        },
+        {
+          "path": "[开发环境路径已省略]/InteriorRouteView.tsx",
+          "unchanged": true
+        },
+        {
+          "path": "[开发环境路径已省略]/3-01.jpg",
+          "unchanged": true
+        },
+        {
+          "path": "[开发环境路径已省略]/3-05.jpg",
+          "unchanged": true
+        }
+      ]
+    }
+  ],
+  "baselineSHA256": "3c8351beee191ec848d97d278adfc47acad7ed9e091dffeee9af197a81835a5b",
+  "candidateSHA256": "0d4b8889cc20eb35ffd776057c88acfe17449e702aec61318d49e1052718b545",
+  "candidateBytes": 12626928,
+  "meshNodes": 215,
+  "triangles": 211971,
+  "addedTriangles": 0,
+  "addedMaterialDrawGroups": 1,
+  "material": {
+    "doubleSided": true,
+    "name": "AB Zhengyi representative courtyard stone v1",
+    "normalTexture": {
+      "index": 0
+    },
+    "pbrMetallicRoughness": {
+      "baseColorTexture": {
+        "index": 1
+      },
+      "metallicFactor": 0,
+      "metallicRoughnessTexture": {
+        "index": 2
+      }
+    }
+  },
+  "newImages": 3,
+  "geometryAndPathUnchanged": true,
+  "gpuUsed": false,
+  "limitations": [
+    "Texture appearance, aliasing and net visual benefit await fixed node0/node3 browser comparison.",
+    "Packed images make the Blend self-contained; original file paths are retained as provenance, not runtime dependencies."
+  ]
+}

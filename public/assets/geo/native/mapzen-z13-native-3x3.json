@@ -1,0 +1,219 @@
+{
+  "schema": "AF_NATIVE_TERRARIUM_GRID_V1",
+  "status": "LOSSLESS_SOURCE_RECOVERY_NOT_NEW_5_TO_12_5M_MEASUREMENT",
+  "dataFile": "mapzen-z13-native-3x3.f32le",
+  "dataSha256": "03dec8e6faf7884f80629e8a059e2627308de8d5206c5ef0ca772b7ddd5b02ff",
+  "dataBytes": 2359296,
+  "dtype": "Float32",
+  "byteOrder": "little-endian",
+  "bandCount": 1,
+  "rowMajor": true,
+  "rowOrder": "north-to-south",
+  "columnOrder": "west-to-east",
+  "width": 768,
+  "height": 768,
+  "zoom": 13,
+  "tileSize": 256,
+  "tileRange": {
+    "minX": 6757,
+    "maxX": 6759,
+    "minY": 3429,
+    "maxY": 3431
+  },
+  "horizontalCRS": "EPSG:3857",
+  "mercatorRadiusM": 6378137.0,
+  "pixelSizeProjectedM": [
+    19.109257071294063,
+    -19.109257071294063
+  ],
+  "outerEdgeExtentProjectedM": [
+    13017531.665078655,
+    3248267.9540068503,
+    13032207.574509408,
+    3262943.863437604
+  ],
+  "outerEdgeExtentWGS84": [
+    116.93847656249997,
+    27.99440141104615,
+    117.0703125,
+    28.11074876063354
+  ],
+  "firstPixelCenterProjectedM": [
+    13017541.219707191,
+    3262934.3088090685
+  ],
+  "pixelCenterRule": "x=west+(column+0.5)*cell; y=north-(row+0.5)*cell. Indices 0..767. XYZ tile edges, decoded raster values attached to pixel centers. No half-cell offset is hidden.",
+  "fractionalCenterIndexRule": "column=(mercatorX-west)/cell-0.5; row=(north-mercatorY)/cell-0.5. Bilinear sampling is an explicit consumer choice; this file is not resampled.",
+  "validity": "Values exist over the complete 3x3 outer-edge extent; outside is unavailable, never extrapolate. At the half-cell edge use an explicit clamp-to-edge policy or return unavailable. This footprint is not a survey confidence mask.",
+  "heightUnit": "metre",
+  "verticalCRS": null,
+  "verticalDatumStatus": "Not recorded in the legacy Terrarium files or terrain.json. The identified SRTM source convention must not be promoted to a certified vertical CRS for this mosaic; no datum correction applied.",
+  "noDataValue": null,
+  "noDataStatus": "PNG has no explicit NoData metadata. No decoded -32768 values observed; this does not certify absence of upstream void filling.",
+  "observedDecodedMinus32768Count": 0,
+  "minMaxHeightM": [
+    29.0,
+    821.0
+  ],
+  "decode": "R*256 + G + B/256 - 32768; every Float32 sample exactly equals its source decoded value.",
+  "sourceResolution": "At 28.07 degrees N the z13 pixel spacing is about 16.86 ground metres; underlying SRTM is nominal 30 m (provider cautions nominal quality can be 90 m). These are not independent 16.86 m measurements.",
+  "verifiedCentralTileSource": {
+    "tile": "13/6757/3430",
+    "httpHeader": "x-amz-meta-x-imagery-sources: srtm/N28E116.tif",
+    "httpEvidence": "../checks/http-round-2.json",
+    "freshDownloadMatchesLocal": true
+  },
+  "licenseAndAttribution": {
+    "credit": "Mapzen / Tilezen; SRTM data courtesy of the U.S. Geological Survey",
+    "providerAttributionURL": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+    "providerNativeSourceURL": "https://github.com/tilezen/joerd/blob/master/docs/data-sources.md",
+    "note": "Anonymous public AWS source. Preserve provider attribution and upstream notices; no new license is asserted."
+  },
+  "projectWorldTransform": {
+    "originWGS84": [
+      117,
+      28.07
+    ],
+    "xMetres": "(lon-117)*pi/180*6378137*cos(28.07*pi/180)",
+    "zMetres": "-(lat-28.07)*pi/180*6378137",
+    "sceneUnitsPerMetre": 0.1
+  },
+  "sources": [
+    {
+      "localPath": "[开发环境路径已省略]/13-6757-3429.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/6757/3429.png",
+      "tile": [
+        13,
+        6757,
+        3429
+      ],
+      "sha256": "82113d41bc4333327440d2008c84d40d0913092cae8a7ba738651e4556aaffd4",
+      "bytes": 38866,
+      "decodedMinMaxM": [
+        41.0,
+        329.0
+      ]
+    },
+    {
+      "localPath": "[开发环境路径已省略]/13-6758-3429.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/6758/3429.png",
+      "tile": [
+        13,
+        6758,
+        3429
+      ],
+      "sha256": "a096728bd4e758f0915bb4807a591a6d804381e47dfffb3272abcb4322f72d26",
+      "bytes": 36836,
+      "decodedMinMaxM": [
+        58.0,
+        261.0
+      ]
+    },
+    {
+      "localPath": "[开发环境路径已省略]/13-6759-3429.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/6759/3429.png",
+      "tile": [
+        13,
+        6759,
+        3429
+      ],
+      "sha256": "4491b39ad14e31ed2e4b34ad4419051c09f15fd5eb09c99172ae6d1fd6301d6f",
+      "bytes": 36903,
+      "decodedMinMaxM": [
+        48.0,
+        419.0
+      ]
+    },
+    {
+      "localPath": "[开发环境路径已省略]/13-6757-3430.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/6757/3430.png",
+      "tile": [
+        13,
+        6757,
+        3430
+      ],
+      "sha256": "5c2f965356b5b5792fa2ee0618cb2b918910ff1cc2d8033547c809c277c21823",
+      "bytes": 31802,
+      "decodedMinMaxM": [
+        50.0,
+        279.0
+      ]
+    },
+    {
+      "localPath": "[开发环境路径已省略]/13-6758-3430.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/6758/3430.png",
+      "tile": [
+        13,
+        6758,
+        3430
+      ],
+      "sha256": "ed206f5a025c01c30a1afa5e11390c4a8c80078de50353d05bd85d35c5d6fac4",
+      "bytes": 32360,
+      "decodedMinMaxM": [
+        29.0,
+        263.0
+      ]
+    },
+    {
+      "localPath": "[开发环境路径已省略]/13-6759-3430.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/6759/3430.png",
+      "tile": [
+        13,
+        6759,
+        3430
+      ],
+      "sha256": "4e6f0ba172425d97145eae8391a470784b89ce2c65973b23e7c4b247e6927818",
+      "bytes": 31199,
+      "decodedMinMaxM": [
+        69.0,
+        296.0
+      ]
+    },
+    {
+      "localPath": "[开发环境路径已省略]/13-6757-3431.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/6757/3431.png",
+      "tile": [
+        13,
+        6757,
+        3431
+      ],
+      "sha256": "1421b93bd6216cf5aadd11451ea0b3afdd2e12e80e66df84410f772435ff72ff",
+      "bytes": 29787,
+      "decodedMinMaxM": [
+        68.0,
+        243.0
+      ]
+    },
+    {
+      "localPath": "[开发环境路径已省略]/13-6758-3431.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/6758/3431.png",
+      "tile": [
+        13,
+        6758,
+        3431
+      ],
+      "sha256": "47f9fc59694073e1ad3e564be4af0c53d4580621ab3563998cff7c317c19e8cd",
+      "bytes": 34394,
+      "decodedMinMaxM": [
+        72.0,
+        349.0
+      ]
+    },
+    {
+      "localPath": "[开发环境路径已省略]/13-6759-3431.png",
+      "url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/13/6759/3431.png",
+      "tile": [
+        13,
+        6759,
+        3431
+      ],
+      "sha256": "d39da0870d0e60dd30a681a0a3e9acc402b9305fc300c367f8b6755fbd07b2ec",
+      "bytes": 38924,
+      "decodedMinMaxM": [
+        68.0,
+        821.0
+      ]
+    }
+  ],
+  "createdUTC": "2026-10-03T14:59:49.241272+00:00"
+}

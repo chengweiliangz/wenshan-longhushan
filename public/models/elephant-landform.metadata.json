@@ -1,0 +1,91 @@
+{
+  "id": "elephant-photo-art-study",
+  "version": "g3-candidate",
+  "sourceLabel": "照片参考、局部艺术化补全，未定标定位",
+  "notice": "照片约束正面轮廓、斜向贯穿孔洞和石拱连体关系；背侧、深度、被裁切山脚、局部风化和植被作艺术化补全。不是实景扫描；尚无可靠米制尺度、地理位置和朝向。",
+  "sourceURLs": [
+    "https://www.chinanews.com/tp/hd2011/2025/04-18/1148890.shtml",
+    "https://www.chinanews.com/tp/hd2011/2025/04-18/1148891.shtml",
+    "https://www.chinanews.com/tp/hd2011/2025/04-18/1148892.shtml",
+    "https://www.chinanews.com/tp/hd2011/2025/04-18/1148893.shtml",
+    "https://www.chinanews.com/tp/hd2011/2025/04-18/1148894.shtml"
+  ],
+  "cameraFovConvention": "approximate horizontal degrees; Blender 42mm / 36mm sensor / 1440x960; viewer auto-fit",
+  "coordinateSystem": "glTF right-handed Y-up local display space",
+  "units": "arbitrary display units",
+  "metersPerUnit": null,
+  "positionWGS84": null,
+  "worldBearingDegrees": null,
+  "bounds": {
+    "min": [
+      -79.30429077148438,
+      -9.563201904296875,
+      -48.90153503417969
+    ],
+    "max": [
+      120.3123779296875,
+      106.80516052246094,
+      28.34054946899414
+    ]
+  },
+  "cameras": [
+    {
+      "id": "front",
+      "position": [
+        -15,
+        73,
+        315
+      ],
+      "target": [
+        10,
+        45,
+        0
+      ],
+      "fov": 46
+    },
+    {
+      "id": "oblique",
+      "position": [
+        -220,
+        122,
+        260
+      ],
+      "target": [
+        5,
+        42,
+        0
+      ],
+      "fov": 46
+    },
+    {
+      "id": "reverse",
+      "position": [
+        180,
+        99,
+        -265
+      ],
+      "target": [
+        10,
+        44,
+        -8
+      ],
+      "fov": 46
+    }
+  ],
+  "geometryQA": {
+    "rockComponents": 1,
+    "nonManifoldEdges": 0,
+    "eulerCharacteristic": 0,
+    "rockVertices": 59426,
+    "rockTriangles": 118852,
+    "trees": 46,
+    "shrubs": 230,
+    "apertureRayHitsRock": false,
+    "bridgeRayHitsRock": true,
+    "trunkRayHitsRock": true,
+    "mainlandRayHitsRock": true
+  },
+  "photographicTexturesUsed": false,
+  "geographicIntegrationAllowed": false,
+  "surfaceMapping": "Continuous triplanar source PBR baked into nondegenerate principal-axis chart atlas; geometry identical to g2-candidate"
+}

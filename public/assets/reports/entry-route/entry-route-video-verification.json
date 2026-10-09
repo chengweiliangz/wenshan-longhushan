@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-03T03:13:41.042Z",
+  "duration": 47.96291,
+  "bytes": 8612602,
+  "sha256": "894e7378d0b53cc14da99d2a2ed96d18ba83e0e2fbe09d16ecab3b9935d72725",
+  "rawBytesUnchanged": true,
+  "decodedSeeks": [
+    {
+      "seekSeconds": 10,
+      "decoded": true
+    },
+    {
+      "seekSeconds": 25,
+      "decoded": true
+    },
+    {
+      "seekSeconds": 42,
+      "decoded": true
+    }
+  ],
+  "continuesPlayback": true,
+  "method": "Original Chrome MediaRecorder output, existing finite duration and index retained, no transcoding or metadata rewriting."
+}

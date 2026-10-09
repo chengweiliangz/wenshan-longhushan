@@ -1,0 +1,34 @@
+{
+  "meshObjects": 20,
+  "meshVertices": 4044,
+  "polygons": 2943,
+  "images": [
+    {
+      "name": "stone-basecolor.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "stone-normal.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "stone-roughness.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    }
+  ],
+  "routeTextEmbedded": true,
+  "tempDirectory": "[开发环境路径已省略]/",
+  "autoSave": false
+}

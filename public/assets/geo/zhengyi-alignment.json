@@ -1,0 +1,113 @@
+{
+  "site": "zhengyi",
+  "crs": "EPSG:4326",
+  "imageMetadata": {
+    "captureDate": "2023-10-30",
+    "sourceAccuracyMeters": 5,
+    "source": "Esri World Imagery / Vantor WV02",
+    "referenceFile": "zhengyi/reference.json"
+  },
+  "method": "Manual interpretation of visible roof centres and site axis, cross-checked against 2024 photographs. Roof height/parallax and digitization add uncertainty. No surveyed entrances or dimensions.",
+  "surveyed": false,
+  "bearing": 42.94329157184878,
+  "modelScale": 1,
+  "controlPoints": [
+    {
+      "label": "main-hall-roof-center",
+      "pixel": [
+        268,
+        251
+      ],
+      "coordinates": [
+        116.97973966598511,
+        28.06715692784834
+      ],
+      "modelLocalMeters": [
+        0.0,
+        0,
+        0.0
+      ]
+    },
+    {
+      "label": "round-gate-roof-center",
+      "pixel": [
+        174,
+        352
+      ],
+      "coordinates": [
+        116.97923541069032,
+        28.06667883875553
+      ],
+      "modelLocalMeters": [
+        0.0,
+        0,
+        72.70296886868228
+      ]
+    },
+    {
+      "label": "front-paifang",
+      "pixel": [
+        136,
+        392
+      ],
+      "coordinates": [
+        116.97903156280516,
+        28.066489495952535
+      ],
+      "modelLocalMeters": [
+        -0.2978395231146749,
+        0,
+        101.77350251480638
+      ]
+    },
+    {
+      "label": "rear-hall-roof-center",
+      "pixel": [
+        307,
+        210
+      ],
+      "coordinates": [
+        116.97994887828828,
+        28.067351003011698
+      ],
+      "modelLocalMeters": [
+        0.32466334052167767,
+        0,
+        -29.815147320654866
+      ]
+    },
+    {
+      "label": "northwest-tower-roof",
+      "pixel": [
+        203,
+        285
+      ],
+      "coordinates": [
+        116.97939097881316,
+        28.066995987203114
+      ],
+      "modelLocalMeters": [
+        -12.866320384895133,
+        0,
+        36.4484823566331
+      ]
+    },
+    {
+      "label": "southeast-tower-roof",
+      "pixel": [
+        239,
+        319
+      ],
+      "coordinates": [
+        116.97958409786224,
+        28.066835046316854
+      ],
+      "modelLocalMeters": [
+        13.225273176179906,
+        0,
+        36.6401808978529
+      ]
+    }
+  ],
+  "modelDimensionsStatus": "Roof widths, heights and terrace levels estimated; unobserved fine details omitted."
+}

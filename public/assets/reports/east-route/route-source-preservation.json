@@ -1,0 +1,215 @@
+{
+  "checked": "2026-10-03T09:03:24.617469+08:00",
+  "files": [
+    {
+      "root": "blender",
+      "path": "exports/elephant-photo-surface.glb",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "exports/elephant-shape-study.glb",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "exports/luxi-landscape-context.glb",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "exports/luxi-landscape-context.sources.json",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "exports/representative-broadleaf-library.glb",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "exports/shangqing-study.glb",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "exports/tianshi-landscape-context.glb",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "exports/tianshi-study.glb",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "exports/tianshi-study.sources.json",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "exports/zhengyi-study.glb",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/elephant-photo-surface.blend",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/elephant-shape-study.blend",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/elephant-shape-study.blend1",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/elephant-shape-study.blend2",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/luxi-landscape.blend",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/representative-broadleaf-library.blend",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/shangqing-study.blend",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/shangqing-study.blend1",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/shangqing-study.blend2",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/tianshi-landscape.blend",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/tianshi-study.blend",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/tianshi-study.blend1",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/tianshi-study.blend2",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/zhengyi-study.blend",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/zhengyi-study.blend1",
+      "unchanged": true
+    },
+    {
+      "root": "blender",
+      "path": "models/zhengyi-study.blend2",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/geo/luxi-landcover.json",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/geo/luxi-landcover.png",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/geo/region.json",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/geo/shangqing-alignment.json",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/geo/shangqing-vegetation.json",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/geo/terrain.json",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/geo/tianshi-alignment.json",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/geo/tianshi-landscape-context.json",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/geo/tianshi-vegetation.json",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/geo/water-surface.bin",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/geo/water-surfaces.json",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/geo/zhengyi-alignment.json",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/models/shangqing-study.glb",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/models/tianshi-study.glb",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/models/tianshi-study.sources.json",
+      "unchanged": true
+    },
+    {
+      "root": "website",
+      "path": "public/assets/models/zhengyi-study.glb",
+      "unchanged": true
+    }
+  ]
+}

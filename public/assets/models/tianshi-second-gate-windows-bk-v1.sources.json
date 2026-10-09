@@ -1,0 +1,104 @@
+{
+  "candidate": {
+    "blendSha256": "de6779c6a907e767b4886c74e5cdddfa1a62e8d42c3ce9ef84de24d716f9e069",
+    "glbSha256": "b743e4a55e429967ff4834b4862c93772e48c40c49adde8437d291684a6c6317",
+    "glbBytes": 6734904,
+    "detailGlbSha256": "6a7c0075ee466effe2eb9e3e00cb3861c48d763f5b3a335c74d619dcc4b64ad8",
+    "detailGlbBytes": 735324
+  },
+  "scope": "Two courtyard-facing windows of the Tianshi second gate only. Derived from the frozen AG courtyard model, not applicable to the separate outer study model.",
+  "photo": {
+    "path": "[开发环境路径已省略]/part-2-11.jpg",
+    "source": "https://m.zol.com.cn/dcbbs/d33991_42754.html",
+    "author": "阿尧",
+    "sourceExifDate": "2024-10-29",
+    "dateIndependentlyVerified": false,
+    "rights": "Original author retains copyright; existing local research reference. No photo pixels used in new textures."
+  },
+  "observable": [
+    "Red-brown perimeter frame with visible depth",
+    "Upper short band and lower tall band",
+    "Repeated vertical divisions",
+    "Dark unresolved inner areas"
+  ],
+  "estimated": [
+    "Inherited 2.7m x 1.7m window envelope and six divisions",
+    "Outer frame width 94mm, inner stiles 56mm, 4mm or 8mm chamfers",
+    "Exact transom elevation and all rebates or sill thickness",
+    "Wood grain, roughness and micro wear; not scanned or surveyed"
+  ],
+  "baseline": [
+    {
+      "path": "[开发环境路径已省略]/tianshi-upper-roof-v2.blend",
+      "bytes": 8414975,
+      "sha256": "277895689415d7c204fc842ee28b74b2d9171722019e43c2a7989c35b6a1b082"
+    },
+    {
+      "path": "[开发环境路径已省略]/tianshi-upper-roof-v2.glb",
+      "bytes": 6019292,
+      "sha256": "38ba970b1544826c2ff46879f82d157feaba3cc30dabe4486f7793182623c6d2"
+    },
+    {
+      "path": "[开发环境路径已省略]/tianshi-upper-roof-v2.glb",
+      "bytes": 6019292,
+      "sha256": "38ba970b1544826c2ff46879f82d157feaba3cc30dabe4486f7793182623c6d2"
+    },
+    {
+      "path": "[开发环境路径已省略]/tianshi-court-route.json",
+      "bytes": 4839,
+      "sha256": "14d4069438ba9d668155198112858a65c9757bccc7fbdb57139275cd8212886f"
+    },
+    {
+      "path": "[开发环境路径已省略]/part-2-11.jpg",
+      "bytes": 312461,
+      "sha256": "b00fdae4c13180e320ba3cdf6e741b436c07acf70c736a9891669319c2031ef3"
+    },
+    {
+      "path": "[开发环境路径已省略]/InteriorRouteView.tsx",
+      "bytes": 16693,
+      "sha256": "bb0601106ef63d49f3022c6931c1b139219c2b1d19e527141c1cf7a27741c05f"
+    },
+    {
+      "path": "[开发环境路径已省略]/place-assets.mjs",
+      "bytes": 50769,
+      "sha256": "4dc3b10c3e40e0845272a37401035a32267cdb75f1c3cf08ee22c907a74aa10f"
+    }
+  ],
+  "status": "CPU_EXPORT_PASS_RENDER_AND_INDEPENDENT_REVIEW_PENDING",
+  "localUnits": "metres, glTF Y up; coordinates and site origin retained from AG/C",
+  "geographyRetained": {
+    "longitude": 117.032571825,
+    "latitude": 28.046936975,
+    "bearingDegrees": 348.4667263478814,
+    "localOrigin": [
+      0,
+      0,
+      0
+    ]
+  },
+  "physicalBoundsMeters": [
+    [
+      -8.337300300598145,
+      1.1109999418258667,
+      41.32569885253906
+    ],
+    [
+      9.652700424194336,
+      2.819999933242798,
+      41.535701751708984
+    ]
+  ],
+  "textureSource": "Original algorithmic 512px lacquer PBR; no photographic pixels. Wood grain, roughness and wear are artistic estimates.",
+  "alteredOriginalMeshes": [
+    "second gate timber window inset",
+    "second gate window stiles",
+    "second gate window cross rails"
+  ],
+  "unchangedOriginalMeshes": 131,
+  "unknowns": [
+    "Exact carpenter measurements and pane count unavailable from the 1000px photo",
+    "No carved motif or interior view reconstructed",
+    "Retained six divisions are inherited display estimates, not field-confirmed fenestration",
+    "Photo camera, room depth, original window material and chronology uncalibrated"
+  ]
+}

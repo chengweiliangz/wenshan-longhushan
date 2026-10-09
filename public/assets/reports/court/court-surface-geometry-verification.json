@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-03T04:46:12.458Z",
+  "model": "shangqing-court-route.glb",
+  "areaSquareMetres": 422.1707662519916,
+  "expectedAreaSquareMetres": 422.1707453764244,
+  "heightErrorMetres": 1.0728836041806744e-8,
+  "courtTriangles": 1002,
+  "coveredByGenericPaving": 0,
+  "colorRange": [
+    [
+      0.684946974898909,
+      1
+    ],
+    [
+      0.7809262226291295,
+      1
+    ],
+    [
+      0.5170061799038682,
+      1
+    ]
+  ],
+  "supportBounds": {
+    "min": [
+      -1.6449055671691895,
+      -0.800000011920929,
+      6.520659923553467
+    ],
+    "max": [
+      0.15924528241157532,
+      -0.18000000715255737,
+      29.432937622070312
+    ]
+  },
+  "checks": {
+    "sourceFootprint": true,
+    "sourceEstimatedDatum": true,
+    "incorrectPavingRemoved": true,
+    "nonconstantVertexColour": true,
+    "underDeckSupports": true
+  },
+  "limitations": "Checks the authored model and disclosed estimate consistency, not archaeological survey precision."
+}

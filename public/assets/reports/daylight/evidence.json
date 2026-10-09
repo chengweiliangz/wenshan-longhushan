@@ -1,0 +1,302 @@
+{
+  "created": "2026-10-03T07:50:51.274916+08:00",
+  "shadowVerification": {
+    "date": "2026-10-02T23:43:13.985Z",
+    "results": [
+      {
+        "name": "2048 sun map rendered at regional river",
+        "ok": true,
+        "detail": {
+          "engine": "three.js r186",
+          "riverTreeSamples": "2837",
+          "landcoverSource": "2023-10-30",
+          "rockPatches": "25",
+          "shoreSource": "OSM relation 17918405 + way 1306285176",
+          "waterVertices": "39406",
+          "waterTriangles": "71883",
+          "raftPosition": "-363.5998100170066,5.156584799004145,-55.25565564506974",
+          "riverTreeLod": "0,0,240,2597",
+          "sunShadows": "2048",
+          "shadowTexelMeters": "0.830",
+          "reflectionFrames": "2",
+          "reflectionMode": "planar-512x256",
+          "waterView": "regional",
+          "shadowFrames": "1",
+          "sceneTime": "17.0000",
+          "riverTravel": "0.0000",
+          "camera": "-325.5998100170066,52.764257290458,14.744344354930263",
+          "frameTime": "583.90",
+          "triangles": "267150"
+        }
+      },
+      {
+        "name": "Stationary view reuses the static shadow map",
+        "ok": true,
+        "detail": {
+          "before": "2",
+          "after": "2"
+        }
+      },
+      {
+        "name": "Close view uses finer shadow texels",
+        "ok": true,
+        "detail": "0.195"
+      },
+      {
+        "name": "Palace and all tree meshes cast and receive shadows",
+        "ok": true
+      },
+      {
+        "name": "Broad overview disables low-resolution ground shadows",
+        "ok": true
+      },
+      {
+        "name": "Returning restores local map",
+        "ok": true
+      },
+      {
+        "name": "Shadow render target disposed with scene",
+        "ok": true
+      },
+      {
+        "name": "Low tier uses 1024 map",
+        "ok": true
+      },
+      {
+        "name": "No browser or shader errors",
+        "ok": true,
+        "detail": []
+      }
+    ],
+    "errors": [],
+    "metrics": [
+      {
+        "label": "River regional 1920x1080 high",
+        "meanFps": 59.076999937528754,
+        "p95FrameMs": 21,
+        "data": {
+          "engine": "three.js r186",
+          "riverTreeSamples": "2837",
+          "landcoverSource": "2023-10-30",
+          "rockPatches": "25",
+          "shoreSource": "OSM relation 17918405 + way 1306285176",
+          "waterVertices": "39406",
+          "waterTriangles": "71883",
+          "raftPosition": "-363.5998100170066,5.156584799004145,-55.25565564506974",
+          "riverTreeLod": "0,0,240,2597",
+          "sunShadows": "2048",
+          "shadowTexelMeters": "0.830",
+          "reflectionFrames": "120",
+          "reflectionMode": "planar-512x256",
+          "waterView": "regional",
+          "shadowFrames": "1",
+          "sceneTime": "17.0000",
+          "riverTravel": "0.0000",
+          "camera": "-325.5998100170066,52.764257290458,14.744344354930263",
+          "frameTime": "17.22",
+          "triangles": "267150"
+        }
+      },
+      {
+        "label": "River close 1920x1080 high",
+        "meanFps": 50.79246224883617,
+        "p95FrameMs": 21.69999999999891,
+        "data": {
+          "engine": "three.js r186",
+          "riverTreeSamples": "2837",
+          "landcoverSource": "2023-10-30",
+          "rockPatches": "25",
+          "shoreSource": "OSM relation 17918405 + way 1306285176",
+          "waterVertices": "39406",
+          "waterTriangles": "71883",
+          "raftPosition": "-363.5998100170066,5.156584799004145,-55.25565564506974",
+          "riverTreeLod": "0,39,2298,500",
+          "sunShadows": "2048",
+          "shadowTexelMeters": "0.195",
+          "reflectionFrames": "225",
+          "reflectionMode": "planar-512x256",
+          "waterView": "close",
+          "shadowFrames": "2",
+          "sceneTime": "17.0000",
+          "riverTravel": "0.0000",
+          "camera": "-358.80829183786847,6.106584799004145,-53.110579063921904",
+          "frameTime": "19.99",
+          "triangles": "458240"
+        }
+      },
+      {
+        "label": "Tianshi regional 1920x1080 high",
+        "meanFps": 65.98597797969161,
+        "p95FrameMs": 20.899999999997817,
+        "data": {
+          "engine": "three.js r186",
+          "riverTreeSamples": "2837",
+          "landcoverSource": "2023-10-30",
+          "rockPatches": "25",
+          "shoreSource": "OSM relation 17918405 + way 1306285176",
+          "waterVertices": "39406",
+          "waterTriangles": "71883",
+          "raftPosition": "-363.5998100170066,5.156584799004145,-55.25565564506974",
+          "riverTreeLod": "0,0,0,2837",
+          "sunShadows": "2048",
+          "shadowTexelMeters": "0.439",
+          "reflectionFrames": "227",
+          "reflectionMode": "environment",
+          "waterView": "regional",
+          "shadowFrames": "4",
+          "sceneTime": "17.0000",
+          "riverTravel": "0.0000",
+          "camera": "334.9379035495854,33.50040000967546,290.73641964350423",
+          "frameTime": "15.10",
+          "triangles": "490856",
+          "tianshiStatus": "ready",
+          "tianshiPosition": "319.9379035495854,8.540400009675462,256.73641964350423",
+          "tianshiBearing": "348.4667263478814",
+          "tianshiTreeSamples": "208",
+          "treeShape": "branched-broadleaf-v1",
+          "treeSamples": "208",
+          "treeLod": "0,0,208"
+        }
+      },
+      {
+        "label": "Mobile viewport 390x844 low desktop GPU",
+        "meanFps": 144.05657312776404,
+        "p95FrameMs": 7.200000000000273,
+        "data": {
+          "engine": "three.js r186",
+          "riverTreeSamples": "2837",
+          "landcoverSource": "2023-10-30",
+          "rockPatches": "25",
+          "shoreSource": "OSM relation 17918405 + way 1306285176",
+          "waterVertices": "39406",
+          "waterTriangles": "71883",
+          "raftPosition": "-363.5998100170066,5.156584799004145,-55.25565564506974",
+          "riverTreeLod": "0,8,1327,1502",
+          "sunShadows": "1024",
+          "shadowTexelMeters": "0.391",
+          "reflectionMode": "environment",
+          "waterView": "close",
+          "shadowFrames": "1",
+          "sceneTime": "17.0000",
+          "riverTravel": "0.0000",
+          "camera": "-358.80829183786847,6.106584799004145,-53.110579063921904",
+          "frameTime": "6.94",
+          "triangles": "262209"
+        }
+      }
+    ],
+    "limits": "Static camera benchmarks on local desktop GPU; mobile viewport only. Original DEM unchanged. Daylight direction is illustrative, not date-calibrated."
+  },
+  "runningWaterVerification": {
+    "date": "2026-10-02T23:46:13.533Z",
+    "results": [
+      {
+        "name": "加载真实岸线与岛屿裁剪网格",
+        "ok": true
+      },
+      {
+        "name": "高清模式实际更新倒影渲染目标",
+        "ok": true
+      },
+      {
+        "name": "河湾近景可进入",
+        "ok": true
+      },
+      {
+        "name": "默认流水与竹筏持续向下游运行",
+        "ok": true,
+        "detail": {
+          "before": "-364.40894886010113,5.154326006222964,-56.11082413165252",
+          "after": "-364.458585799212,5.156585205588228,-56.163284777264",
+          "travel": 0.7222000000000008
+        }
+      },
+      {
+        "name": "减少动态冻结水流、竹筏和近景相机",
+        "ok": true
+      },
+      {
+        "name": "恢复动态后继续运行",
+        "ok": true
+      },
+      {
+        "name": "省电反射关闭额外场景渲染",
+        "ok": true
+      },
+      {
+        "name": "速度调到零后水流位移停止",
+        "ok": true
+      },
+      {
+        "name": "已录制10秒实际WebGL水体与竹筏",
+        "ok": true,
+        "detail": {
+          "bytes": 2731600
+        }
+      },
+      {
+        "name": "退出近景恢复章节镜头",
+        "ok": true
+      },
+      {
+        "name": "手机低画质保留真实岸线与持续流水",
+        "ok": true
+      },
+      {
+        "name": "手机跳过额外倒影渲染",
+        "ok": true
+      },
+      {
+        "name": "手机控制与页面没有横向溢出",
+        "ok": true
+      },
+      {
+        "name": "无运行和着色器错误",
+        "ok": true,
+        "detail": []
+      }
+    ],
+    "errors": [],
+    "metrics": [
+      {
+        "label": "Desktop 1920x1080, mapped river, planar reflection",
+        "meanFps": 59.64562016473393,
+        "p95FrameMs": 21
+      },
+      {
+        "label": "Desktop close river, planar reflection",
+        "meanFps": 49.990626757473656,
+        "p95FrameMs": 27.700000000000728
+      },
+      {
+        "label": "Mobile 390x844 low, same desktop GPU",
+        "meanFps": 137.74483456867785,
+        "p95FrameMs": 7.200000000000728
+      }
+    ],
+    "limitations": "Headless Chrome on local Windows Intel GPU. Mobile is viewport emulation, not a physical phone. OSM mapped shore, unknown bathymetry, not a hydraulic simulation."
+  },
+  "sourceGeometryUnchanged": [
+    "terrain.json",
+    "water-surface.bin",
+    "3 palace GLBs"
+  ],
+  "comparisons": "Same revised version with sun shadow map disabled/enabled, fixed camera and time. These are rendered scene screenshots, not photographs.",
+  "limits": [
+    "Coarse DEM remains; no source-validated cliff refinement yet.",
+    "Daylight is illustrative, not solar-position-calibrated.",
+    "Mobile viewport is desktop GPU emulation.",
+    "Photo guides remain interim, not complete interiors."
+  ],
+  "videoFinalization": {
+    "input": "[开发环境路径已省略]/water-daylight-capture.raw.webm",
+    "output": "[开发环境路径已省略]/water-mapped-banks-10s.webm",
+    "frames": 212,
+    "durationSeconds": 9.916,
+    "lastTimestamp": 9875,
+    "estimatedLastFrameTicks": 41,
+    "mediaBytesUnchanged": true,
+    "blockPayloadSHA256": "4e98695a0298edf01618c7917d70fe73ff41aa25feb6842725e08d362c0a3f58",
+    "fileSHA256": "f1a025b63be26cfec970421fcf17fb5b16e8a0577dc1a5fe5ea9fad76cfa60b8"
+  }
+}

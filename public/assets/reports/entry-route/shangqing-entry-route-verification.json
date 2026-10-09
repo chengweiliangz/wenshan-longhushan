@@ -1,0 +1,221 @@
+{
+  "date": "2026-10-03T03:09:37.236Z",
+  "results": [
+    {
+      "name": "首屏按需加载：未请求展廊模型或路线",
+      "ok": true
+    },
+    {
+      "name": "真实南侧入口可键盘进入对应东路局部通道",
+      "ok": true
+    },
+    {
+      "name": "连续通道与未纳入范围明确区分",
+      "ok": true
+    },
+    {
+      "name": "南侧入口实拍与当前区域对应",
+      "ok": true
+    },
+    {
+      "name": "入口处不会串用天皇殿照片",
+      "ok": true
+    },
+    {
+      "name": "键盘可观察和缩放",
+      "ok": true
+    },
+    {
+      "name": "空格暂停并保持当前位置",
+      "ok": true
+    },
+    {
+      "name": "静止栈道视角复用阴影图",
+      "ok": true
+    },
+    {
+      "name": "平面中的移动标记与相机一致",
+      "ok": true
+    },
+    {
+      "name": "暂停状态切至照片后保持原位置与暂停",
+      "ok": true
+    },
+    {
+      "name": "跨三站仍逐段沿源栈道转弯，无穿坑捷径",
+      "ok": true,
+      "detail": {
+        "samples": 1308,
+        "maxDeviationMeters": 3.552740783751416e-15
+      }
+    },
+    {
+      "name": "跨站行走镜头随南廊和东路转弯",
+      "ok": true,
+      "detail": {
+        "eastSamples": 130,
+        "northSamples": 39
+      }
+    },
+    {
+      "name": "PageUp沿同一路线返回上一观察点",
+      "ok": true
+    },
+    {
+      "name": "三维节点关联真实天皇殿遗址实拍",
+      "ok": true
+    },
+    {
+      "name": "切至照片释放三维几何和画布",
+      "ok": true
+    },
+    {
+      "name": "照片返回保留观察节点与位置",
+      "ok": true
+    },
+    {
+      "name": "途中切至实拍后仍从途中继续原目标",
+      "ok": true
+    },
+    {
+      "name": "返回精确保留外部相机、目标及入口状态",
+      "ok": true,
+      "detail": {
+        "outside": {
+          "camera": "17.321172228854095,5.25,75.41420901498637",
+          "target": "11.85574183035442,2.5500000000000007,52.04480443208877"
+        },
+        "restored": {
+          "camera": "17.321172228854095,5.25,75.41420901498637",
+          "target": "11.85574183035442,2.5500000000000007,52.04480443208877",
+          "ready": "true"
+        }
+      }
+    },
+    {
+      "name": "内部体验全程暂停区域镜头和动画",
+      "ok": true
+    },
+    {
+      "name": "退出恢复原页面阅读位置",
+      "ok": true
+    },
+    {
+      "name": "触摸拖动转动视线",
+      "ok": true
+    },
+    {
+      "name": "双指缩放改变视角",
+      "ok": true
+    },
+    {
+      "name": "手机节点可点击并沿路线抵达",
+      "ok": true
+    },
+    {
+      "name": "手机弹窗和控件没有横向溢出",
+      "ok": true
+    },
+    {
+      "name": "WebGL丢失呈现可用的重试及实拍入口",
+      "ok": true
+    },
+    {
+      "name": "WebGL重试后实际恢复画面",
+      "ok": true
+    },
+    {
+      "name": "正常流程无脚本或着色器错误",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "模型下载失败提供重试和实拍降级",
+      "ok": true
+    },
+    {
+      "name": "下载重试成功且只有一个画布",
+      "ok": true
+    },
+    {
+      "name": "减少动态效果直接切换到有据节点且不持续移动",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "expectedErrors": [
+    "Failed to load resource: net::ERR_FAILED",
+    "展廊载入失败 TypeError: Failed to fetch"
+  ],
+  "metrics": [
+    {
+      "label": "1920x1080 desktop: connected entry/gallery in actual site modal",
+      "meanFps": 141.92016990442954,
+      "p95FrameMs": 7.100000000005821,
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "canvas": {
+        "width": 1124,
+        "height": 594
+      },
+      "data": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-platform",
+        "distance": "88.14491048845929",
+        "destination": "88.14491048845929",
+        "camera": "-1.743396226415097,1.65,-4.125412541254126",
+        "yaw": "-2.2260243292795616",
+        "pitch": "-0.14780927240707065",
+        "fov": "57",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "true",
+        "photo": "shangqing-east",
+        "shadowUpdates": "50",
+        "triangles": "14285",
+        "drawCalls": "48"
+      }
+    },
+    {
+      "label": "390x844 mobile viewport / desktop GPU, DPR capped at 1.5",
+      "meanFps": 144.09978253805502,
+      "p95FrameMs": 7.099999999998545,
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "isMobile": true,
+        "hasTouch": true,
+        "deviceScaleFactor": 2
+      },
+      "canvas": {
+        "width": 498,
+        "height": 582
+      },
+      "data": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-threshold",
+        "distance": "79.06900289770022",
+        "destination": "79.06900289770022",
+        "camera": "-1.743396226415097,1.65,4.9504950495049505",
+        "yaw": "-0.8223943307226386",
+        "pitch": "-0.1549464544671252",
+        "fov": "58",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "true",
+        "photo": "shangqing-east",
+        "shadowUpdates": "39",
+        "triangles": "8561",
+        "drawCalls": "20"
+      }
+    }
+  ],
+  "browser": "Chrome/154.0.8037.93",
+  "limitations": "Source-based connected walkway, no archaeological detail reconstruction. Mobile is viewport/touch emulation on the desktop GPU, not a physical device."
+}

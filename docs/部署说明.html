@@ -1,0 +1,47 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>问山远程部署</title><style>body{max-width:980px;margin:32px auto;background:#f6f4eb;color:#1e382e;padding:20px;font-family:system-ui}pre{white-space:pre-wrap;line-height:1.9;font:15px/1.9 system-ui}</style><h1>问山 · 远程部署</h1><pre>问山 · 龙虎山｜从 GitHub 源码远程部署
+2026-10-09。部署者使用自己的账号、域名、服务器与可选模型密钥；本仓库没有已经上线的网址。
+
+方案一：Render Web Service（可以不自备域名）
+1. 将仓库连接到 Render 的 New &gt; Web Service。选择 Node，不选 Static Site。
+2. Branch=main，Root Directory留空；Node版本设24。
+3. Build Command：npm ci --no-audit --no-fund &amp;&amp; npm run build
+4. Start Command：npm start；Health Check Path：/api/health。
+5. 设置HOST=0.0.0.0，AI_ENABLED=false。PORT使用平台注入值，不设为本地5173。构建需要TypeScript/Vite开发依赖，不能使用npm ci --omit=dev，也不要在构建环境设置NPM_CONFIG_PRODUCTION=true。
+6. 检查当前服务档位和费用，开始部署。Live后使用平台提供的onrender.com HTTPS地址。
+7. 真实AI需要在Render环境变量设置AI_ENABLED=true、AI_API_KEY（自己密钥）、AI_NAME=DeepSeek、AI_FORMAT=chat-completions、AI_BASE_URL=https://api.deepseek.com、AI_MODEL=deepseek-flash、AI_AUTH_MODE=bearer、AI_JSON_MODE=true、AI_TOKEN_PARAMETER=max_tokens、AI_MAX_TOKENS=1800、AI_TIMEOUT_SECONDS=45，再重新部署。密钥不写进Git或render.yaml。
+8. 免费实例有休眠/冷启动和临时文件系统限制；不要依赖免费实例.local文件持久保存设置。用平台环境变量管理模型。
+官方说明：https://render.com/docs/web-services
+版本与环境：https://render.com/docs/node-version
+免费档限制：https://render.com/docs/free
+
+方案二：Linux 云服务器 + 域名 + Docker/Caddy
+1. 准备可联网的Linux主机、已安装Docker Engine与Compose插件，以及域名。域名A记录指向该主机公网IP；没有正确IPv6就不要添加AAAA。主机安全组开放80/TCP、443/TCP，SSH仅允许管理来源；无需向公网开放4173。
+2. 按Docker官方文档安装，不盲目卸载既有服务：https://docs.docker.com/engine/install/ubuntu/
+3. 登录服务器，选择新的发布目录：
+   git clone https://github.com/chengweiliangz/wenshan-longhushan.git /srv/wenshan/releases/20261009
+   cd /srv/wenshan/releases/20261009
+   cp .env.production.example .env
+   chmod 600 .env
+   nano .env
+   第一次才复制示例，更新时保留原私有配置。
+4. 在.env将SITE_DOMAIN改为真实域名，不带https://或路径。先保持AI_ENABLED=false及空AI_API_KEY。需要真实AI时私下填写上述模型值和密钥。
+5. 执行：
+   docker compose -p wenshan config --quiet
+   docker compose -p wenshan up -d --build
+   docker compose -p wenshan ps
+   docker compose -p wenshan logs --tail=60 app caddy
+   多阶段Dockerfile从源码构建，不依赖仓库内有dist。Caddy代理app:4173并提供HTTPS，流式问答单独转发。首次申请证书需要域名与80/443可达。
+6. 浏览器打开https://你的域名/。若失败，依次检查DNS、端口、app健康和Caddy日志。勿反复删除证书卷。
+7. 更新代码先创建新发布目录并记录commit，保留上一成功目录与镜像；配置沿用原受保护文件。继续用相同Compose项目名wenshan，完成构建并检查后切换。修改私有.env后需docker compose -p wenshan up -d --force-recreate app使环境生效。应用回滚不自动回滚密钥配置或数据卷。
+反向代理官方说明：https://caddyserver.com/docs/caddyfile/directives/reverse_proxy
+
+两条方案都需实际验收
+- 另一网络打开真实HTTPS地址，首页、四站、自由探索、宫观资料、首页恢复可用；浏览器无404资源。
+- GET /api/health成功；ai:true只表示配置齐备，必须再做实际问答和生成攻略/共创，不等于模型已经成功。
+- 公网/api/settings应403，/.env和/.local/ai-config.json应404；模型设置由管理员管理。
+- 道士问答SSE应逐步返回、可取消与重试；不能只看HTTP200。代理保持原Host/Origin，不缓存或缓冲/api/guide/stream。
+- AI失败时页面明确说明；模型费用由服务器持有人承担。现有接口有频率限制但没有用户账户/计费隔离，适合小规模展示；扩大公开使用前按实际访问量管理配额。
+- 照片在访问者浏览器合成，支持PNG与MediaRecorder短片；设备性能影响帧率。测试实体手机，不能把桌面手机模拟当实体结果。
+
+注意：GitHub仓库public只表示源码公开，不代表网站已经上线。只启用GitHub Pages无法运行Node API。本项目按域名根目录部署，不直接支持/example/子路径。收藏仍存访问者各自浏览器，换设备/域名不自动同步。
+</pre>

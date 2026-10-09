@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-03T04:36:07.859Z",
+  "checkedContextMeshes": 86,
+  "maxRebasingErrorMeters": 6.265093783372375e-7,
+  "mismatches": [],
+  "ok": true,
+  "limitations": "Checks numerical equality of reused exterior vertices after frame conversion, not geographic measurement accuracy."
+}

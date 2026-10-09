@@ -1,0 +1,90 @@
+.stage .stage-host,.stage .stage-poster{transition:opacity .45s ease!important}
+.stage.mode-home .stage-poster{opacity:1!important}
+.stage.mode-home .stage-host{opacity:0!important}
+.stage:not(.mode-home).is-ready .stage-poster{opacity:0!important}
+.stage:not(.mode-home).is-ready .stage-host{opacity:1!important}
+/* Only the canvas receives scene input; transparent presentation layers never intercept it. */
+.stage.mode-tour.is-ready{pointer-events:none}
+.stage .stage-host,.stage .stage-poster,.stage .stage-veil,.stage .tour-region-veil{pointer-events:none}
+.stage.mode-tour.is-ready .stage-gl{pointer-events:auto;touch-action:pan-y}
+.stage.mode-tour .stage-gl{cursor:grab}
+.stage.mode-tour .stage-gl:active{cursor:grabbing}
+.stage.mode-tour.is-exploring .stage-gl{touch-action:none}
+.tour-region-veil{opacity:0;position:absolute;inset:0;background:linear-gradient(135deg,#8ca49c,#b8cdc5 60%,#849e92);pointer-events:none;will-change:opacity}
+.stage.mode-home .tour-region-veil,.stage.mode-reading .tour-region-veil{opacity:0!important}
+.tour-controls{position:fixed;z-index:22;bottom:18px;left:50%;transform:translateX(-50%);width:min(650px,calc(100vw - 32px));padding:8px 12px;border-radius:13px;background:#f6f2e7f2;color:#294333;border:1px solid #c8d1bc;box-shadow:0 8px 28px #12271b30;backdrop-filter:blur(10px);font-size:12px}
+.tour-controls button{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:38px;padding:6px 10px;border-radius:7px;white-space:nowrap}
+.tour-controls button:disabled{cursor:default;opacity:.54}
+.tour-controls-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:24px;font-size:10px}
+.tour-controls-heading>span{line-height:1.45}
+.tour-controls-heading button{flex:none;font-size:10px;min-height:24px;padding:2px 5px;text-decoration:underline;text-underline-offset:4px}
+.tour-controls nav{display:flex;gap:3px;border-top:1px solid #cdd4c5;padding-top:4px;margin-top:3px}
+.tour-controls nav button{flex:1;min-width:0;font-size:11px;padding:5px}
+.tour-controls nav small{font-size:9px;opacity:.6}
+.tour-controls nav button[aria-current]{background:#315642;color:#fff}
+.tour-controls-actions{display:flex;gap:5px;align-items:stretch;margin-top:5px}
+.tour-controls-actions>button{flex:1;border:1px solid #becbb6;background:#fffaf0;font-size:11px}
+.tour-controls-actions>button[aria-expanded=true]{background:#e2e9d8}
+.tour-controls-actions .tour-explore-toggle:not(:disabled){border-color:#7f9e77;background:#e0ead6;color:#24432e}
+.tour-controls-actions .tour-lock-button{background:#e7ebdf}
+.tour-explore-availability{margin-top:4px;font-size:9px;color:#6c7f64;line-height:1.4}
+.tour-settings-panel{position:absolute;bottom:calc(100% + 8px);right:0;width:280px;max-width:calc(100vw - 32px);max-height:min(55dvh,500px);overflow:auto;overscroll-behavior:contain;background:#f7f3eafa;border:1px solid #b9c8af;box-shadow:0 10px 30px #10271930;border-radius:12px;padding:12px 14px;font-size:12px}
+.tour-settings-heading{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.tour-settings-heading strong{font-family:var(--serif);font-size:15px;font-weight:600}
+.tour-settings-heading button{min-width:36px;min-height:36px;padding:4px}
+.tour-input-note{font-size:10px;line-height:1.8;color:#60745c;margin:7px 0 10px}
+.tour-settings-panel label{display:block;margin:11px 0;font-size:11px}
+.tour-settings-panel label b{float:right;font-size:10px;font-weight:400;color:#718268}
+.tour-settings-panel input[type=range],.tour-settings-panel select{display:block;width:100%;accent-color:#426842;margin-top:5px}
+.tour-settings-panel select{padding:7px;background:#fffaf1;border:1px solid #bbc7b4;border-radius:6px}
+.tour-settings-panel .tour-check{display:flex;align-items:center;gap:7px;line-height:1.7}
+.tour-settings-panel .tour-check input{margin:0;accent-color:#426842}
+.tour-settings-panel .tour-recenter{width:100%;border:1px solid #c0ceb4;background:#e5eade;font-size:11px}
+.tour-settings-panel>small{display:block;font-size:9px;line-height:1.7;color:#7a866e;border-top:1px solid #d2d9c7;padding-top:9px}
+.tour-source-note{position:fixed;left:18px;bottom:9px;z-index:4;font-size:9px;max-width:27vw;color:#eaf0df;text-shadow:0 1px 3px #10281b;pointer-events:none;line-height:1.25}
+.tour-explore-help{position:fixed;z-index:5;top:calc(var(--header-h) + 20px);left:24px;display:flex;align-items:flex-start;gap:7px;color:#edf3e6;font-size:11px;line-height:1.8;text-shadow:0 1px 5px #173f29;pointer-events:none}
+.tour-mini-map{position:fixed;z-index:5;top:calc(var(--header-h) + 20px);right:24px;width:174px;padding:10px;border:1px solid #d5dfc58a;border-radius:12px;background:#f3f2e8e8;color:#304d35;box-shadow:0 8px 24px #10271c25;pointer-events:none}
+.tour-mini-map>div{display:flex;align-items:center;gap:6px;margin-bottom:6px}
+.tour-mini-map strong{font-size:10px;font-weight:500}
+.tour-mini-map>svg{display:block;width:100%;height:auto}.tour-mini-map>div>svg{flex:none;width:12px;height:12px}
+.tour-mini-map>small{display:block;font-size:8px;line-height:1.5;color:#6f8066;margin-top:5px}
+.tour-movement-pad{position:fixed;z-index:21;right:24px;bottom:calc(165px + env(safe-area-inset-bottom,0px));display:grid;grid-template-columns:repeat(3,44px);grid-template-rows:repeat(3,44px);gap:4px;padding:5px;border-radius:13px;background:#e7eddf45;user-select:none;touch-action:none}
+.tour-movement-pad>small{position:absolute;left:0;right:0;top:-21px;text-align:center;color:#f4f6e9;font-size:10px;text-shadow:0 1px 4px #203d24;pointer-events:none}
+.tour-movement-pad button{display:flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border:1px solid #c5d3b4b3;border-radius:9px;background:#f7f5e8db;color:#2f5238;box-shadow:0 2px 5px #14352315;touch-action:none}
+.tour-movement-pad button[aria-pressed=true]{background:#36593d;color:#fff}
+.tour-movement-pad button:disabled{opacity:.45;cursor:default}
+.tour-movement-pad .move-forward{grid-column:2;grid-row:1}
+.tour-movement-pad .move-left{grid-column:1;grid-row:2}
+.tour-movement-pad .move-backward{grid-column:2;grid-row:3}
+.tour-movement-pad .move-right{grid-column:3;grid-row:2}
+.tour-movement-center{grid-column:2;grid-row:2;display:grid;place-items:center;color:#f2f5e5;font-size:10px;text-shadow:0 1px 4px #21472c;pointer-events:none}
+[data-tour-mode=home] .hotspot-layer,[data-tour-mode=reading] .hotspot-layer{visibility:hidden}
+[data-tour-mode=tour] .chapter-rail{display:none}
+[data-tour-mode=tour] .floating-guide{right:12px;bottom:18px}
+[data-tour-mode=tour] .stage-loader.is-loading{z-index:24;bottom:190px;left:50%;transform:translateX(-50%);padding:10px 14px;background:#213e32e8;border-radius:8px;opacity:1!important}
+[data-tour-mode=home] .stage-loader.is-ready{visibility:hidden}
+@media(max-width:700px){
+  .tour-controls{bottom:calc(8px + env(safe-area-inset-bottom,0px));width:calc(100vw - 20px);padding:6px 8px;border-radius:12px;backdrop-filter:none}
+  .tour-controls nav button{font-size:10px;min-height:36px;padding:4px 2px;gap:4px}
+  .tour-controls nav small{font-size:8px}
+  .tour-controls-heading{font-size:10px;min-height:24px}
+  .tour-controls-heading>span{max-width:calc(100% - 60px)}
+  .tour-controls-heading button{font-size:9px}
+  .tour-controls-actions{gap:4px}
+  .tour-controls-actions>button{min-height:44px;font-size:10px;padding:7px 5px;gap:4px}
+  .tour-controls-actions>button svg{width:13px;height:13px}
+  .tour-explore-availability{font-size:8px;line-height:1.4}
+  .tour-settings-panel{width:270px;right:0;max-height:53dvh}
+  .tour-source-note{top:calc(var(--header-h) + 1px);bottom:auto;left:16px;max-width:calc(100vw - 32px);font-size:8px;line-height:1.25}
+  .tour-explore-help{top:calc(var(--header-h) + 27px);left:16px;max-width:calc(100vw - 202px);font-size:9px;line-height:1.8;gap:5px}
+  .tour-explore-help svg{width:12px;height:12px}
+  .tour-mini-map{top:calc(var(--header-h) + 23px);right:14px;width:164px;padding:8px}
+  .tour-mini-map strong{font-size:9px}
+  .tour-movement-pad{right:16px;bottom:calc(165px + env(safe-area-inset-bottom,0px))}
+  .tour-movement-pad.is-card-visible{display:flex;gap:4px;padding:3px;bottom:calc(160px + env(safe-area-inset-bottom,0px));background:#e7eddf65}
+  .tour-movement-pad.is-card-visible>small,.tour-movement-pad.is-card-visible>.tour-movement-center{display:none}
+  .tour-movement-pad.is-card-visible button{flex:none}
+  [data-tour-mode=tour] .floating-guide{display:none}
+}
+@media(pointer:coarse){.tour-controls-actions .tour-lock-button{display:none}}
+@media(prefers-reduced-motion:reduce){.stage .stage-host,.stage .stage-poster{transition-duration:.16s!important}}

@@ -1,0 +1,109 @@
+{
+  "id": "elephant-photo-art-study",
+  "version": "y2-independent-form-candidate",
+  "sourceLabel": "照片约束与艺术补全：独立形态研究，未定标定位",
+  "notice": "保留已接受正面主要轮廓与贯通斜孔，连续轮廓采样去除栅格台阶、窄肩保宽岩面；厚度、背面、裁切山脚及植被贴合为艺术估计。任意展示单位，非实测、扫描或多视图定标；不允许接入真实 DEM 或声称真实世界位置。",
+  "sourceURLs": [
+    "https://www.chinanews.com/tp/hd2011/2025/04-18/1148890.shtml",
+    "https://www.chinanews.com/tp/hd2011/2025/04-18/1148891.shtml",
+    "https://www.chinanews.com/tp/hd2011/2025/04-18/1148892.shtml",
+    "https://www.chinanews.com/tp/hd2011/2025/04-18/1148893.shtml",
+    "https://www.chinanews.com/tp/hd2011/2025/04-18/1148894.shtml"
+  ],
+  "cameraFovConvention": "approximate horizontal degrees; Blender 42mm / 36mm sensor / 1440x960; viewer auto-fit",
+  "coordinateSystem": "glTF right-handed Y-up local display space",
+  "units": "arbitrary display units",
+  "metersPerUnit": null,
+  "positionWGS84": null,
+  "worldBearingDegrees": null,
+  "bounds": {
+    "min": [
+      -79.17918395996094,
+      -9.554325103759766,
+      -50.02641296386719
+    ],
+    "max": [
+      120.2408218383789,
+      106.79886627197266,
+      30.293054580688477
+    ]
+  },
+  "cameras": [
+    {
+      "id": "front",
+      "position": [
+        -15,
+        73,
+        315
+      ],
+      "target": [
+        10,
+        45,
+        0
+      ],
+      "fov": 46
+    },
+    {
+      "id": "oblique",
+      "position": [
+        -220,
+        122,
+        260
+      ],
+      "target": [
+        5,
+        42,
+        0
+      ],
+      "fov": 46
+    },
+    {
+      "id": "reverse",
+      "position": [
+        180,
+        99,
+        -265
+      ],
+      "target": [
+        10,
+        44,
+        -8
+      ],
+      "fov": 46
+    }
+  ],
+  "geometryQA": {
+    "rockComponents": 1,
+    "nonManifoldEdges": 0,
+    "eulerCharacteristic": 0,
+    "rockVertices": 62733,
+    "rockTriangles": 125466,
+    "trees": 46,
+    "shrubs": 230,
+    "treeMaxTranslation": 5.447877407549517,
+    "treeGroups": 16198,
+    "maxShrubLeafTranslation": 5.711357596706889,
+    "apertureRayHitsRock": false,
+    "bridgeRayHitsRock": true,
+    "trunkRayHitsRock": true,
+    "mainlandRayHitsRock": true
+  },
+  "photographicTexturesUsed": false,
+  "geographicIntegrationAllowed": false,
+  "surfaceMapping": "Accepted nonperiodic G v3 material source family, freshly baked through continuous triplanar mapping and nondegenerate chart atlas for Y geometry",
+  "formScope": {
+    "outerAndApertureControlPointsUnchanged": true,
+    "profileDistance": "continuous exact segment distance; finite quarter-ellipse shoulder",
+    "depth": "original G depth scale; narrow finite shoulders; no basal inflation",
+    "materialSourceUnchanged": true,
+    "vegetation": "original vertices and counts retained; shifted onto new surface",
+    "unknown": [
+      "metric scale",
+      "geographic position",
+      "world bearing",
+      "measured depth",
+      "concealed sides",
+      "complete base"
+    ]
+  }
+}

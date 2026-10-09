@@ -1,0 +1,331 @@
+{
+  "date": "2026-10-03T06:58:55.168542",
+  "status": "Surface and woodland stage. Detailed geological reconstruction incomplete.",
+  "landcover": {
+    "treeSamples": 2838,
+    "rockPolygons": 25,
+    "forestPolygons": 8,
+    "croplandPolygons": 5,
+    "worldBounds": [
+      -4424.457466195847,
+      -1569.265202757325,
+      -3075.5375069884003,
+      49.33587618986748
+    ],
+    "maskBytes": 70403,
+    "sourceImageSha256": "f32000d86c6e7186effe1ef471d9cdf113bf13566d72d7a3ffa8461fa9ee0ed2"
+  },
+  "export": {
+    "treeSamples": 2837,
+    "treeLOD": [
+      0,
+      0,
+      2837,
+      0
+    ],
+    "terrainTriangles": 52364,
+    "waterTriangles": 6283,
+    "originWGS84": [
+      116.9629831,
+      28.0749637
+    ],
+    "originWorldMeters": [
+      -3635.9981001700658,
+      -552.5565564506974
+    ],
+    "maxPlacementErrorMeters": 0.0002470246944928776,
+    "worldBounds": [
+      -4424.457466195847,
+      -1569.265202757325,
+      -3075.5375069884003,
+      49.33587618986748
+    ],
+    "bytes": 4931976,
+    "date": "2026-10-02T22:44:54.611Z"
+  },
+  "blender": {
+    "meshObjects": 5712,
+    "terrainObjects": 37,
+    "treeMeshObjects": 5674,
+    "uniqueMeshData": 46,
+    "packedImages": 2,
+    "file": "[开发环境路径已省略]/luxi-landscape.blend",
+    "fileBytes": 17483954,
+    "limits": "NOT a cliff survey, geological cross section, scanned vegetation or completed realistic reconstruction. Heights remain coarse DEM; representative tree sizes/forms. Water here is a static editing mesh. Browser shader and Blender node material are separate editable display implementations.",
+    "treePartsPerSample": 2,
+    "treeSamples": 2837,
+    "waterObjects": 1,
+    "unpackedImages": [],
+    "sampleTreeNames": [
+      {
+        "object": "Mesh_38",
+        "parent": "river distant branch support",
+        "world": [
+          -455.444580078125,
+          1005.1181030273438,
+          99.13314056396484
+        ]
+      },
+      {
+        "object": "Mesh_38.001",
+        "parent": "river distant branch support",
+        "world": [
+          -417.5068359375,
+          1001.9566040039062,
+          77.9410400390625
+        ]
+      },
+      {
+        "object": "Mesh_38.002",
+        "parent": "river distant branch support",
+        "world": [
+          -355.329345703125,
+          999.8494262695312,
+          70.89836120605469
+        ]
+      },
+      {
+        "object": "Mesh_38.003",
+        "parent": "river distant branch support",
+        "world": [
+          -299.476318359375,
+          1008.2785034179688,
+          62.70542526245117
+        ]
+      },
+      {
+        "object": "Mesh_38.004",
+        "parent": "river distant branch support",
+        "world": [
+          -278.399169921875,
+          1006.1712036132812,
+          61.4451904296875
+        ]
+      }
+    ]
+  },
+  "browserVerification": {
+    "date": "2026-10-02T22:41:34.924Z",
+    "results": [
+      {
+        "name": "河岸影像日期与25处岩面已载入",
+        "ok": true,
+        "detail": {
+          "engine": "three.js r186",
+          "riverTreeSamples": "2837",
+          "landcoverSource": "2023-10-30",
+          "rockPatches": "25",
+          "shoreSource": "OSM relation 17918405 + way 1306285176",
+          "waterVertices": "39406",
+          "waterTriangles": "71883",
+          "raftPosition": "-363.63574106743124,5.150609076954145,-55.29363071235917",
+          "riverTreeLod": "0,0,240,2597",
+          "reflectionFrames": "10",
+          "reflectionMode": "planar-512x256",
+          "waterView": "regional",
+          "sceneTime": "9.2677",
+          "riverTravel": "0.5228",
+          "camera": "-325.5998100170066,52.764257290458,14.744344354930263",
+          "frameTime": "30.51",
+          "triangles": "267150"
+        }
+      },
+      {
+        "name": "独立河岸树林载入且真实水面网格保持",
+        "ok": true
+      },
+      {
+        "name": "近景树林切换枝叶距离层级",
+        "ok": true,
+        "detail": "0,41,2305,491"
+      },
+      {
+        "name": "新增河岸进入持续更新的水中倒影",
+        "ok": true
+      },
+      {
+        "name": "跨地点后远处河岸树林停止绘制",
+        "ok": true
+      },
+      {
+        "name": "手机保留有据分区并使用省电倒影",
+        "ok": true
+      },
+      {
+        "name": "手机控制无横向溢出",
+        "ok": true
+      },
+      {
+        "name": "浏览器与GLSL没有错误",
+        "ok": true,
+        "detail": []
+      }
+    ],
+    "errors": [],
+    "metrics": [
+      {
+        "label": "Regional 1920x1080 high",
+        "meanFps": 70.09958889902411,
+        "p95FrameMs": 20.800000000000182,
+        "data": {
+          "engine": "three.js r186",
+          "riverTreeSamples": "2837",
+          "landcoverSource": "2023-10-30",
+          "rockPatches": "25",
+          "shoreSource": "OSM relation 17918405 + way 1306285176",
+          "waterVertices": "39406",
+          "waterTriangles": "71883",
+          "raftPosition": "-363.9943099883913,5.156421041794592,-55.67259761536964",
+          "riverTreeLod": "0,0,240,2597",
+          "reflectionFrames": "122",
+          "reflectionMode": "planar-512x256",
+          "waterView": "regional",
+          "sceneTime": "17.2941",
+          "riverTravel": "5.7400",
+          "camera": "-325.5998100170066,52.764257290458,14.744344354930263",
+          "frameTime": "14.23",
+          "triangles": "267150"
+        }
+      },
+      {
+        "label": "Close river 1920x1080 high",
+        "meanFps": 60.190561820224964,
+        "p95FrameMs": 21,
+        "data": {
+          "engine": "three.js r186",
+          "riverTreeSamples": "2837",
+          "landcoverSource": "2023-10-30",
+          "rockPatches": "25",
+          "shoreSource": "OSM relation 17918405 + way 1306285176",
+          "waterVertices": "39406",
+          "waterTriangles": "71883",
+          "raftPosition": "-364.37876731382886,5.152596488127665,-56.07892564171019",
+          "riverTreeLod": "0,41,2305,491",
+          "reflectionFrames": "238",
+          "reflectionMode": "planar-512x256",
+          "waterView": "close",
+          "sceneTime": "25.9000",
+          "riverTravel": "11.3338",
+          "camera": "-359.7801127783769,6.1025964881276655,-53.546658581629984",
+          "frameTime": "16.72",
+          "triangles": "479937"
+        }
+      },
+      {
+        "label": "Mobile emulation 390x844 low",
+        "meanFps": 139.4703625479324,
+        "p95FrameMs": 7.199999999999818,
+        "data": {
+          "engine": "three.js r186",
+          "riverTreeSamples": "2837",
+          "landcoverSource": "2023-10-30",
+          "rockPatches": "25",
+          "shoreSource": "OSM relation 17918405 + way 1306285176",
+          "waterVertices": "39406",
+          "waterTriangles": "71883",
+          "raftPosition": "-364.0019447223433,5.156565917175774,-55.68066666796169",
+          "riverTreeLod": "0,7,1335,1495",
+          "reflectionMode": "environment",
+          "waterView": "close",
+          "sceneTime": "17.1120",
+          "riverTravel": "5.8510",
+          "camera": "-359.40329018689135,6.106565917175774,-53.14839960788148",
+          "frameTime": "7.58",
+          "triangles": "264753"
+        }
+      }
+    ],
+    "limits": "Measured on local Windows desktop GPU. Mobile emulation only. Source DEM coarse; manual material regions and estimated representative tree dimensions, not survey/photogrammetry."
+  },
+  "waterVerification": {
+    "date": "2026-10-02T22:48:45.826Z",
+    "results": [
+      {
+        "name": "加载真实岸线与岛屿裁剪网格",
+        "ok": true
+      },
+      {
+        "name": "高清模式实际更新倒影渲染目标",
+        "ok": true
+      },
+      {
+        "name": "河湾近景可进入",
+        "ok": true
+      },
+      {
+        "name": "默认流水与竹筏持续向下游运行",
+        "ok": true,
+        "detail": {
+          "before": "-364.40710383662423,5.154501288334895,-56.10887414995544",
+          "after": "-364.456740775735,5.1565774814851215,-56.16133479556679",
+          "travel": 0.7221999999999991
+        }
+      },
+      {
+        "name": "减少动态冻结水流、竹筏和近景相机",
+        "ok": true
+      },
+      {
+        "name": "恢复动态后继续运行",
+        "ok": true
+      },
+      {
+        "name": "省电反射关闭额外场景渲染",
+        "ok": true
+      },
+      {
+        "name": "速度调到零后水流位移停止",
+        "ok": true
+      },
+      {
+        "name": "已录制10秒实际WebGL水体与竹筏",
+        "ok": true,
+        "detail": {
+          "bytes": 2900700
+        }
+      },
+      {
+        "name": "退出近景恢复章节镜头",
+        "ok": true
+      },
+      {
+        "name": "手机低画质保留真实岸线与持续流水",
+        "ok": true
+      },
+      {
+        "name": "手机跳过额外倒影渲染",
+        "ok": true
+      },
+      {
+        "name": "手机控制与页面没有横向溢出",
+        "ok": true
+      },
+      {
+        "name": "无运行和着色器错误",
+        "ok": true,
+        "detail": []
+      }
+    ],
+    "errors": [],
+    "metrics": [
+      {
+        "label": "Desktop 1920x1080, mapped river, planar reflection",
+        "meanFps": 70.0566947226324,
+        "p95FrameMs": 20.799999999999272
+      },
+      {
+        "label": "Desktop close river, planar reflection",
+        "meanFps": 59.72013993000162,
+        "p95FrameMs": 21
+      },
+      {
+        "label": "Mobile 390x844 low, same desktop GPU",
+        "meanFps": 141.35556360995085,
+        "p95FrameMs": 7.200000000000728
+      }
+    ],
+    "limitations": "Headless Chrome on local Windows Intel GPU. Mobile is viewport emulation, not a physical phone. OSM mapped shore, unknown bathymetry, not a hydraulic simulation."
+  },
+  "sourceDemSha256": "ea574ddd58551f79951fcde73c32f7c2845c04cae0612d744150c4df4568ba7f",
+  "sourceWaterSha256": "60cf429a06ce54926d553942cf2124d2783777d6059c70aceb59942242bbe3f9"
+}

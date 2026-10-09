@@ -1,0 +1,110 @@
+{
+  "model": "tianshi-study.glb",
+  "modelSha256": "cf2815b9a7a44b6ef5ea013410b104f4262831841614cce035ac9812987222e0",
+  "geometry": "Independently authored approximate exterior based on imagery and photographs; not surveyed or scanned",
+  "photoTextures": [
+    {
+      "name": "head-gate-painted-beam",
+      "sourceId": "part-7-10",
+      "source": "https://m.zol.com.cn/dcbbs/d33991_42896.html",
+      "author": "阿尧",
+      "captured": "2024-10-29 16:06:06",
+      "license": "原摄影者保留版权，仅本机研究；公开发布前需取得授权",
+      "corners": [
+        [
+          220,
+          296
+        ],
+        [
+          790,
+          275
+        ],
+        [
+          790,
+          303
+        ],
+        [
+          220,
+          324
+        ]
+      ],
+      "pixels": [
+        570,
+        28
+      ],
+      "changes": "Perspective rectification of a component for research model texturing. Source original retained. Baked lighting remains; not a scan or authored painting.",
+      "sha256": "cc7bd6ed7e8a500f1377d6255487f319f08d22219e4c7705ab45870f1676cd63"
+    },
+    {
+      "name": "head-gate-central-door",
+      "sourceId": "part-7-10",
+      "source": "https://m.zol.com.cn/dcbbs/d33991_42896.html",
+      "author": "阿尧",
+      "captured": "2024-10-29 16:06:06",
+      "license": "原摄影者保留版权，仅本机研究；公开发布前需取得授权",
+      "corners": [
+        [
+          482,
+          366
+        ],
+        [
+          548,
+          361
+        ],
+        [
+          548,
+          443
+        ],
+        [
+          482,
+          448
+        ]
+      ],
+      "pixels": [
+        66,
+        82
+      ],
+      "changes": "Perspective rectification of a component for research model texturing. Source original retained. Baked lighting remains; not a scan or authored painting.",
+      "sha256": "4ff6de374b23429c3a3a13e6a3416cf891946ac0b07709914879bb7b8d45373d"
+    },
+    {
+      "name": "head-gate-plaque",
+      "sourceId": "part-7-10",
+      "source": "https://m.zol.com.cn/dcbbs/d33991_42896.html",
+      "author": "阿尧",
+      "captured": "2024-10-29 16:06:06",
+      "license": "原摄影者保留版权，仅本机研究；公开发布前需取得授权",
+      "corners": [
+        [
+          481,
+          314
+        ],
+        [
+          547,
+          311
+        ],
+        [
+          547,
+          348
+        ],
+        [
+          481,
+          351
+        ]
+      ],
+      "pixels": [
+        66,
+        37
+      ],
+      "changes": "Perspective rectification of a component for research model texturing. Source original retained. Baked lighting remains; not a scan or authored painting.",
+      "sha256": "8ca6eaba93c71d2d061c375fe9ee270382670610f52faad6ffe56093c3b87e90"
+    }
+  ],
+  "proceduralTextures": {
+    "greyTile": "Task-authored representative tile texture; textures/procedural",
+    "paving": "Task-authored deterministic tileable grey paving; prepare_tianshi_context.py, not measured joints"
+  },
+  "georeference": "../geo/tianshi-alignment.json; imagery source accuracy field 5 m does not determine actual registration accuracy",
+  "rights": "Source photographer retains rights to the three photo-derived component textures. Local research prototype; public redistribution requires permission. Originals retained.",
+  "webExport": "25 material/shadow batches; 263 named editable components retained in the Blender source. Triangle positions, normals, UVs and material assignments verified equivalent."
+}

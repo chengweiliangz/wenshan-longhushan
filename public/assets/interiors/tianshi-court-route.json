@@ -1,0 +1,320 @@
+{
+  "id": "tianshi-court-route",
+  "spotId": "tianshi",
+  "label": "天师府二门内侧至玉皇殿石阶前院落观察",
+  "source": "https://m.zol.com.cn/dcbbs/d33991_42896.html",
+  "sourceLabel": "阿尧2024年双向院落实拍与2023年影像定位",
+  "sourceSHA256": "849520e591fc5ac35fd8112c240ec985760a677036af8403977eaa3f362d98d3",
+  "siteLocalOrigin": [
+    0,
+    0,
+    0
+  ],
+  "path": [
+    [
+      0.6577,
+      1.39,
+      40.2
+    ],
+    [
+      0.4,
+      1.39,
+      31
+    ],
+    [
+      0.25,
+      1.39,
+      25
+    ],
+    [
+      5.1,
+      1.39,
+      25
+    ],
+    [
+      5.1,
+      1.39,
+      17.2
+    ]
+  ],
+  "nodes": [
+    {
+      "id": "second-gate-inside",
+      "label": "二门内侧",
+      "pathIndex": 0,
+      "position": [
+        0.6577,
+        1.39,
+        40.2
+      ],
+      "target": [
+        0,
+        4.2,
+        0
+      ],
+      "photoId": "tianshi-yuhuang-front",
+      "observation": "由二门内侧望向玉皇殿。可先环看门洞、红柱与柱础，再沿院落石铺向前；门外连接没有纳入本段。",
+      "viewpoints": [
+        {
+          "id": "gate-window",
+          "label": "看二门木窗",
+          "target": [
+            8.2577,
+            2.02,
+            41.43
+          ],
+          "fov": 62,
+          "photoId": "tianshi-court-return"
+        }
+      ]
+    },
+    {
+      "id": "court-axis",
+      "label": "院落铺地",
+      "pathIndex": 1,
+      "position": [
+        0.4,
+        1.39,
+        31
+      ],
+      "target": [
+        0,
+        2.5,
+        8
+      ],
+      "photoId": "tianshi-yuhuang-front",
+      "observation": "回望可看见二门朝院侧两樘木窗的框深和上短下长分带。窗格数量、尺寸与木纹为估计，黑色窗内没有重建房间。",
+      "viewpoints": [
+        {
+          "id": "gate-window",
+          "label": "回看二门木窗",
+          "target": [
+            8.2577,
+            2.02,
+            41.43
+          ],
+          "fov": 48,
+          "photoId": "tianshi-court-return"
+        },
+        {
+          "id": "gate-wide",
+          "label": "回看二门全貌",
+          "target": [
+            0.6577,
+            2.2,
+            44
+          ],
+          "fov": 62,
+          "photoId": "tianshi-court-return"
+        }
+      ]
+    },
+    {
+      "id": "enclosure-approach",
+      "label": "石阶前围合区南侧",
+      "pathIndex": 2,
+      "position": [
+        0.25,
+        1.39,
+        25
+      ],
+      "target": [
+        0,
+        0.6,
+        18.4
+      ],
+      "photoId": "tianshi-court-return",
+      "observation": "前方围合设施与石阶在双向照片中可辨。只观察外形与周围铺地，设施正式名称及年代仍未核实。",
+      "viewpoints": [
+        {
+          "id": "enclosure",
+          "label": "看围合区",
+          "target": [
+            0,
+            0.6,
+            18.4
+          ],
+          "fov": 55,
+          "photoId": "tianshi-court-return"
+        },
+        {
+          "id": "gate-wide",
+          "label": "回望二门",
+          "target": [
+            0.6577,
+            2.2,
+            44
+          ],
+          "fov": 62,
+          "photoId": "tianshi-court-return"
+        }
+      ]
+    },
+    {
+      "id": "enclosure-east",
+      "label": "围合区东侧（估计）",
+      "pathIndex": 3,
+      "position": [
+        5.1,
+        1.39,
+        25
+      ],
+      "target": [
+        0,
+        0.5,
+        18.4
+      ],
+      "photoId": "tianshi-court-return",
+      "observation": "从围合区估计东侧观察石栏和院落。路线偏移及构件尺度为模型估算，不用于现场导航。",
+      "viewpoints": [
+        {
+          "id": "stone-base",
+          "label": "看围栏与柱础",
+          "target": [
+            2.3,
+            0.4,
+            18.4
+          ],
+          "fov": 55,
+          "photoId": "tianshi-court-return"
+        },
+        {
+          "id": "hall-eaves",
+          "label": "看玉皇殿重檐",
+          "target": [
+            0,
+            10,
+            0
+          ],
+          "fov": 55,
+          "photoId": "tianshi-yuhuang-front"
+        }
+      ]
+    },
+    {
+      "id": "stair-front",
+      "label": "玉皇殿石阶前",
+      "pathIndex": 4,
+      "position": [
+        5.1,
+        1.39,
+        17.2
+      ],
+      "target": [
+        0,
+        4.4,
+        0
+      ],
+      "photoId": "tianshi-yuhuang-front",
+      "observation": "终点停在玉皇殿石阶前。抬头观察上层窗格、重檐及瓦面，回望二门可对照院落关系；本段不登阶。",
+      "viewpoints": [
+        {
+          "id": "hall-eaves",
+          "label": "看玉皇殿重檐",
+          "target": [
+            0,
+            10,
+            0
+          ],
+          "fov": 55,
+          "photoId": "tianshi-yuhuang-front"
+        },
+        {
+          "id": "gate-wide",
+          "label": "回望二门",
+          "target": [
+            0.6577,
+            2.2,
+            44
+          ],
+          "fov": 62,
+          "photoId": "tianshi-court-return"
+        }
+      ]
+    }
+  ],
+  "modelSrc": "/assets/models/tianshi-second-gate-windows-bk-v1.glb",
+  "surfaceSources": "/assets/models/tianshi-second-gate-windows-bk-v1.sources.json",
+  "planBounds": [
+    -18,
+    -14,
+    36,
+    67
+  ],
+  "floorRings": [
+    [
+      [
+        -15.5,
+        16.5
+      ],
+      [
+        15.5,
+        16.5
+      ],
+      [
+        15.5,
+        41.5
+      ],
+      [
+        -15.5,
+        41.5
+      ]
+    ],
+    [
+      [
+        -2.3,
+        15.8
+      ],
+      [
+        -2.3,
+        20.5
+      ],
+      [
+        2.3,
+        20.5
+      ],
+      [
+        2.3,
+        15.8
+      ]
+    ]
+  ],
+  "navigationValidation": {
+    "pathLengthMeters": 27.855483199991205,
+    "estimated": true
+  },
+  "scope": "独立转场至二门北侧院落；仅沿院落铺地到玉皇殿石阶前，保守避让石阶前围合区，不登阶、不进入殿内，不连接头门或私第。",
+  "notice": "独立院落观察转场，不表示从头门连续步行进入二门。双向普通实拍支持院落空间关系，约27.9米路线、东西方向、院落尺寸、围合设施位置及高差为照片/影像估算；不是扫描或360°全景。路线在石阶前围合区南侧转向估计东侧并止于台阶前。围栏内设施的正式名称与年代未核实，深度、石雕细纹和殿内陈设未重建。 上屋面轮廓及高差为照片比例估计。",
+  "estimates": {
+    "floorHeightSiteMeters": -0.26,
+    "eyeHeightMeters": 1.65,
+    "gateAndHallCoordinates": "existing alignment.json unchanged",
+    "localUnits": "metres, glTF Y up",
+    "notSurveyed": true,
+    "enclosureEnvelopeXZ": [
+      -2.3,
+      15.8,
+      2.3,
+      20.5
+    ],
+    "upperRoof": {
+      "ridgeHeightDeltaMeters": 2.5,
+      "eaveHeightMeters": 9.2,
+      "ridgeSurfaceHeightMeters": 15.4,
+      "notSurveyed": true
+    }
+  },
+  "limits": [
+    "Ordinary source photographs; camera positions are not calibrated.",
+    "Independent courtyard observation transition, not a seamless route from the outer head gate.",
+    "Model dimensions, east-side interpretation and feature envelopes are estimates, not surveying or on-site navigation data.",
+    "The enclosed facility before the stair is visible in both source photos; its formal identity and age remain unverified. No reconstruction of its underground depth.",
+    "No reconstructed shrine furnishings, carved inscriptions or unseen rooms."
+  ],
+  "sourceSHA256Resource": "B/references/georeference/tianshi/alignment.json",
+  "sourceSHA256Kind": "existing-imagery-alignment-json",
+  "alignmentSHA256": "849520e591fc5ac35fd8112c240ec985760a677036af8403977eaa3f362d98d3",
+  "context": "天师府 · 二门内侧至玉皇殿石阶前。各构件按本处实拍与既有资料模型表达；没有接通头门、私第或殿内。",
+  "modelSHA256": "b743e4a55e429967ff4834b4862c93772e48c40c49adde8437d291684a6c6317",
+  "integrationReceipt": "/assets/models/tianshi-second-gate-windows-bp-integration.json"
+}

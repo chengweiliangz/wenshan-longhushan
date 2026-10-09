@@ -1,0 +1,146 @@
+{
+  "id": "shangqing-east-route",
+  "spotId": "shangqing",
+  "label": "东路天皇殿展廊 · 局部通道重建",
+  "source": "https://www.thad.com.cn/front/page/news_info?id=400",
+  "sourceSHA256": "2a23eb2246e38cd765700361252f090205adbb279ff64deb9e971d0bbbcde050",
+  "siteLocalOrigin": [
+    31.539622641509435,
+    0,
+    -2.4752475247524752
+  ],
+  "path": [
+    [
+      0.07924528301886724,
+      1.65,
+      14.026402640264028
+    ],
+    [
+      0.07924528301886724,
+      1.65,
+      6.600660066006601
+    ],
+    [
+      -1.584905660377359,
+      1.65,
+      6.600660066006601
+    ],
+    [
+      -1.743396226415097,
+      1.65,
+      4.9504950495049505
+    ],
+    [
+      -1.743396226415097,
+      1.65,
+      -4.125412541254125
+    ],
+    [
+      -1.743396226415097,
+      1.65,
+      -6.765676567656765
+    ],
+    [
+      5.0716981132075425,
+      1.65,
+      -6.765676567656765
+    ]
+  ],
+  "nodes": [
+    {
+      "id": "east-approach",
+      "label": "东路栈道接近点",
+      "pathIndex": 0,
+      "lookPixel": [
+        430,
+        132
+      ],
+      "photoId": "shangqing-east",
+      "position": [
+        0.07924528301886724,
+        1.65,
+        14.026402640264028
+      ],
+      "target": [
+        3.01132075471698,
+        0.4,
+        3.6303630363036303
+      ]
+    },
+    {
+      "id": "east-threshold",
+      "label": "天皇殿展廊入口",
+      "pathIndex": 3,
+      "lookPixel": [
+        405,
+        125
+      ],
+      "photoId": "shangqing-east",
+      "position": [
+        -1.743396226415097,
+        1.65,
+        4.9504950495049505
+      ],
+      "target": [
+        4.1207547169811285,
+        0.4,
+        -0.49504950495049505
+      ]
+    },
+    {
+      "id": "east-platform",
+      "label": "遗址观览平台",
+      "pathIndex": 4,
+      "lookPixel": [
+        414,
+        120
+      ],
+      "photoId": "shangqing-east",
+      "position": [
+        -1.743396226415097,
+        1.65,
+        -4.125412541254125
+      ],
+      "target": [
+        4.913207547169808,
+        0.4,
+        0.9900990099009901
+      ]
+    },
+    {
+      "id": "east-return",
+      "label": "展廊北侧栈道",
+      "pathIndex": 6,
+      "lookPixel": [
+        414,
+        134
+      ],
+      "photoId": "shangqing-east",
+      "position": [
+        5.0716981132075425,
+        1.65,
+        -6.765676567656765
+      ],
+      "target": [
+        2.694339622641511,
+        0.4,
+        0.9900990099009901
+      ]
+    }
+  ],
+  "modelSrc": "/assets/models/shangqing-east-route.glb",
+  "limits": [
+    "Circulation boundary comes from the published floor plan; positional and dimensional approximation, not on-site navigation.",
+    "Floor level is the local walkway datum; column/eave heights and rail section sizes estimated from photos.",
+    "Exposed archaeology is represented only by its footprint and recess. Individual relics and masonry details are not reconstructed.",
+    "This partial model is not a 360 photograph and does not establish a completed interior for all three palaces."
+  ],
+  "navigationValidation": {
+    "pathOnFloor": true,
+    "planAreaPixelsSquared": 5758.0,
+    "triangulatedAreaPixelsSquared": 5758.0,
+    "pathPixelLength": 179.5498756211209,
+    "minimumBoundaryClearancePixels": 2.5,
+    "pathLengthMeters": 29.278918154466215
+  }
+}

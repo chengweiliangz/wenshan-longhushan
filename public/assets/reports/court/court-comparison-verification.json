@@ -1,0 +1,457 @@
+{
+  "date": "2026-10-03T05:06:25.827Z",
+  "captures": [
+    {
+      "mode": "before",
+      "wide": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-court-look",
+        "distance": "43.321053614795446",
+        "destination": "43.321053614795446",
+        "camera": "-1.584905660377359,1.65,38.28382838283829",
+        "yaw": "0.8543492684338292",
+        "pitch": "-0.10772426622645458",
+        "fov": "62",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "true",
+        "photo": "shangqing-east-court",
+        "shadowUpdates": "2",
+        "triangles": "29701",
+        "drawCalls": "73"
+      },
+      "close": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-court-look",
+        "distance": "43.321053614795446",
+        "destination": "43.321053614795446",
+        "camera": "-1.584905660377359,1.65,38.28382838283829",
+        "yaw": "0.8543492684338292",
+        "pitch": "-0.3477242662264546",
+        "fov": "52",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "false",
+        "photo": "shangqing-east-court",
+        "shadowUpdates": "2",
+        "triangles": "23783",
+        "drawCalls": "63"
+      },
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "canvas": {
+        "width": 1124,
+        "height": 594
+      }
+    },
+    {
+      "mode": "after",
+      "wide": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-court-look",
+        "distance": "43.321053614795446",
+        "destination": "43.321053614795446",
+        "camera": "-1.584905660377359,1.65,38.28382838283829",
+        "yaw": "0.8543492684338292",
+        "pitch": "-0.10772426622645458",
+        "fov": "62",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "true",
+        "photo": "shangqing-east-court",
+        "shadowUpdates": "2",
+        "triangles": "30985",
+        "drawCalls": "76"
+      },
+      "close": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-court-look",
+        "distance": "43.321053614795446",
+        "destination": "43.321053614795446",
+        "camera": "-1.584905660377359,1.65,38.28382838283829",
+        "yaw": "0.8543492684338292",
+        "pitch": "-0.3477242662264546",
+        "fov": "52",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "false",
+        "photo": "shangqing-east-court",
+        "shadowUpdates": "2",
+        "triangles": "25067",
+        "drawCalls": "66"
+      },
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "canvas": {
+        "width": 1124,
+        "height": 594
+      }
+    }
+  ],
+  "metrics": [
+    {
+      "label": "Final courtyard observation / production desktop modal",
+      "meanFps": 143.96220991990273,
+      "p95FrameMs": 7.100000000002183,
+      "sampleSeconds": 8,
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "canvas": {
+        "width": 1124,
+        "height": 594
+      },
+      "data": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-court-look",
+        "distance": "43.321053614795446",
+        "destination": "43.321053614795446",
+        "camera": "-1.584905660377359,1.65,38.28382838283829",
+        "yaw": "0.8543492684338292",
+        "pitch": "-0.10772426622645458",
+        "fov": "62",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "true",
+        "photo": "shangqing-east-court",
+        "shadowUpdates": "2",
+        "triangles": "30985",
+        "drawCalls": "76"
+      }
+    },
+    {
+      "label": "Final courtyard observation / 390x844 touch viewport on the same desktop GPU",
+      "meanFps": 142.8553573883591,
+      "p95FrameMs": 7.100000000000364,
+      "sampleSeconds": 8,
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "isMobile": true,
+        "hasTouch": true,
+        "deviceScaleFactor": 2
+      },
+      "canvas": {
+        "width": 498,
+        "height": 582
+      },
+      "data": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-court-look",
+        "distance": "43.321053614795446",
+        "destination": "43.321053614795446",
+        "camera": "-1.584905660377359,1.65,38.28382838283829",
+        "yaw": "0.8543492684338292",
+        "pitch": "-0.10772426622645458",
+        "fov": "62",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "false",
+        "photo": "shangqing-east-court",
+        "shadowUpdates": "2",
+        "triangles": "20539",
+        "drawCalls": "53"
+      }
+    }
+  ],
+  "errors": [],
+  "checks": [
+    {
+      "name": "Before and after use identical wide camera and route state",
+      "ok": true
+    },
+    {
+      "name": "Before and after use identical closer camera and route state",
+      "ok": true
+    },
+    {
+      "name": "Before and after use identical viewport and canvas dimensions",
+      "ok": true
+    },
+    {
+      "name": "Mobile courtyard is ready and controls remain within viewport",
+      "ok": true
+    },
+    {
+      "name": "No application or shader errors",
+      "ok": true
+    }
+  ],
+  "baseline": [
+    {
+      "path": "[开发环境路径已省略]/shangqing-court-route.glb",
+      "bytes": 10357372,
+      "sha256": "f119c6a25eb49c8d4ca6b2e42ac80b88495c64c8740ed490133dc6cd590dfcf0"
+    },
+    {
+      "path": "[开发环境路径已省略]/shangqing-court-route.glb",
+      "bytes": 10357372,
+      "sha256": "f119c6a25eb49c8d4ca6b2e42ac80b88495c64c8740ed490133dc6cd590dfcf0"
+    },
+    {
+      "path": "[开发环境路径已省略]/shangqing-court-route.glb",
+      "bytes": 10357372,
+      "sha256": "f119c6a25eb49c8d4ca6b2e42ac80b88495c64c8740ed490133dc6cd590dfcf0"
+    },
+    {
+      "path": "[开发环境路径已省略]/shangqing-entry-route.glb",
+      "bytes": 6837752,
+      "sha256": "f5c60e72a9b5cffa7d3e16a000482a3dffb28adcaf2fc08b03b0843e3c80a805"
+    },
+    {
+      "path": "[开发环境路径已省略]/shangqing-entry-route.json",
+      "bytes": 9007,
+      "sha256": "3950f7131953cc5c1bcde68410ca82ef6b5891e029291d2eea0d3337215efb95"
+    }
+  ],
+  "diagnostics": [
+    {
+      "name": "Desktop to mobile setViewport actual state",
+      "beforeViewport": {
+        "url": "http://127.0.0.1:4173/",
+        "routePresent": true,
+        "ready": "stage-loader is-ready",
+        "buttons": [
+          "浏览山景",
+          "泸溪河 · 竹筏一筏碧水",
+          "象鼻山观景台OSM地点索引",
+          "嗣汉天师府天师府独立外观 · 影像估算位置",
+          "大上清宫保护设施 · 影像配准位置",
+          "正一观正一观独立外观 · 影像估算位置",
+          "问山WENSHAN · 龙虎山",
+          "01山水",
+          "02河心",
+          "03问道",
+          "04行程",
+          "05手记",
+          "06收藏",
+          "API 设置",
+          "API 设置",
+          "问问小道士",
+          "",
+          "开启我的漫游",
+          "直接定制行程",
+          "01 · 山水区泸溪河 · 一筏碧水半日清闲，顺流看丹霞",
+          "02 · 上清片区大上清宫走进遗址与保护建筑",
+          "听小道士讲泸溪河",
+          "全部风景",
+          "山水之间",
+          "文化寻迹",
+          "正一观",
+          "象鼻山",
+          "嗣汉天师府",
+          "大上清宫",
+          "山水放空01",
+          "",
+          "丹霞寻奇02",
+          "",
+          "道文化03",
+          "",
+          "人文漫步04",
+          "",
+          "道文化05",
+          "",
+          "丹霞是怎么形成的？",
+          "正一观有什么文化故事？",
+          "泸溪河适合怎么玩？",
+          "和小道士聊聊",
+          "1 天",
+          "2 天刚刚好",
+          "3 天",
+          "山水放空",
+          "道文化探秘",
+          "出片打卡",
+          "自然探索",
+          "生成我的专属行程",
+          "泸溪河",
+          "象鼻山",
+          "正一观",
+          "嗣汉天师府",
+          "大上清宫",
+          "丹霞观察漫步",
+          "生成我的旅行手记",
+          "开始第一程",
+          "资料与说明",
+          "道友，有何好奇？",
+          "",
+          "",
+          "前往宫观入口",
+          "进入实拍照片导览",
+          "听小道士讲解",
+          "按这里的风格规划",
+          "← 返回地点介绍",
+          "观察独立建筑模型",
+          "进入实拍照片导览",
+          "进入有据参观路线",
+          "← 返回原外部视角",
+          "对照附近实拍",
+          "＋",
+          "－",
+          "朝向遗址",
+          "01龙虎门内侧",
+          "02南侧展廊东段",
+          "03东路庭院观察点",
+          "04东路栈道接近点",
+          "05天皇殿展廊入口",
+          "06遗址观览平台",
+          "07展廊北侧栈道"
+        ]
+      },
+      "afterViewport": {
+        "url": "http://127.0.0.1:4173/",
+        "routePresent": false,
+        "ready": "stage-loader is-loading",
+        "buttons": [
+          "泸溪河 · 竹筏一筏碧水",
+          "象鼻山观景台OSM地点索引",
+          "嗣汉天师府天师府独立外观 · 影像估算位置",
+          "大上清宫保护设施 · 影像配准位置",
+          "正一观正一观独立外观 · 影像估算位置",
+          "问山WENSHAN · 龙虎山",
+          "01山水",
+          "02河心",
+          "03问道",
+          "04行程",
+          "05手记",
+          "06收藏",
+          "API 设置",
+          "API 设置",
+          "问问小道士",
+          "",
+          "开启我的漫游",
+          "直接定制行程",
+          "01 · 山水区泸溪河 · 一筏碧水半日清闲，顺流看丹霞",
+          "02 · 上清片区大上清宫走进遗址与保护建筑",
+          "听小道士讲泸溪河",
+          "全部风景",
+          "山水之间",
+          "文化寻迹",
+          "正一观",
+          "象鼻山",
+          "嗣汉天师府",
+          "大上清宫",
+          "山水放空01",
+          "",
+          "丹霞寻奇02",
+          "",
+          "道文化03",
+          "",
+          "人文漫步04",
+          "",
+          "道文化05",
+          "",
+          "丹霞是怎么形成的？",
+          "正一观有什么文化故事？",
+          "泸溪河适合怎么玩？",
+          "和小道士聊聊",
+          "1 天",
+          "2 天刚刚好",
+          "3 天",
+          "山水放空",
+          "道文化探秘",
+          "出片打卡",
+          "自然探索",
+          "生成我的专属行程",
+          "泸溪河",
+          "象鼻山",
+          "正一观",
+          "嗣汉天师府",
+          "大上清宫",
+          "丹霞观察漫步",
+          "生成我的旅行手记",
+          "开始第一程",
+          "资料与说明",
+          "道友，有何好奇？",
+          ""
+        ]
+      },
+      "navigationCountBefore": 1,
+      "navigationCountAfter": 2
+    }
+  ],
+  "resourceFailures": [],
+  "consoleErrors": [],
+  "browserProcessPid": 31812,
+  "browser": "Chrome/154.0.8037.93",
+  "gpu": {
+    "vendor": "Google Inc. (Intel)",
+    "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "mobile": {
+    "documentWidth": 390,
+    "viewportWidth": 390,
+    "node": "east-court-look",
+    "canvasReady": "true",
+    "visibleControls": [
+      {
+        "label": "＋",
+        "left": 213,
+        "right": 246
+      },
+      {
+        "label": "－",
+        "left": 250,
+        "right": 283
+      },
+      {
+        "label": "朝向遗址",
+        "left": 287,
+        "right": 353
+      },
+      {
+        "label": "01龙虎门内侧",
+        "left": 29,
+        "right": 191
+      },
+      {
+        "label": "02南侧展廊东段",
+        "left": 199,
+        "right": 361
+      },
+      {
+        "label": "03东路庭院观察点",
+        "left": 29,
+        "right": 191
+      },
+      {
+        "label": "04东路栈道接近点",
+        "left": 199,
+        "right": 361
+      },
+      {
+        "label": "05天皇殿展廊入口",
+        "left": 29,
+        "right": 191
+      },
+      {
+        "label": "06遗址观览平台",
+        "left": 199,
+        "right": 361
+      },
+      {
+        "label": "07展廊北侧栈道",
+        "left": 29,
+        "right": 361
+      }
+    ]
+  },
+  "limitations": "Before requests the preserved pre-courtyard GLB through test-only request interception. Runtime application files are not changed. Material is representative, height and scale estimated. Mobile is desktop GPU emulation, not a physical phone. Eight-second FPS observations are local short samples, not sustained or whole-site guarantees.",
+  "browserClosed": true
+}

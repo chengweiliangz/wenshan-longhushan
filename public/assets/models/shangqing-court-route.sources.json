@@ -1,0 +1,194 @@
+{
+  "id": "shangqing-court-route",
+  "label": "南侧入口至东路资料模型 · 庭院表面细化",
+  "source": "https://www.thad.com.cn/front/page/news_info?id=400",
+  "sourcePlan": "20231220102735_21829.jpeg",
+  "planSHA256": "2a23eb2246e38cd765700361252f090205adbb279ff64deb9e971d0bbbcde050",
+  "derivedFrom": {
+    "blend": "models/shangqing-entry-route.blend",
+    "sha256": "64ef286f707cb0c7a4a64fc7175ee84159f00d723e250a01c348052320e4ced0",
+    "navigation": "references/georeference/shangqing-entry-route/route-controls.json"
+  },
+  "authoringFile": "models/shangqing-court-route.blend",
+  "controlFile": "references/georeference/shangqing-court/court-controls.json",
+  "siteLocalOrigin": [
+    31.539622641509435,
+    0.5,
+    -2.4752475247524752
+  ],
+  "footprint": {
+    "approximateAreaM2": 422.1707453764244,
+    "removedGenericPavingM2": 210.58627560869286,
+    "sourcePixelPolygons": [
+      [
+        [
+          440,
+          177
+        ],
+        [
+          615,
+          177
+        ],
+        [
+          615,
+          268
+        ],
+        [
+          653,
+          268
+        ],
+        [
+          653,
+          338
+        ],
+        [
+          596,
+          338
+        ],
+        [
+          596,
+          290
+        ],
+        [
+          541,
+          290
+        ],
+        [
+          541,
+          247
+        ],
+        [
+          440,
+          247
+        ]
+      ]
+    ],
+    "sourcePixelHoles": [
+      [
+        [
+          530,
+          181
+        ],
+        [
+          584,
+          181
+        ],
+        [
+          584,
+          234
+        ],
+        [
+          530,
+          234
+        ]
+      ]
+    ]
+  },
+  "heightEvidence": "Estimated to depict the observed raised granite walkway over exposed cobbled court. Published section confirms changes of level but its numbers cannot be reliably read at 1080 px; no claim of surveyed elevation.",
+  "materialEvidence": "THAD courtyard photograph shows small rounded cobbles, muted grey/brown stone, soil and localized green growth. Texture is an original representative PBR material, not a scan or pixel registration of historic stones.",
+  "supportEvidence": "Short supports and beams beneath the granite walkway are visible in the courtyard photo. Support spacing and cross-sections are construction approximations, not surveyed structural drawings.",
+  "limits": [
+    "External stair and courtyard level differences remain approximate; the old 0.5 m site datum and camera path are preserved.",
+    "No inscribed objects, artefacts, or speculative historic building interiors are added.",
+    "Individual cobble shapes, moss patches and support spacing are representational.",
+    "THAD and the photographer retain copyright in the references; local research study only."
+  ],
+  "markedFootprint": "Plan label 9 is retained as a neutral footprint, without invented inscriptions or a stele object. Its exact finish remains unverified.",
+  "drawingsVerification": "THAD official JPEG and ARCHINA credited project drawing are byte-identical at 1080x764. WeChat required verification; no higher-resolution section acquired. Numeric level labels were not treated as confirmed values.",
+  "rights": "Source drawings THAD and architectural photography Wu Ji Photography retain copyright. Local study only; public redistribution permission not obtained. Original representative PBR textures and model modifications authored in this task.",
+  "build": {
+    "meshObjects": 133,
+    "vertices": 27005,
+    "polygons": 22143,
+    "courtAreaApproxM2": 422.1707453764244,
+    "removedGenericPavingApproxM2": 210.58627560869286,
+    "representativeSupportCount": 17,
+    "images": [
+      {
+        "name": "cobbles-basecolor.jpg",
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true
+      },
+      {
+        "name": "cobbles-normal.png",
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true
+      },
+      {
+        "name": "cobbles-roughness.png",
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true
+      },
+      {
+        "name": "grey-tile-basecolor",
+        "size": [
+          512,
+          512
+        ],
+        "packed": true
+      },
+      {
+        "name": "grey-tile-normal",
+        "size": [
+          512,
+          512
+        ],
+        "packed": true
+      },
+      {
+        "name": "grey-tile-roughness",
+        "size": [
+          512,
+          512
+        ],
+        "packed": true
+      },
+      {
+        "name": "stone-basecolor.png",
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true
+      },
+      {
+        "name": "stone-normal.png",
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true
+      },
+      {
+        "name": "stone-roughness.png",
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true
+      }
+    ],
+    "glbBytes": 10357372,
+    "sha256": "f119c6a25eb49c8d4ca6b2e42ac80b88495c64c8740ed490133dc6cd590dfcf0",
+    "scope": "Connected source-plan route with an exposed courtyard footprint, representative cobble material and inferred modern walkway supports; individual relics and precise levels remain incomplete."
+  },
+  "reproduce": [
+    "TEMP/TMP and all Blender config/scripts/datafiles under [开发环境路径已省略]/龙虎山项目",
+    "python scripts/make_shangqing_court_material.py",
+    "blender --background --python scripts/build_shangqing_court_route.py",
+    "blender --background --python scripts/check_shangqing_court_route_blend.py",
+    "Copy GLB and sources companion into website public/assets/models; public/assets/interiors/shangqing-entry-route.json selects the derived court model.",
+    "npm run check; node .tools/verify-court-route-geometry.mjs; node .tools/verify-shangqing-court-route.mjs"
+  ],
+  "checked": "2026-10-03T12:46:11.022153+08:00",
+  "exportNotes": "The active Broad surface variation layer is explicitly exported as glTF COLOR_0; all-vertex-colors export is disabled to avoid a neutral COLOR_0 preceding the real tint."
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-03T01:34:07.554Z",
+  "samples": 3905,
+  "probeRadiusMeters": 0.2,
+  "badFloor": 0,
+  "minObstacleDistanceMeters": 0.40505000703011973,
+  "nearest": {
+    "position": [
+      -3.397628336109902,
+      0.15,
+      49.17491749174918
+    ],
+    "surface": [
+      -3.397628336109902,
+      0.15,
+      49.5799674987793
+    ],
+    "mesh": "East_gallery_steel_column"
+  },
+  "triangles": 11186,
+  "pathLengthMeters": 97.60026885448457,
+  "checks": {
+    "floorCovered": true,
+    "bodyClearance": true,
+    "sourceLength": true
+  }
+}

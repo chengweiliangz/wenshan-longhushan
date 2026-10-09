@@ -1,0 +1,12 @@
+{
+  "status": "BASELINE_PATH_CHECK_REUSED_WITH_EXPORT_GEOMETRY_EQUIVALENCE",
+  "currentModelSHA256": "0d4b8889cc20eb35ffd776057c88acfe17449e702aec61318d49e1052718b545",
+  "baselineModelSHA256": "3c8351beee191ec848d97d278adfc47acad7ed9e091dffeee9af197a81835a5b",
+  "routeSHA256": "6aa595faa3b9c76d38fa402e2b8b16e42f2bfd552837659266dfb9131f5750e9",
+  "pathLengthMeters": 43.32165848854662,
+  "estimated": true,
+  "baselineReport": "/assets/reports/zhengyi-route/route-geometry-check.json",
+  "geometryEquivalenceReport": "/assets/reports/zhengyi-route/paving-v1-export-verification.json",
+  "evidence": "Original world triangles unchanged within 1 micrometre; path/nodes unchanged. Baseline collision sampling was not rerun on material-only asset.",
+  "limits": "Model-only clearance; photographed courtyard low steps are still not reconstructed."
+}

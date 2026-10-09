@@ -1,0 +1,38 @@
+[
+  {
+    "mode": "before-screenshot",
+    "fps": 144.15688203110693,
+    "metrics": {
+      "LayoutCount": 0,
+      "RecalcStyleCount": 938,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.16302,
+      "ScriptDuration": 0.980744,
+      "TaskDuration": 1.952468
+    }
+  },
+  {
+    "mode": "after-screenshot",
+    "fps": 143.81296623856034,
+    "metrics": {
+      "LayoutCount": 0,
+      "RecalcStyleCount": 935,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.20501400000000003,
+      "ScriptDuration": 0.8031419999999999,
+      "TaskDuration": 1.8079930000000002
+    }
+  },
+  {
+    "mode": "after-canvas-reload",
+    "fps": 142.4023867009078,
+    "metrics": {
+      "LayoutCount": 0,
+      "RecalcStyleCount": 926,
+      "LayoutDuration": 0,
+      "RecalcStyleDuration": 0.16715199999999997,
+      "ScriptDuration": 0.8345560000000001,
+      "TaskDuration": 1.7146900000000005
+    }
+  }
+]

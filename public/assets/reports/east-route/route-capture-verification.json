@@ -1,0 +1,96 @@
+{
+  "checks": [
+    {
+      "name": "Close during pending GLB download aborts without a late canvas",
+      "ok": true
+    },
+    {
+      "name": "All interior nodes use the same source-derived building location",
+      "ok": true
+    },
+    {
+      "name": "No script exceptions during recording or abort",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "video": {
+    "bytes": 2621397,
+    "nominalSeconds": 15,
+    "finalData": {
+      "engine": "three.js r186",
+      "route": "shangqing-east-route",
+      "node": "east-return",
+      "distance": "29.27891815446621",
+      "destination": "29.27891815446621",
+      "camera": "5.0716981132075425,1.65,-6.765676567656765",
+      "yaw": "-3.4389914989020958",
+      "pitch": "-0.15289218893448842",
+      "fov": "62",
+      "ready": "true",
+      "moving": "false",
+      "triangles": "5858",
+      "drawCalls": "20"
+    }
+  },
+  "gpu": {
+    "vendor": "Google Inc. (Intel)",
+    "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "nodeGeography": [
+    {
+      "id": "east-approach",
+      "siteLocal": [
+        31.618867924528303,
+        1.65,
+        11.551155115511552
+      ],
+      "coordinates": [
+        117.04553750012192,
+        28.04669654259962
+      ],
+      "insideSourceFacility": true
+    },
+    {
+      "id": "east-threshold",
+      "siteLocal": [
+        29.79622641509434,
+        1.65,
+        2.4752475247524752
+      ],
+      "coordinates": [
+        117.04549796914098,
+        28.04677301687554
+      ],
+      "insideSourceFacility": true
+    },
+    {
+      "id": "east-platform",
+      "siteLocal": [
+        29.79622641509434,
+        1.65,
+        -6.600660066006601
+      ],
+      "coordinates": [
+        117.04547670090244,
+        28.046853259882162
+      ],
+      "insideSourceFacility": true
+    },
+    {
+      "id": "east-return",
+      "siteLocal": [
+        36.61132075471698,
+        1.65,
+        -9.24092409240924
+      ],
+      "coordinates": [
+        117.04553880055445,
+        28.046890695077916
+      ],
+      "insideSourceFacility": true
+    }
+  ],
+  "date": "2026-10-03T01:02:24.128Z",
+  "limitations": "Geographic values are inherited from the approximate source-plan alignment, not independent surveyed points."
+}

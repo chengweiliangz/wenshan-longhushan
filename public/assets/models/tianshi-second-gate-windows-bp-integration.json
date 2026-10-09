@@ -1,0 +1,27 @@
+{
+  "id": "BP-palace-continuation",
+  "date": "2026-10-04",
+  "status": "INDEPENDENT_FIXED_IMAGE_REVIEW_ACCEPTED_LIMITED_SCOPE_ROOT_AUTHORIZED_INTEGRATION",
+  "candidate": "tianshi-second-gate-windows-bk-v1",
+  "sha256": "b743e4a55e429967ff4834b4862c93772e48c40c49adde8437d291684a6c6317",
+  "bytes": 6734904,
+  "review": {
+    "reviewer": "BQ / raft_independent_review",
+    "scope": "Two courtyard-facing second-gate windows only. Upper short/lower tall bands, visible perimeter-frame depth and vertical elements supported by part-2-11. Six divisions, dimensions, joinery, sill thickness and materials are estimates.",
+    "rootAuthorization": "Root approved complete candidate integration after BQ review on 2026-10-04.",
+    "productionBrowserQA": "Pending root integration QA; fixed 70 mm detail view is a component inspection, not the default visitor view."
+  },
+  "preserved": [
+    "Original path, node IDs/positions/targets/photo associations, site origin, plan bounds, floor rings and route limits.",
+    "Original BK sources copied byte-for-byte; its historical PENDING status is not rewritten.",
+    "Old tianshi-upper-roof-v2 GLB remains present."
+  ],
+  "baselineModel": {
+    "src": "/assets/models/tianshi-upper-roof-v2.glb",
+    "sha256": "38ba970b1544826c2ff46879f82d157feaba3cc30dabe4486f7793182623c6d2"
+  },
+  "limits": [
+    "No inferred window interior, shrine furnishing, plaque text or new room.",
+    "Only the two courtyard-facing second-gate windows were altered; this does not constitute completion of three real-world palace interiors."
+  ]
+}

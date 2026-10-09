@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: wenshan-longhushan
+    runtime: node
+    region: singapore
+    plan: free
+    buildCommand: npm ci --no-audit --no-fund && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeployTrigger: "off"
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: HOST
+        value: 0.0.0.0
+      - key: AI_ENABLED
+        value: "false"

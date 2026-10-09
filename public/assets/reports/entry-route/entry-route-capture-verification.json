@@ -1,0 +1,139 @@
+{
+  "checks": [
+    {
+      "name": "Close during pending GLB download aborts without a late canvas",
+      "ok": true
+    },
+    {
+      "name": "All interior nodes use the same source-derived building location",
+      "ok": true
+    },
+    {
+      "name": "No script exceptions during recording or abort",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "video": {
+    "bytes": 8612602,
+    "nominalSeconds": 48,
+    "finalData": {
+      "engine": "three.js r186",
+      "route": "shangqing-entry-route",
+      "node": "east-return",
+      "distance": "97.60026885448457",
+      "destination": "97.60026885448457",
+      "camera": "5.0716981132075425,1.65,-6.765676567656765",
+      "yaw": "-3.4390270635064133",
+      "pitch": "-0.15289091285572315",
+      "fov": "62",
+      "ready": "true",
+      "moving": "false",
+      "paused": "false",
+      "followPath": "true",
+      "photo": "shangqing-east",
+      "shadowUpdates": "48",
+      "triangles": "35189",
+      "drawCalls": "119"
+    }
+  },
+  "gpu": {
+    "vendor": "Google Inc. (Intel)",
+    "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "nodeGeography": [
+    {
+      "id": "south-inside",
+      "siteLocal": [
+        0,
+        2.15,
+        49.17491749174918
+      ],
+      "coordinates": [
+        117.0453088477589,
+        28.0462985195784
+      ],
+      "insideSourceFacility": true
+    },
+    {
+      "id": "south-east-gallery",
+      "siteLocal": [
+        18.38490566037736,
+        2.15,
+        46.6996699669967
+      ],
+      "coordinates": [
+        117.04548726281885,
+        28.046358419057427
+      ],
+      "insideSourceFacility": true
+    },
+    {
+      "id": "east-court-look",
+      "siteLocal": [
+        29.954716981132076,
+        2.15,
+        35.80858085808581
+      ],
+      "coordinates": [
+        117.04557766964527,
+        28.046478633912397
+      ],
+      "insideSourceFacility": true
+    },
+    {
+      "id": "east-approach",
+      "siteLocal": [
+        31.618867924528303,
+        2.15,
+        11.551155115511552
+      ],
+      "coordinates": [
+        117.04553750012192,
+        28.04669654259962
+      ],
+      "insideSourceFacility": true
+    },
+    {
+      "id": "east-threshold",
+      "siteLocal": [
+        29.79622641509434,
+        2.15,
+        2.4752475247524752
+      ],
+      "coordinates": [
+        117.04549796914098,
+        28.04677301687554
+      ],
+      "insideSourceFacility": true
+    },
+    {
+      "id": "east-platform",
+      "siteLocal": [
+        29.79622641509434,
+        2.15,
+        -6.600660066006601
+      ],
+      "coordinates": [
+        117.04547670090244,
+        28.046853259882162
+      ],
+      "insideSourceFacility": true
+    },
+    {
+      "id": "east-return",
+      "siteLocal": [
+        36.61132075471698,
+        2.15,
+        -9.24092409240924
+      ],
+      "coordinates": [
+        117.04553880055445,
+        28.046890695077916
+      ],
+      "insideSourceFacility": true
+    }
+  ],
+  "date": "2026-10-03T03:12:58.532Z",
+  "limitations": "Geographic values are inherited from the approximate source-plan alignment, not independent surveyed points."
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-03T00:53:36.324Z",
+  "samples": 1172,
+  "probeRadiusMeters": 0.2,
+  "badFloor": 0,
+  "minObstacleDistanceMeters": 0.6786846438479901,
+  "nearest": {
+    "position": [
+      0.07924528301886724,
+      0.15,
+      6.606745053338717
+    ],
+    "surface": [
+      0.2944811284542084,
+      0.15,
+      5.963094234466553
+    ]
+  },
+  "triangles": 3472,
+  "pathLengthMeters": 29.27891815446621,
+  "checks": {
+    "floorCovered": true,
+    "bodyClearance": true,
+    "sourceLength": true
+  }
+}

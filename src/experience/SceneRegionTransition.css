@@ -1,0 +1,45 @@
+/* Existing 问山 palette. Never captures pointer, scroll or keyboard input. */
+.scene-region-transition {
+  position: fixed; left: 20px; bottom: 140px; z-index: 5;
+  display: grid; grid-template-columns: minmax(0, 1fr) 110px; gap: 12px;
+  width: 340px; max-width: calc(100vw - 40px); padding: 13px 14px;
+  border: 1px solid rgba(174, 192, 174, .8); border-radius: 10px;
+  background: rgba(247, 243, 234, .95); color: var(--ink-2, #163429);
+  box-shadow: 0 5px 24px rgba(15, 35, 28, .12); pointer-events: none;
+}
+.scene-region-transition__copy { min-width: 0; }
+.scene-region-transition__eyebrow { display: block; color: var(--moss, #5b7a45); font-size: 10px; letter-spacing: .12em; line-height: 1.5; }
+.scene-region-transition__zones { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px; margin: 6px 0 3px; font-family: var(--serif, serif); font-size: 14px; line-height: 1.5; font-weight: 600; }
+.scene-region-transition__zones > span:nth-child(2) { color: var(--moss, #5b7a45); font-family: var(--sans, sans-serif); font-size: 12px; }
+.scene-region-transition__places { margin: 0; font-size: 11px; line-height: 1.6; }
+.scene-region-transition__distance { margin: 5px 0 3px; font-size: 11px; font-variant-numeric: tabular-nums; }
+.scene-region-transition__copy > small { display: block; color: var(--text-2, #4c5d52); font-size: 9px; line-height: 1.55; }
+.scene-region-transition__map { width: 110px; height: auto; align-self: center; overflow: visible; }
+.scene-region-transition__map-ground { fill: #e3e7d6; stroke: #b8c6ad; }
+.scene-region-transition__map-grid { fill: none; stroke: #9bac96; stroke-opacity: .2; stroke-width: .5; }
+.scene-region-transition__north, .scene-region-transition__scale { fill: none; stroke: #657b5f; stroke-width: 1; }
+.scene-region-transition__north-label, .scene-region-transition__scale-label { fill: #4c5d52; font-size: 6px; }
+.scene-region-transition__segment { stroke: #5b7a45; stroke-width: 1.3; stroke-dasharray: 3 3; }
+.scene-region-transition__pin { fill: #9c4934; stroke: #f7f3ea; stroke-width: 1.5; }
+.scene-region-transition__pin-label { fill: #233f30; font-size: 7px; paint-order: stroke; stroke: #e3e7d6; stroke-width: 2px; stroke-linejoin: round; }
+@media (max-width: 600px) {
+  .scene-region-transition { left: 12px; top: calc(var(--header-h, 76px) + 12px); bottom: auto; width: 320px; max-width: calc(100vw - 24px); padding: 10px 12px; grid-template-columns: minmax(0, 1fr) 96px; gap: 8px; }
+  .scene-region-transition__map { width: 96px; }
+  .scene-region-transition__zones { font-size: 13px; }
+  [data-scene-explore] .scene-region-transition { top: 168px; }
+  /* Expanded water settings have priority on a narrow screen. */
+  body:has(.water-controls[open]) .scene-region-transition,
+  body:has(.site-header nav.is-open) .scene-region-transition { display: none; }
+}
+@media (max-height: 520px) {
+  .scene-region-transition { top: auto; left: 20px; right: auto; bottom: 140px; width: 270px; grid-template-columns: minmax(0, 1fr) 80px; }
+  .scene-region-transition__map { width: 80px; }
+  [data-scene-explore] .scene-region-transition { top: auto; bottom: 50px; }
+  body:has(.water-controls[open]) .scene-region-transition { display: none; }
+}
+@media (max-height: 520px) and (max-width: 600px) {
+  .scene-region-transition { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .scene-region-transition, .scene-region-transition * { animation: none !important; transition: none !important; }
+}

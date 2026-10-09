@@ -1,0 +1,83 @@
+{
+  "meshes": 133,
+  "vertices": 27005,
+  "polygons": 22143,
+  "images": [
+    {
+      "name": "cobbles-basecolor.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "cobbles-normal.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "cobbles-roughness.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "grey-tile-basecolor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "grey-tile-normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "grey-tile-roughness",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "stone-basecolor.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "stone-normal.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "stone-roughness.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    }
+  ],
+  "texts": [
+    "COURTYARD_SOURCE_AND_LIMITS.json",
+    "SOURCE_ROUTE_AND_LIMITS.json"
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "site": "嗣汉天师府",
+  "crs": "EPSG:4326",
+  "coordinates": [
+    117.03257182499999,
+    28.046936975024412
+  ],
+  "bearing": 348.4667263478814,
+  "modelScale": 1,
+  "elevation": 85.40400009675461,
+  "imageSource": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "imageDate": "2023-10-30",
+  "imageAccuracyFieldMeters": 5,
+  "controlPoints": [
+    {
+      "label": "yuhuang-roof-center",
+      "imagePixel": [
+        388.62826154,
+        426.22837459
+      ],
+      "coordinates": [
+        117.03257182,
+        28.04693698
+      ],
+      "modelLocalMeters": [
+        0.0,
+        0,
+        0.0
+      ],
+      "DEMHeightMeters": 85.404,
+      "method": "OSM named building footprint cross-checked against 2023 imagery; roof center, not a surveyed foundation corner",
+      "limitations": "Canopy and roof parallax; footprint/dimensions/heights are approximate, no surveyed ground control."
+    },
+    {
+      "label": "head-gate-roof-center",
+      "imagePixel": [
+        438,
+        660
+      ],
+      "coordinates": [
+        117.03283668,
+        28.04583019
+      ],
+      "modelLocalMeters": [
+        0.8562,
+        0,
+        125.9201
+      ],
+      "DEMHeightMeters": 81.894,
+      "method": "Manual roof/threshold interpretation in 2023 imagery and corresponding site photos",
+      "limitations": "Canopy and roof parallax; footprint/dimensions/heights are approximate, no surveyed ground control."
+    },
+    {
+      "label": "head-gate-front-threshold",
+      "imagePixel": [
+        440,
+        674
+      ],
+      "coordinates": [
+        117.0328474,
+        28.04576391
+      ],
+      "modelLocalMeters": [
+        0.4136,
+        0,
+        133.3604
+      ],
+      "DEMHeightMeters": 81.719,
+      "method": "Manual roof/threshold interpretation in 2023 imagery and corresponding site photos",
+      "limitations": "Canopy and roof parallax; footprint/dimensions/heights are approximate, no surveyed ground control."
+    },
+    {
+      "label": "second-gate-roof-center",
+      "imagePixel": [
+        407,
+        510
+      ],
+      "coordinates": [
+        117.03267038,
+        28.04654036
+      ],
+      "modelLocalMeters": [
+        0.6577,
+        0,
+        45.1947
+      ],
+      "DEMHeightMeters": 85.0,
+      "method": "Manual roof/threshold interpretation in 2023 imagery and corresponding site photos",
+      "limitations": "Canopy and roof parallax; footprint/dimensions/heights are approximate, no surveyed ground control."
+    },
+    {
+      "label": "sidi-gate",
+      "imagePixel": [
+        373,
+        355
+      ],
+      "coordinates": [
+        117.03248799,
+        28.0472742
+      ],
+      "modelLocalMeters": [
+        -0.563,
+        0,
+        -38.4283
+      ],
+      "DEMHeightMeters": 85.301,
+      "method": "Manual roof/threshold interpretation in 2023 imagery and corresponding site photos",
+      "limitations": "Canopy and roof parallax; footprint/dimensions/heights are approximate, no surveyed ground control."
+    },
+    {
+      "label": "private-front-hall",
+      "imagePixel": [
+        352,
+        326
+      ],
+      "coordinates": [
+        117.03237534,
+        28.0474115
+      ],
+      "modelLocalMeters": [
+        -8.3491,
+        0,
+        -55.616
+      ],
+      "DEMHeightMeters": 84.835,
+      "method": "Manual roof/threshold interpretation in 2023 imagery and corresponding site photos",
+      "limitations": "Canopy and roof parallax; footprint/dimensions/heights are approximate, no surveyed ground control."
+    },
+    {
+      "label": "private-middle-hall",
+      "imagePixel": [
+        346,
+        293
+      ],
+      "coordinates": [
+        117.03234315,
+        28.04756773
+      ],
+      "modelLocalMeters": [
+        -7.9695,
+        0,
+        -73.289
+      ],
+      "DEMHeightMeters": 83.755,
+      "method": "Manual roof/threshold interpretation in 2023 imagery and corresponding site photos",
+      "limitations": "Canopy and roof parallax; footprint/dimensions/heights are approximate, no surveyed ground control."
+    },
+    {
+      "label": "private-rear-hall",
+      "imagePixel": [
+        338,
+        256
+      ],
+      "coordinates": [
+        117.03230023,
+        28.04774291
+      ],
+      "modelLocalMeters": [
+        -8.201,
+        0,
+        -93.2382
+      ],
+      "DEMHeightMeters": 82.632,
+      "method": "Manual roof/threshold interpretation in 2023 imagery and corresponding site photos",
+      "limitations": "Canopy and roof parallax; footprint/dimensions/heights are approximate, no surveyed ground control."
+    },
+    {
+      "label": "west-court-gate",
+      "imagePixel": [
+        345,
+        588
+      ],
+      "coordinates": [
+        117.03233778,
+        28.04617108
+      ],
+      "modelLocalMeters": [
+        -39.5711,
+        0,
+        78.9418
+      ],
+      "DEMHeightMeters": 83.621,
+      "method": "Manual roof/threshold interpretation in 2023 imagery and corresponding site photos",
+      "limitations": "Canopy and roof parallax; footprint/dimensions/heights are approximate, no surveyed ground control."
+    },
+    {
+      "label": "west-court-hall",
+      "imagePixel": [
+        332,
+        542
+      ],
+      "coordinates": [
+        117.03226805,
+        28.04638886
+      ],
+      "modelLocalMeters": [
+        -41.4355,
+        0,
+        53.818
+      ],
+      "DEMHeightMeters": 84.315,
+      "method": "Manual roof/threshold interpretation in 2023 imagery and corresponding site photos",
+      "limitations": "Canopy and roof parallax; footprint/dimensions/heights are approximate, no surveyed ground control."
+    },
+    {
+      "label": "xuantan-roof-center",
+      "imagePixel": [
+        502.2145,
+        532.328
+      ],
+      "coordinates": [
+        117.03318115,
+        28.04643465
+      ],
+      "modelLocalMeters": [
+        47.4625,
+        0,
+        66.7557
+      ],
+      "DEMHeightMeters": 85.0,
+      "method": "OSM named building footprint cross-checked against 2023 imagery; roof center, not a surveyed foundation corner",
+      "limitations": "Canopy and roof parallax; footprint/dimensions/heights are approximate, no surveyed ground control."
+    },
+    {
+      "label": "rear-east-hall",
+      "imagePixel": [
+        414,
+        236
+      ],
+      "coordinates": [
+        117.03270793,
+        28.0478376
+      ],
+      "modelLocalMeters": [
+        33.144,
+        0,
+        -95.5593
+      ],
+      "DEMHeightMeters": 81.121,
+      "method": "Manual roof/threshold interpretation in 2023 imagery and corresponding site photos",
+      "limitations": "Canopy and roof parallax; footprint/dimensions/heights are approximate, no surveyed ground control."
+    }
+  ],
+  "sources": [
+    "https://www.openstreetmap.org/way/1455929831",
+    "https://www.openstreetmap.org/way/1455929832",
+    "https://m.zol.com.cn/dcbbs/d33991_42896.html",
+    "https://m.zol.com.cn/dcbbs/d33991_42769.html",
+    "https://m.zol.com.cn/dcbbs/d33991_42754.html",
+    "https://commons.wikimedia.org/wiki/File:Tianshi_Fu.jpg",
+    "https://commons.wikimedia.org/wiki/File:20240206_Sidi_Men.jpg"
+  ],
+  "limits": [
+    "Manual interpretation, not a site survey. 5 m is imagery metadata, not measured model accuracy.",
+    "Phone photo GPS positions are camera locations, not doorway coordinates. Media originals could not be downloaded (403); metadata used only as a coarse cross-check.",
+    "Courtyard components under tree canopy have uncertain extent. No invented interior objects or traversal network.",
+    "Head-gate threshold and roof interpretation approximate; no metre-level navigation claim."
+  ]
+}

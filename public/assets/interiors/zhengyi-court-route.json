@@ -1,0 +1,269 @@
+{
+  "id": "zhengyi-court-route",
+  "spotId": "zhengyi",
+  "label": "圆门内侧至主殿石阶前",
+  "source": "https://m.zol.com.cn/dcbbs/d33991_42986.html",
+  "sourceLabel": "阿尧2024正反向院落实拍与2023正一观影像定位",
+  "sourceSHA256": "65af40bf8eeef6430b8c78f3dea4706dcca512337aba31c9e222968c4e5ca826",
+  "sourceSHA256Kind": "existing-imagery-alignment-json",
+  "siteLocalOrigin": [
+    0,
+    0,
+    0
+  ],
+  "modelSrc": "/assets/models/zhengyi-courtyard-paving-v1.glb",
+  "modelSHA256": "0d4b8889cc20eb35ffd776057c88acfe17449e702aec61318d49e1052718b545",
+  "surfaceSources": "/assets/models/zhengyi-courtyard-paving-v1.sources.json",
+  "path": [
+    [
+      0,
+      1.25,
+      68
+    ],
+    [
+      0,
+      1.25,
+      55
+    ],
+    [
+      4.5,
+      1.25,
+      48
+    ],
+    [
+      4.5,
+      1.25,
+      39
+    ],
+    [
+      4.5,
+      1.25,
+      26
+    ]
+  ],
+  "nodes": [
+    {
+      "id": "inside-round-gate",
+      "label": "圆门北侧院内",
+      "pathIndex": 0,
+      "target": [
+        0,
+        4.2,
+        12
+      ],
+      "photoId": "zhengyi-main-court",
+      "evidencePhoto": "3-01.jpg",
+      "basis": "向主殿的开敞院落；入口位置仅为模型内安全观察起点。",
+      "position": [
+        0,
+        1.25,
+        68
+      ],
+      "observation": "从圆门北侧院内向主殿观察。正反向照片支持圆门—开敞院落—石阶的关系，但门槛连接与高差尚未测量。",
+      "viewpoints": [
+        {
+          "id": "main-hall",
+          "label": "望向主殿",
+          "target": [
+            0,
+            5.5,
+            0
+          ],
+          "fov": 55,
+          "photoId": "zhengyi-main-court"
+        },
+        {
+          "id": "round-gate",
+          "label": "回望圆门",
+          "target": [
+            0,
+            3,
+            72.70297
+          ],
+          "fov": 62,
+          "photoId": "zhengyi-round-gate"
+        }
+      ]
+    },
+    {
+      "id": "court-middle",
+      "label": "院落中段",
+      "pathIndex": 1,
+      "target": [
+        0,
+        4.2,
+        12
+      ],
+      "photoId": "zhengyi-main-court",
+      "evidencePhoto": "3-01.jpg",
+      "basis": "正向主殿与反向圆门照片共同确认院落关系；并非原摄影点。",
+      "position": [
+        0,
+        1.25,
+        55
+      ],
+      "observation": "石铺表现来自本处照片可见的浅灰矩形石板。模型沿用平整院地，照片中的院中低台阶没有据此猜补。",
+      "viewpoints": [
+        {
+          "id": "stone-ground",
+          "label": "看院落石铺",
+          "target": [
+            0,
+            -0.4,
+            52
+          ],
+          "fov": 62,
+          "photoId": "zhengyi-main-court"
+        },
+        {
+          "id": "round-gate",
+          "label": "回望圆门",
+          "target": [
+            0,
+            3,
+            72.70297
+          ],
+          "fov": 62,
+          "photoId": "zhengyi-round-gate"
+        }
+      ]
+    },
+    {
+      "id": "court-hall-view",
+      "label": "院落望向主殿",
+      "pathIndex": 3,
+      "target": [
+        0,
+        5.5,
+        0
+      ],
+      "photoId": "zhengyi-main-court",
+      "evidencePhoto": "3-01.jpg",
+      "basis": "在模型院地稍偏离中轴观察；偏移数值是展示估计，不声称实测行走线。",
+      "position": [
+        4.5,
+        1.25,
+        39
+      ],
+      "observation": "在院落一侧观察主殿重檐、柱列与石阶。现有模型只表达外部构件，照片中的香炉及室内陈设未补建。",
+      "viewpoints": [
+        {
+          "id": "main-eaves",
+          "label": "看主殿重檐",
+          "target": [
+            0,
+            8,
+            0
+          ],
+          "fov": 50,
+          "photoId": "zhengyi-main-eaves"
+        },
+        {
+          "id": "stone-ground",
+          "label": "看院落石铺",
+          "target": [
+            4.5,
+            -0.4,
+            35
+          ],
+          "fov": 62,
+          "photoId": "zhengyi-main-court"
+        }
+      ]
+    },
+    {
+      "id": "before-main-stair",
+      "label": "主殿石阶前",
+      "pathIndex": 4,
+      "target": [
+        0,
+        6,
+        0
+      ],
+      "photoId": "zhengyi-main-eaves",
+      "evidencePhoto": "3-11.jpg",
+      "basis": "主殿外观和阶前关系由3-01与3-11支持；停在已有模型最低石阶之外。",
+      "position": [
+        4.5,
+        1.25,
+        26
+      ],
+      "observation": "止于主殿最低石阶外。可抬头观察檐口与柱列，再原路回望圆门；本路线不进入殿内。",
+      "viewpoints": [
+        {
+          "id": "main-eaves",
+          "label": "看檐口与柱列",
+          "target": [
+            0,
+            8,
+            0
+          ],
+          "fov": 55,
+          "photoId": "zhengyi-main-eaves"
+        },
+        {
+          "id": "round-gate",
+          "label": "回望院落",
+          "target": [
+            0,
+            3,
+            72.70297
+          ],
+          "fov": 62,
+          "photoId": "zhengyi-round-gate"
+        }
+      ]
+    }
+  ],
+  "planBounds": [
+    -31,
+    10,
+    62,
+    69
+  ],
+  "floorRings": [
+    [
+      [
+        -26,
+        10
+      ],
+      [
+        26,
+        10
+      ],
+      [
+        26,
+        72
+      ],
+      [
+        -26,
+        72
+      ]
+    ]
+  ],
+  "scope": "转入圆门北侧院内，沿现有院地观察至主殿石阶前；可原路返回或返回外部视角。不穿越未核实门槛，不登主殿石阶、不进入殿内。",
+  "notice": "这是转入圆门内侧的局部院落观察，不表示已核实从门外连续穿门。复用正一观现有独立外观模型；正反向普通照片支持圆门、开敞院落与主殿石阶的关系。照片可见的院中低台阶尚未建模；这只是既有模型内的估计观察线，不能被当作真实无台阶通路。路线约43米，位置、偏移、1.65米视点及模型平整院地高度均为展示估计；真实台阶、高差、陈设位置未测量，不能用于现场导航。终点止于石阶前，殿内陈设、院中香炉和细部没有据此补建。",
+  "navigationValidation": {
+    "pathLengthMeters": 43.32165848854662,
+    "estimated": true,
+    "report": "/assets/reports/zhengyi-route/route-geometry-paving-v1.json"
+  },
+  "estimates": {
+    "floorHeightSiteMeters": -0.4000000059604645,
+    "eyeHeightMeters": 1.65,
+    "localUnits": "metres, glTF Y up",
+    "notSurveyed": true,
+    "modelBearingDegrees": 42.94329157184878,
+    "axisMeaning": "Local -Z follows the inferred gate-to-main-hall axis, bearing 42.94329157184878 degrees east of true north; SVG up is local -Z, not true north.",
+    "modelHeightStatus": "Existing flat courtyard top inherited from the exterior model. Observed real-world minor terrace steps are not measured or reconstructed.",
+    "pathStatus": "Bounded display route, not camera calibration or surveyed visitor access."
+  },
+  "limits": [
+    "Independent transition to inside courtyard; no asserted outdoor-to-indoor threshold connection.",
+    "No ascent to the main hall, no access through closed doors or behind buildings.",
+    "No duplicated model, new halls, furnishings, garden elements or inferred connections.",
+    "Existing model omits real courtyard objects and small steps; collision clearance is for this GLB only.",
+    "Current source accuracy field 5m is imagery metadata, not surveyed route accuracy."
+  ],
+  "context": "正一观 · 圆门内侧至主殿石阶前。沿用本处院落模型；实拍可见的院中低台阶尚未重建，平整观察线不代表现场无障碍通路。"
+}

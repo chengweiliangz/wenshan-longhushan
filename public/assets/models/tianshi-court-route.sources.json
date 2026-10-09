@@ -1,0 +1,409 @@
+{
+  "id": "tianshi-court-route",
+  "checked": "2026-10-03",
+  "status": "Bounded photo/imagery-based courtyard study, not a measured reconstruction or complete interior",
+  "label": "天师府二门内侧至玉皇殿石阶前院落观察",
+  "scope": "独立转场至二门北侧院落；仅沿院落铺地到玉皇殿石阶前，保守避让石阶前围合区，不登阶、不进入殿内，不连接头门或私第。",
+  "notice": "独立院落观察转场，不表示从头门连续步行进入二门。双向普通实拍支持院落空间关系，约27.9米路线、东西方向、院落尺寸、围合设施位置及高差为照片/影像估算；不是扫描或360°全景。路线在石阶前围合区南侧转向估计东侧并止于台阶前。围栏内设施的正式名称与年代未核实，深度、石雕细纹和殿内陈设未重建。",
+  "artifacts": {
+    "models/tianshi-court-route.blend": {
+      "bytes": 8482145,
+      "sha256": "22489b7c625709d95088c04c91d0cce28a5328265e8a568c30e6d6b1ae49eab4"
+    },
+    "exports/tianshi-court-route.glb": {
+      "bytes": 5322884,
+      "sha256": "241f0967d93e798f1bdcbd66a329528b9038e8011409d351736d405a70e1d6cf"
+    },
+    "exports/tianshi-court-route.json": {
+      "bytes": 4618,
+      "sha256": "43fcb17f5cc887c81cd4677e9146cb521d2cac06e4a2002cb117e5cd65f17a54"
+    },
+    "exports/photos/tianshi-court-return-1280.webp": {
+      "bytes": 316570,
+      "sha256": "f60e66bcf451e255301cf031191632471b7fdca182a39b882c3ce908e3d0cd36"
+    },
+    "exports/photos/tianshi-court-return-480.webp": {
+      "bytes": 74814,
+      "sha256": "1771f49b0f2a0bceef0dc341ddb7979562cfd6724c876c8b5a0908edeafc62a3"
+    }
+  },
+  "baseline": {
+    "models/tianshi-study.blend": {
+      "sha256": "d2569ec42d892456748650312990e013f1bfc74131811a2b01688e3c34e69153",
+      "bytes": 5521769
+    },
+    "exports/tianshi-study.glb": {
+      "sha256": "cf2815b9a7a44b6ef5ea013410b104f4262831841614cce035ac9812987222e0",
+      "bytes": 4051556
+    },
+    "models/tianshi-landscape.blend": {
+      "sha256": "2f3a4d39580ac828c3832857cb8ea319ce3908be69be0515101d1cf6b99dfd06",
+      "bytes": 19247164
+    },
+    "exports/tianshi-landscape-context.glb": {
+      "sha256": "1aa35ad02a0b18ca655ec2e763de2e978856b2c26759f66f1729f93e6b378f72",
+      "bytes": 5374944
+    },
+    "references/georeference/tianshi/alignment.json": {
+      "sha256": "849520e591fc5ac35fd8112c240ec985760a677036af8403977eaa3f362d98d3",
+      "bytes": 7865
+    },
+    "scripts/build_tianshi.py": {
+      "sha256": "628d13fe165464fb4107334fdb38b64a6a06a4d63d6a45802a9a445fdb5a6760",
+      "bytes": 20844
+    }
+  },
+  "georeference": {
+    "siteId": "tianshi",
+    "coordinates": [
+      117.03257182499999,
+      28.046936975024412
+    ],
+    "bearingDegrees": 348.4667263478814,
+    "modelScale": 1,
+    "siteLocalOrigin": [
+      0,
+      0,
+      0
+    ],
+    "units": "metres, glTF Y-up",
+    "basis": "Existing references/georeference/tianshi/alignment.json unchanged. Imagery metadata 2023-10-30, nominal 5m field; real model accuracy not measured."
+  },
+  "sourcePhotos": [
+    {
+      "id": "part-2-11",
+      "source": "https://m.zol.com.cn/dcbbs/d33991_42754.html",
+      "url": "https://newbbs-fd.zol-img.com.cn/t_s1000x1000/g7/M00/0E/0E/ChMkK2gQI1OIQ2aQAAVWBfVrNcEAArwbAK52YsABVYd970.jpg",
+      "author": "阿尧",
+      "captured": "2024-10-29",
+      "dateEvidence": "原帖EXIF记录，未独立现场校验",
+      "license": "原摄影者保留版权，仅本机研究；公开发布前需取得授权",
+      "ordinal": 11,
+      "published": "2025-04-29",
+      "width": 1000,
+      "height": 667,
+      "sha256": "b00fdae4c13180e320ba3cdf6e741b436c07acf70c736a9891669319c2031ef3",
+      "sourceExifTimestamp": "2024-10-29 16:25:41"
+    },
+    {
+      "id": "part-7-02",
+      "source": "https://m.zol.com.cn/dcbbs/d33991_42896.html",
+      "url": "https://newbbs-fd.zol-img.com.cn/t_s1000x1000/g7/M00/04/0F/ChMkK2gdZRqIemzEAAVNcIH0wnEAAsIrQOuMtgABU2I901.jpg",
+      "author": "阿尧",
+      "captured": "2024-10-29",
+      "dateEvidence": "原帖EXIF记录，未独立现场校验",
+      "license": "原摄影者保留版权，仅本机研究；公开发布前需取得授权",
+      "ordinal": 2,
+      "published": "2025-05-09",
+      "width": 950,
+      "height": 634,
+      "sha256": "d4b21ff560357083bcb8fd9ab0fae9cf3a9a8157dde6573c27691a0a57e45d4e",
+      "sourceExifTimestamp": "2024-10-29 16:29:08"
+    },
+    {
+      "id": "part-7-08",
+      "source": "https://m.zol.com.cn/dcbbs/d33991_42896.html",
+      "url": "https://newbbs-fd.zol-img.com.cn/t_s1000x1000/g7/M00/04/0F/ChMkK2gdZSKIRj9FAARl1fggQ9kAAsIrQP5rOkABGXt467.jpg",
+      "author": "阿尧",
+      "captured": "2024-10-29",
+      "dateEvidence": "原帖EXIF记录，未独立现场校验",
+      "license": "原摄影者保留版权，仅本机研究；公开发布前需取得授权",
+      "ordinal": 8,
+      "published": "2025-05-09",
+      "width": 1000,
+      "height": 667,
+      "sha256": "a16d3c588f4d359fc4235607f07d83dc2bcfd53a461ebfd1dbee38e13214ea94",
+      "sourceExifTimestamp": "2024-10-29 16:23:06"
+    }
+  ],
+  "componentTextures": [
+    {
+      "name": "yuhuang-lower-beam",
+      "sourceId": "part-7-08",
+      "corners": [
+        [
+          311,
+          284
+        ],
+        [
+          749,
+          284
+        ],
+        [
+          749,
+          307
+        ],
+        [
+          311,
+          307
+        ]
+      ],
+      "pixels": [
+        438,
+        23
+      ],
+      "sha256": "880eaa2ea7c480d460fc5734915bb2d65f7d96aee5b76936cfd81c9de444569a",
+      "changes": "Native-resolution projective facade texture; retains photographic illumination; not scanned PBR."
+    },
+    {
+      "name": "yuhuang-upper-beam",
+      "sourceId": "part-7-08",
+      "corners": [
+        [
+          363,
+          214
+        ],
+        [
+          710,
+          214
+        ],
+        [
+          710,
+          232
+        ],
+        [
+          363,
+          232
+        ]
+      ],
+      "pixels": [
+        347,
+        18
+      ],
+      "sha256": "731a92349a488c53f8734a1f2877ef68e51c4b51478490e298bbc377bc185b59",
+      "changes": "Native-resolution projective facade texture; retains photographic illumination; not scanned PBR."
+    },
+    {
+      "name": "yuhuang-upper-plaque",
+      "sourceId": "part-7-08",
+      "corners": [
+        [
+          524,
+          212
+        ],
+        [
+          543,
+          212
+        ],
+        [
+          543,
+          255
+        ],
+        [
+          524,
+          255
+        ]
+      ],
+      "pixels": [
+        19,
+        43
+      ],
+      "sha256": "b04ab205ec6d74eb04740e547cfdc35f66b1e73fb1cb1ace74b811c2c6e734d2",
+      "changes": "Native-resolution projective facade texture; retains photographic illumination; not scanned PBR."
+    },
+    {
+      "name": "yuhuang-lower-plaque",
+      "sourceId": "part-7-08",
+      "corners": [
+        [
+          494,
+          279
+        ],
+        [
+          578,
+          279
+        ],
+        [
+          578,
+          305
+        ],
+        [
+          494,
+          305
+        ]
+      ],
+      "pixels": [
+        84,
+        26
+      ],
+      "sha256": "34107b9ff0d57f186e13a8359dfdf42bfb4ba411bc9d4fdbf24e0e62b2a5b679",
+      "changes": "Native-resolution projective facade texture; retains photographic illumination; not scanned PBR."
+    },
+    {
+      "name": "second-gate-court-beam",
+      "sourceId": "part-2-11",
+      "corners": [
+        [
+          242,
+          229
+        ],
+        [
+          844,
+          217
+        ],
+        [
+          844,
+          245
+        ],
+        [
+          242,
+          257
+        ]
+      ],
+      "pixels": [
+        602,
+        28
+      ],
+      "sha256": "16b90283cb83f1ff7c66efcbf128c9b589e484ad1f07c15da8460ed887726895",
+      "changes": "Native-resolution projective facade texture; retains photographic illumination; not scanned PBR."
+    }
+  ],
+  "featureEvidence": [
+    {
+      "feature": "bounded open court between second gate and hall stair",
+      "sourceIds": [
+        "part-7-08",
+        "part-2-11"
+      ],
+      "observation": "Opposite views show the same axial paving, three-opening gate rear facade, stair and enclosed facility.",
+      "estimated": "31x25m displayed paving envelope, camera placement, grade and 27.855m route; no surveyed plan."
+    },
+    {
+      "feature": "three gate openings with flanking pink chambers",
+      "sourceIds": [
+        "part-2-11"
+      ],
+      "observation": "Three open middle bays, closed side bays, repeated red columns and painted horizontal beam.",
+      "estimated": "Uses existing roof center and approximate 19m body/7m depth; column diameters and exact partitions estimated."
+    },
+    {
+      "feature": "enclosed facility before stair",
+      "sourceIds": [
+        "part-7-08",
+        "part-2-11"
+      ],
+      "observation": "Stone rail envelope and circular top are visible.",
+      "estimated": "Conservative bounds x [-2.3,2.3], z [15.8,20.5]m; formal name, age and underground depth unverified. No historic identity assigned."
+    },
+    {
+      "feature": "Yuhuang facade details",
+      "sourceIds": [
+        "part-7-08",
+        "part-7-02"
+      ],
+      "observation": "Diamond upper lattice, three front door openings, stone column bases, grey cover tiles, stone terrace rails.",
+      "estimated": "Dimensions, tile spacing, profiles and new rail frames estimated. Carved reliefs are not reconstructed. Door voids deliberately stop at dark flat visibility masks, not an interior."
+    },
+    {
+      "feature": "painted beams and plaques",
+      "sourceIds": [
+        "part-7-08",
+        "part-2-11"
+      ],
+      "observation": "Native-resolution rectified source pixels, recorded letter forms retained.",
+      "estimated": "Photo lighting remains, not scanned PBR; not enlarged or AI-generated; exact brushwork beyond resolution unresolved."
+    },
+    {
+      "feature": "context trees",
+      "sourceIds": [
+        "existing tianshi-landscape-context.glb"
+      ],
+      "observation": "30 imported near-court mesh objects from existing independent Tianshi imagery-derived tree asset.",
+      "estimated": "Retains existing sampled stem positions, branch approximations and tree heights; does not claim individual-tree survey."
+    }
+  ],
+  "geometry": {
+    "editableMeshes": 134,
+    "webBatches": 28,
+    "vertices": 43718,
+    "polygons": 30870,
+    "triangles": 58834,
+    "reusedTreeObjects": 30,
+    "packedImages": 18,
+    "glbBytes": 5322884
+  },
+  "fixedComparisonCameras": [
+    [
+      "axis",
+      [
+        0.6577,
+        -40.2,
+        1.39
+      ],
+      [
+        0,
+        -4,
+        4.0
+      ],
+      24
+    ],
+    [
+      "well",
+      [
+        6.8,
+        -24,
+        2.25
+      ],
+      [
+        0,
+        -16.5,
+        0.75
+      ],
+      40
+    ],
+    [
+      "reverse",
+      [
+        5.1,
+        -17.2,
+        1.39
+      ],
+      [
+        0.6577,
+        -44,
+        1.6
+      ],
+      28
+    ]
+  ],
+  "validation": {
+    "exportAndReopen": "../logs/export-and-reopen-check.json",
+    "glbStructure": "../logs/glb-structure.json",
+    "baselinePreservation": {
+      "models/tianshi-study.blend": true,
+      "exports/tianshi-study.glb": true,
+      "models/tianshi-landscape.blend": true,
+      "exports/tianshi-landscape-context.glb": true,
+      "references/georeference/tianshi/alignment.json": true,
+      "scripts/build_tianshi.py": true
+    },
+    "sampleCount": 1117,
+    "bodyRadiusMeters": 0.4,
+    "headHeightMeters": 2.1,
+    "errors": [],
+    "limits": "Only numerical consistency of this estimated model; not site accuracy. No browser or physical-phone performance test in C workstream."
+  },
+  "reproduction": [
+    "Set TEMP/TMP and BLENDER_USER_CONFIG/SCRIPTS/DATAFILES to workstream-local folders.",
+    "python scripts/prepare_court.py",
+    "blender -b -t 10 -P scripts/build_court.py",
+    "python scripts/finalize_metadata.py",
+    "blender -b -t 4 -P scripts/update_blend_metadata.py",
+    "blender -b -t 4 -P scripts/verify_export.py",
+    "python scripts/write_handoff.py"
+  ],
+  "limitations": [
+    "Independent observation transition from exterior interface; no surveyed continuous connection from head gate.",
+    "Only bounded court is entered; hall interiors, shrine contents and private residence remain unmodeled.",
+    "Paving topology is observed but exact slab sizes/joints and grade are original approximate materials, not a survey.",
+    "No real relief carving, cloud-wing carving, well depth, exact floor levels or physical-phone benchmark.",
+    "Source photographs remain ordinary photographs, not panoramas. Their camera poses are uncalibrated.",
+    "Photo rights remain with original author; existing local-research restriction retained."
+  ],
+  "sourceSHA256Reference": {
+    "sha256": "849520e591fc5ac35fd8112c240ec985760a677036af8403977eaa3f362d98d3",
+    "resource": "B/references/georeference/tianshi/alignment.json",
+    "kind": "existing-imagery-alignment-json",
+    "note": "This is the alignment JSON hash, not the linked ZOL post or source photo hash. Individual photo hashes are in sourcePhotos."
+  }
+}

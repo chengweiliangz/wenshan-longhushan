@@ -1,0 +1,53 @@
+/* Scoped to the guide drawer and API settings; tour and scene styles stay intact. */
+.guide-drawer { width: min(520px, 100vw); }
+.guide-drawer .drawer-header { flex-shrink: 0; }
+.guide-drawer .drawer-header > div { min-width: 0; flex: 1; }
+.guide-drawer .drawer-header p { line-height: 1.6; }
+.guide-drawer .guide-context { gap: 8px; padding-block: 8px; flex-shrink: 0; }
+.guide-drawer .guide-context select { min-width: 0; min-height: 44px; }
+.guide-clear { display: inline-flex; align-items: center; justify-content: center; gap: 5px; min-height: 44px; color: var(--text-3); font-size: 12px; white-space: nowrap; }
+.guide-clear:hover { color: var(--moss); }
+.guide-drawer .chat-message.guide > div { flex: 1; min-width: 0; }
+.guide-drawer .chat-message.user > div { max-width: 86%; }
+.guide-drawer .chat-loading { min-height: 52px; padding: 13px 15px; border: 1px solid var(--line); background: #fff; border-radius: 2px 14px 14px 14px; line-height: 1.6; }
+.chat-stream-cursor { display: inline-block; width: 5px; height: 14px; margin-left: 5px; background: var(--moss); vertical-align: -2px; animation: guide-cursor 1s ease-in-out infinite; }
+.chat-response-status { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; padding: 11px 13px; margin-top: 7px; border: 1px solid var(--line); border-radius: 10px; font-size: 13px; line-height: 1.7; background: var(--paper-2); color: var(--text-3); }
+.chat-response-status.error { background: #fff6ef; color: #775139; border-color: #dccab9; }
+.chat-response-status small { font-size: 12px; color: inherit; }
+.chat-response-status button { display: inline-flex; gap: 6px; align-items: center; justify-content: center; min-height: 44px; padding: 5px 12px; border: 1px solid currentColor; border-radius: 8px; font-size: 12px; color: var(--ink-2); }
+.guide-drawer .chat-message.error .chat-bubble,
+.guide-drawer .chat-message.cancelled .chat-bubble { border-style: dashed; }
+.chat-source-details { margin-top: 8px; color: var(--moss); font-size: 12px; }
+.chat-source-details summary { cursor: pointer; min-height: 36px; padding: 9px 3px; }
+.chat-source-details .chat-sources { padding-top: 0; }
+.guide-drawer .chat-meta { gap: 10px; align-items: flex-start; }
+.guide-drawer .chat-meta > span { overflow-wrap: anywhere; line-height: 1.8; }
+.guide-drawer .chat-meta button { white-space: nowrap; min-height: 36px; }
+.guide-drawer .guide-suggestions { padding-top: 5px; padding-bottom: 5px; flex-shrink: 0; }
+.guide-drawer .guide-suggestions button { min-height: 36px; line-height: 1.5; text-align: left; }
+.guide-status-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 44px; padding: 0 20px 6px; color: var(--text-3); font-size: 12px; flex-shrink: 0; }
+.guide-status-row > span { min-width: 0; line-height: 1.6; }
+.guide-stop { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 44px; flex-shrink: 0; color: var(--ink-2); border: 1px solid var(--line); border-radius: 9px; padding: 4px 12px; background: #fff; }
+.guide-drawer .chat-form { border-radius: 14px; flex-shrink: 0; }
+.guide-drawer .chat-form button { width: auto; min-width: 76px; height: 44px; border-radius: 10px; display: inline-flex; gap: 7px; justify-content: center; padding: 0 12px; }
+.guide-drawer .chat-form button span { font-size: 13px; }
+.guide-drawer .chat-disclaimer { flex-shrink: 0; line-height: 1.6; padding-top: 9px; padding-bottom: max(12px, env(safe-area-inset-bottom)); }
+.guide-drawer button:focus-visible,
+.guide-drawer select:focus-visible,
+.guide-drawer summary:focus-visible { outline: 2px solid var(--moss); outline-offset: 3px; }
+.api-settings .api-reload { margin-bottom: 15px; font-size: 12px; min-height: 36px; }
+@keyframes guide-cursor { 50% { opacity: .2; } }
+@media (max-width: 480px) {
+  .guide-drawer .drawer-header { padding: 15px 16px; gap: 10px; }
+  .guide-drawer .drawer-header img { width: 38px; height: 48px; }
+  .guide-drawer .guide-context { padding-inline: 16px; }
+  .guide-drawer .chat-messages { padding: 18px 14px; }
+  .guide-drawer .chat-bubble { padding: 11px 13px; }
+  .guide-drawer .guide-suggestions { padding-inline: 16px; gap: 6px; }
+  .guide-status-row { padding-inline: 16px; }
+  .guide-drawer .chat-form { margin-inline: 16px; padding-left: 12px; }
+  .guide-drawer .chat-form input { font-size: 16px; }
+  .guide-drawer .chat-form button { min-width: 68px; padding-inline: 10px; gap: 5px; }
+  .guide-drawer .chat-disclaimer { padding-inline: 16px; }
+}
+@media (prefers-reduced-motion: reduce) { .chat-stream-cursor { animation: none; } }

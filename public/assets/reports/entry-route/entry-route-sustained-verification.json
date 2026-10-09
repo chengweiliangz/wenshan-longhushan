@@ -1,0 +1,435 @@
+{
+  "date": "2026-10-03T03:10:14.437Z",
+  "metrics": [
+    {
+      "label": "Stationary entrance / production, full regional background paused",
+      "elapsedSeconds": 8.006999999999953,
+      "frames": 1103,
+      "meanFps": 137.75446484326295,
+      "p95FrameMs": 7.5,
+      "moving": null,
+      "bins": [
+        {
+          "elapsedSeconds": 5.000499999999953,
+          "fps": 138.98610138986234,
+          "moving": false,
+          "distance": 0
+        }
+      ],
+      "finalData": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "south-inside",
+        "distance": "0",
+        "destination": "0",
+        "camera": "-31.539622641509435,1.65,51.65016501650165",
+        "yaw": "0",
+        "pitch": "-0.11781127810491325",
+        "fov": "62",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "false",
+        "photo": "shangqing-entry",
+        "shadowUpdates": "1",
+        "triangles": "27877",
+        "drawCalls": "72"
+      },
+      "canvas": {
+        "width": 1124,
+        "height": 594
+      },
+      "visibility": "visible",
+      "performanceDelta": {
+        "LayoutCount": 0,
+        "RecalcStyleCount": 1103,
+        "LayoutDuration": 0,
+        "RecalcStyleDuration": 0.170681,
+        "ScriptDuration": 0.9815980000000001,
+        "TaskDuration": 1.999005,
+        "JSHeapUsedSize": 11540988
+      }
+    },
+    {
+      "label": "Entire 97.6 m continuous walk, no capture or browser polling during sample",
+      "elapsedSeconds": 50.00579999999995,
+      "frames": 7083,
+      "meanFps": 141.643569345956,
+      "p95FrameMs": 7.100000000005821,
+      "moving": {
+        "frames": 6293,
+        "meanFps": 141.88186806992877,
+        "p95FrameMs": 7.100000000005821
+      },
+      "bins": [
+        {
+          "elapsedSeconds": 5.0053999999999546,
+          "fps": 141.24745275103018,
+          "moving": true,
+          "distance": 11.028819999999937
+        },
+        {
+          "elapsedSeconds": 10.011599999999955,
+          "fps": 139.22735807598576,
+          "moving": true,
+          "distance": 22.0424599999999
+        },
+        {
+          "elapsedSeconds": 15.017999999999953,
+          "fps": 143.21668264621292,
+          "moving": true,
+          "distance": 33.056539999999835
+        },
+        {
+          "elapsedSeconds": 20.025099999999956,
+          "fps": 143.19666074174665,
+          "moving": true,
+          "distance": 44.072159999999116
+        },
+        {
+          "elapsedSeconds": 25.030199999999954,
+          "fps": 141.65551137839407,
+          "moving": true,
+          "distance": 55.08337999999866
+        },
+        {
+          "elapsedSeconds": 30.03639999999995,
+          "fps": 144.0214134473254,
+          "moving": true,
+          "distance": 66.09701999999812
+        },
+        {
+          "elapsedSeconds": 35.04259999999996,
+          "fps": 141.82413806879458,
+          "moving": true,
+          "distance": 77.1106599999973
+        },
+        {
+          "elapsedSeconds": 40.04879999999995,
+          "fps": 139.0276057688467,
+          "moving": true,
+          "distance": 88.12429999999644
+        },
+        {
+          "elapsedSeconds": 45.05509999999995,
+          "fps": 143.81878832670827,
+          "moving": false,
+          "distance": 97.60026885448457
+        }
+      ],
+      "finalData": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-return",
+        "distance": "97.60026885448457",
+        "destination": "97.60026885448457",
+        "camera": "5.0716981132075425,1.65,-6.765676567656765",
+        "yaw": "-3.439027168530172",
+        "pitch": "-0.15289091727660703",
+        "fov": "62",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "true",
+        "photo": "shangqing-east",
+        "shadowUpdates": "48",
+        "triangles": "35189",
+        "drawCalls": "119"
+      },
+      "canvas": {
+        "width": 1124,
+        "height": 594
+      },
+      "visibility": "visible",
+      "performanceDelta": {
+        "LayoutCount": 448,
+        "RecalcStyleCount": 7086,
+        "LayoutDuration": 0.052064,
+        "RecalcStyleDuration": 1.189038,
+        "ScriptDuration": 6.075361,
+        "TaskDuration": 13.724675,
+        "JSHeapUsedSize": -17220436
+      }
+    },
+    {
+      "label": "Stationary final node after the complete walk",
+      "elapsedSeconds": 8.002199999999808,
+      "frames": 1101,
+      "meanFps": 137.58716353003254,
+      "p95FrameMs": 7.600000000005821,
+      "moving": null,
+      "bins": [
+        {
+          "elapsedSeconds": 5.002499999999811,
+          "fps": 136.33183408296367,
+          "moving": false,
+          "distance": 97.60026885448457
+        }
+      ],
+      "finalData": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-return",
+        "distance": "97.60026885448457",
+        "destination": "97.60026885448457",
+        "camera": "5.0716981132075425,1.65,-6.765676567656765",
+        "yaw": "-3.4390271685974017",
+        "pitch": "-0.152890917279437",
+        "fov": "62",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "true",
+        "photo": "shangqing-east",
+        "shadowUpdates": "48",
+        "triangles": "35189",
+        "drawCalls": "119"
+      },
+      "canvas": {
+        "width": 1124,
+        "height": 594
+      },
+      "visibility": "visible",
+      "performanceDelta": {
+        "LayoutCount": 0,
+        "RecalcStyleCount": 1101,
+        "LayoutDuration": 0,
+        "RecalcStyleDuration": 0.17652699999999988,
+        "ScriptDuration": 1.136585000000001,
+        "TaskDuration": 2.195587999999999,
+        "JSHeapUsedSize": -708668
+      }
+    },
+    {
+      "label": "After five photo/3D round trips",
+      "elapsedSeconds": 8.004099999999903,
+      "frames": 1130,
+      "meanFps": 141.1776464561929,
+      "p95FrameMs": 7.100000000005821,
+      "moving": null,
+      "bins": [
+        {
+          "elapsedSeconds": 5.004599999999904,
+          "fps": 140.47076689445979,
+          "moving": false,
+          "distance": 97.60026885448457
+        }
+      ],
+      "finalData": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-return",
+        "distance": "97.60026885448457",
+        "destination": "97.60026885448457",
+        "camera": "5.0716981132075425,1.65,-6.765676567656765",
+        "yaw": "-3.4390271685974043",
+        "pitch": "-0.1528909172794371",
+        "fov": "62",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "true",
+        "photo": "shangqing-east",
+        "shadowUpdates": "1",
+        "triangles": "35189",
+        "drawCalls": "119"
+      },
+      "canvas": {
+        "width": 1124,
+        "height": 594
+      },
+      "visibility": "visible",
+      "performanceDelta": {
+        "LayoutCount": 0,
+        "RecalcStyleCount": 1131,
+        "LayoutDuration": 0,
+        "RecalcStyleDuration": 0.18000799999999995,
+        "ScriptDuration": 1.1354830000000007,
+        "TaskDuration": 2.282657999999998,
+        "JSHeapUsedSize": -1038432
+      }
+    }
+  ],
+  "cycles": [
+    {
+      "cycle": 1,
+      "disposed": "true",
+      "released": {
+        "geometries": 130,
+        "materials": 17,
+        "textures": 6,
+        "bitmaps": 6
+      },
+      "connected": false,
+      "liveCanvases": 1,
+      "data": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-return",
+        "distance": "97.60026885448457",
+        "destination": "97.60026885448457",
+        "camera": "5.0716981132075425,1.65,-6.765676567656765",
+        "yaw": "-3.4390271685974025",
+        "pitch": "-0.15289091727943704",
+        "fov": "62",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "true",
+        "photo": "shangqing-east",
+        "shadowUpdates": "1",
+        "triangles": "35189",
+        "drawCalls": "119"
+      }
+    },
+    {
+      "cycle": 2,
+      "disposed": "true",
+      "released": {
+        "geometries": 130,
+        "materials": 17,
+        "textures": 6,
+        "bitmaps": 6
+      },
+      "connected": false,
+      "liveCanvases": 1,
+      "data": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-return",
+        "distance": "97.60026885448457",
+        "destination": "97.60026885448457",
+        "camera": "5.0716981132075425,1.65,-6.765676567656765",
+        "yaw": "-3.439027168597403",
+        "pitch": "-0.15289091727943707",
+        "fov": "62",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "true",
+        "photo": "shangqing-east",
+        "shadowUpdates": "1",
+        "triangles": "35189",
+        "drawCalls": "119"
+      }
+    },
+    {
+      "cycle": 3,
+      "disposed": "true",
+      "released": {
+        "geometries": 130,
+        "materials": 17,
+        "textures": 6,
+        "bitmaps": 6
+      },
+      "connected": false,
+      "liveCanvases": 1,
+      "data": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-return",
+        "distance": "97.60026885448457",
+        "destination": "97.60026885448457",
+        "camera": "5.0716981132075425,1.65,-6.765676567656765",
+        "yaw": "-3.4390271685974034",
+        "pitch": "-0.1528909172794371",
+        "fov": "62",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "true",
+        "photo": "shangqing-east",
+        "shadowUpdates": "1",
+        "triangles": "35189",
+        "drawCalls": "119"
+      }
+    },
+    {
+      "cycle": 4,
+      "disposed": "true",
+      "released": {
+        "geometries": 130,
+        "materials": 17,
+        "textures": 6,
+        "bitmaps": 6
+      },
+      "connected": false,
+      "liveCanvases": 1,
+      "data": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-return",
+        "distance": "97.60026885448457",
+        "destination": "97.60026885448457",
+        "camera": "5.0716981132075425,1.65,-6.765676567656765",
+        "yaw": "-3.439027168597404",
+        "pitch": "-0.1528909172794371",
+        "fov": "62",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "true",
+        "photo": "shangqing-east",
+        "shadowUpdates": "1",
+        "triangles": "35189",
+        "drawCalls": "119"
+      }
+    },
+    {
+      "cycle": 5,
+      "disposed": "true",
+      "released": {
+        "geometries": 130,
+        "materials": 17,
+        "textures": 6,
+        "bitmaps": 6
+      },
+      "connected": false,
+      "liveCanvases": 1,
+      "data": {
+        "engine": "three.js r186",
+        "route": "shangqing-entry-route",
+        "node": "east-return",
+        "distance": "97.60026885448457",
+        "destination": "97.60026885448457",
+        "camera": "5.0716981132075425,1.65,-6.765676567656765",
+        "yaw": "-3.4390271685974043",
+        "pitch": "-0.1528909172794371",
+        "fov": "62",
+        "ready": "true",
+        "moving": "false",
+        "paused": "false",
+        "followPath": "true",
+        "photo": "shangqing-east",
+        "shadowUpdates": "1",
+        "triangles": "35189",
+        "drawCalls": "119"
+      }
+    }
+  ],
+  "errors": [],
+  "browser": "Chrome/154.0.8037.93",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "gpu": {
+    "vendor": "Google Inc. (Intel)",
+    "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A78B) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "checks": [
+    {
+      "name": "Entire route arrives at sourced endpoint",
+      "ok": true
+    },
+    {
+      "name": "Each round trip disposes meshes/textures and leaves one live route canvas",
+      "ok": true
+    },
+    {
+      "name": "No browser/GLSL errors",
+      "ok": true
+    }
+  ],
+  "limitations": "One Windows desktop Intel GPU, headless Chrome, production site modal; not a physical mobile device or a sustained minimum FPS guarantee. Previous 28.9 FPS and controlled 144 FPS records remain retained."
+}

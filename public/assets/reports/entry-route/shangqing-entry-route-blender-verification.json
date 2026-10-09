@@ -1,0 +1,58 @@
+{
+  "meshObjects": 130,
+  "meshVertices": 26185,
+  "polygons": 20994,
+  "images": [
+    {
+      "name": "grey-tile-basecolor",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "grey-tile-normal",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "grey-tile-roughness",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "stone-basecolor.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "stone-normal.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "stone-roughness.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    }
+  ],
+  "routeTextEmbedded": true,
+  "tempDirectory": "[开发环境路径已省略]/",
+  "autoSave": false
+}

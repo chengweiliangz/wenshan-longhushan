@@ -1,0 +1,21 @@
+.palace-explore{--palace-ink:#173f32;--palace-paper:#f2f0df;color:var(--palace-ink);background:var(--palace-paper);border:1px solid #c7cdb7;border-radius:14px;overflow:hidden;outline:none}
+.palace-explore button{border:1px solid #bcc5ae;border-radius:8px;background:#f7f5e9;color:var(--palace-ink);font:inherit;cursor:pointer;padding:8px 11px;min-height:38px}
+.palace-explore button:hover{background:#e3e8d5}.palace-explore button:disabled{cursor:default;opacity:.48}.palace-explore button:focus-visible{outline:3px solid #90af76;outline-offset:2px}
+.palace-explore-toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:10px 14px;border-bottom:1px solid #cdd2be}
+.palace-explore-toolbar strong{display:block;font-size:16px}.palace-explore-toolbar span{font-size:11px;letter-spacing:.04em;color:#5b6a51}
+.palace-explore-actions{display:flex;gap:6px;flex-shrink:0}.palace-explore-actions button{font-size:12px}.palace-explore-actions button:last-child{background:#214b39;color:#f4f1de;border-color:#214b39}
+.palace-explore-viewport{height:clamp(320px,52svh,590px);position:relative;isolation:isolate;background:#153c31;overflow:hidden}
+.palace-explore-canvas{display:block;width:100%;height:100%;touch-action:none;outline:none}.palace-explore-canvas:focus-visible{outline:2px solid #c8d3ad;outline-offset:-3px}
+.palace-explore-zone{position:absolute;z-index:2;top:12px;right:12px;padding:7px 11px;border:1px solid #d9e2ce55;border-radius:9px;background:#143c30e6;color:#f3f1df;pointer-events:none;box-shadow:0 2px 12px #0d251322}
+.palace-explore-zone span{display:block;font-size:10px;opacity:.75}.palace-explore-zone strong{font-size:13px}
+.palace-explore-load{position:absolute;inset:0;z-index:5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:#f4f1df;background:#153c31}
+.palace-explore-load p{margin:0;padding:0 20px;text-align:center;font-size:14px}
+.palace-explore-pad{position:absolute;left:13px;bottom:13px;z-index:3;display:grid;grid-template-columns:38px 38px 38px;grid-template-rows:38px 38px;gap:4px;touch-action:none;user-select:none}
+.palace-explore-pad button{padding:0;min-height:38px;font-size:21px;background:#f2f0dfdb;box-shadow:0 2px 5px #17342422;touch-action:none}
+.palace-pad-forward{grid-column:2;grid-row:1}.palace-pad-left{grid-column:1;grid-row:2}.palace-pad-back{grid-column:2;grid-row:2}.palace-pad-right{grid-column:3;grid-row:2}.palace-explore-pad .palace-pad-stop{grid-column:3;grid-row:1;font-size:12px;background:#1c493bdf;color:#f4f1df}
+.palace-explore-minimap{position:absolute;bottom:12px;right:12px;z-index:2;width:138px;height:94px;padding:6px;background:#143c30d9;border:1px solid #e4e8d855;border-radius:8px;pointer-events:none}
+.palace-explore-minimap rect{fill:#b6c3a6;stroke:#8ca184;stroke-width:.006}.palace-explore-minimap .is-wall{fill:#476a50;stroke:none}.palace-explore-minimap path{fill:none;stroke:#fff4ad;stroke-width:.075;stroke-linecap:round}.palace-explore-minimap circle{fill:#fff4ad;stroke:#173f32;stroke-width:.025}
+.palace-explore-help{font-size:11px;line-height:1.6;padding:8px 14px;margin:0;color:#54634f;border-bottom:1px solid #d4d8c6}.palace-explore-help span{display:block}
+.palace-explore-restore,.palace-explore-observation{font-size:12px;line-height:1.6;padding:8px 14px;margin:0;border-bottom:1px solid #d4d8c6}.palace-explore-observation strong{color:#24513b}
+.palace-explore-basis{font-size:11px;line-height:1.7;padding:8px 14px;color:#65705b}.palace-explore-basis summary{cursor:pointer;color:#426047}.palace-explore-basis p{margin:7px 0}.palace-explore-basis a{color:#254e39;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:640px){.palace-explore{border-radius:10px}.palace-explore-toolbar{padding:8px 10px;gap:8px}.palace-explore-toolbar strong{font-size:14px}.palace-explore-toolbar span{font-size:10px}.palace-explore-actions{gap:4px}.palace-explore-actions button{padding:6px 8px;min-height:36px;font-size:11px}.palace-explore-viewport{height:clamp(310px,54svh,510px)}.palace-explore-minimap{display:none}.palace-explore-zone{top:9px;right:9px}.palace-explore-help{padding:7px 10px}.palace-explore-pad{left:10px;bottom:11px}.palace-explore-observation,.palace-explore-restore,.palace-explore-basis{padding-left:10px;padding-right:10px}}

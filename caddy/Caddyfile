@@ -1,0 +1,15 @@
+{$SITE_DOMAIN} {
+    @settings path /api/settings /api/settings/*
+    handle @settings {
+        respond 403
+    }
+    @guide_stream path /api/guide/stream
+    handle @guide_stream {
+        # Native SSE immediate flushing; keep disconnect cancellation behavior.
+        reverse_proxy app:4173
+    }
+    handle {
+        encode zstd gzip
+        reverse_proxy app:4173
+    }
+}
